@@ -7,7 +7,7 @@
 #   python net_5x5_drones.py
 #
 # Files:
-#   - auto-generates net_5x5.xml next to this script if missing.
+#   - auto-generates net_drone.xml next to this script if missing.
 
 import os
 import itertools
@@ -16,7 +16,7 @@ import mujoco
 import glfw
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-XML_PATH = os.path.join(HERE, "net_5x5.xml")
+XML_PATH = os.path.join(HERE, "net_drone.xml")
 
 # ----------------------------
 # Tunable Parameters / 可调参数
