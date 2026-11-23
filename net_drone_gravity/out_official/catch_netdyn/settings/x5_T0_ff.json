@@ -1,0 +1,24 @@
+{
+ "note": "catch_netdyn, x5_T0 (tier 0), selected on seeds 101-130 (catch_netdyn/selection_*): feedforward only (netdyn plan off): drone and net air drag at the reference velocity, 70 ms acceleration lead; based on catch_speed/settings/catch_speed_x5.json -- use with --thrust-scale 5",
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "max_tilt_deg": 40.0,
+ "traj": {
+  "jerk": 20.0,
+  "diag_factor": 0.9
+ },
+ "netdyn": {
+  "plan": false,
+  "drag_ff": true,
+  "lead_s": 0.07,
+  "motor_line": 0.9
+ }
+}

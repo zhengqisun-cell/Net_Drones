@@ -1,0 +1,33 @@
+perturbation       setting   caught    tier-viol  disc   guard  motor  sat_s  aborts  items
+nominal            T0_x1     73/129     1/30    31.6  25.3  0.943  0.08    0   {'box': 1}
+net_mass_+20%      T0_x1     74/129     2/30    32.9  26.5  0.964  0.09    0   {'box': 1, 'motor': 1}
+strings_+-10mm     T0_x1     72/129     1/30    31.4  24.4  0.945  0.08    0   {'box': 1}
+
+nominal            T0_x5     86/129     4/30    25.8  21.6  0.205   0.0    0   {'ball_disc': 1, 'disc': 2, 'ball_hit': 1}
+net_mass_+20%      T0_x5     86/129     3/30    28.6  25.9  0.213   0.0    0   {'ball_disc': 1, 'ball_hit': 1, 'disc': 1}
+strings_+-10mm     T0_x5     86/129     4/30    24.9  20.0  0.205   0.0    0   {'ball_disc': 1, 'disc': 2, 'ball_hit': 1}
+
+nominal            T1_x1     95/129     4/30     6.5  10.2  1.000  0.27    1   {'control': 1, 'disc': 1, 'net_low': 1, 'slack': 1, 'motor': 2, 'ball_disc': 1}
+net_mass_+20%      T1_x1     91/129    15/30     6.5  12.0  1.000  0.55    2   {'motor': 13, 'control': 2, 'disc': 1, 'net_low': 1, 'slack': 1, 'ball_hit': 1}
+strings_+-10mm     T1_x1     95/129     5/30    18.7  11.6  1.000   0.4    1   {'control': 1, 'disc': 1, 'net_low': 1, 'slack': 1, 'motor': 3, 'ball_disc': 1}
+
+nominal            T1_x5     98/129     1/30    25.9  21.6  0.215   0.0    0   {'box': 1}
+net_mass_+20%      T1_x5     98/129     1/30    28.9  22.8  0.226   0.0    0   {'box': 1}
+strings_+-10mm     T1_x5     98/129     1/30    27.0  21.1  0.219   0.0    0   {'box': 1}
+
+nominal            T2_x1    100/129     4/30    27.8  14.6  0.998  0.22    0   {'motor': 4, 'ball_hit': 1}
+net_mass_+20%      T2_x1     80/126    16/30    28.2  10.6  1.000  0.99    5   {'motor': 15, 'control': 5, 'ball_hit': 1}
+strings_+-10mm     T2_x1    100/129     5/30    26.2  13.0  0.998  0.31    0   {'motor': 4, 'ball_hit': 1}
+
+nominal            T2_x5     98/129     1/30    20.9  15.6  0.238   0.0    0   {'ball_hit': 1}
+net_mass_+20%      T2_x5     98/129     1/30    23.3  17.9  0.243   0.0    0   {'ball_hit': 1}
+strings_+-10mm     T2_x5     98/129     2/30    19.1  12.6  0.235   0.0    0   {'disc': 1, 'ball_hit': 1}
+
+nominal            T3_x1     97/129     6/30    14.6   5.1  1.000   0.5    0   {'box': 1, 'guard': 5, 'disc': 1}
+net_mass_+20%      T3_x1     58/127    15/30    20.0   5.4  1.000  0.84   12   {'control': 12, 'box': 1, 'ball_hit': 1, 'guard': 2, 'separation': 1}
+strings_+-10mm     T3_x1     97/129     5/30    15.2   4.5  1.000  0.56    0   {'box': 1, 'guard': 4}
+
+nominal            T3_x5    108/129     3/30    16.0   3.9  0.248   0.0    0   {'guard': 3}
+net_mass_+20%      T3_x5    107/129     2/30    19.7   3.1  0.254   0.0    0   {'guard': 2}
+strings_+-10mm     T3_x5    108/129     4/30    13.0   3.5  0.249   0.0    0   {'guard': 4, 'disc': 1}
+

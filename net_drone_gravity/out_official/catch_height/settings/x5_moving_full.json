@@ -1,0 +1,25 @@
+{
+ "note": "x5 reference: thrust5 setting + free heights + all end-velocity options, cap 1.0 m/s, full-limit brake, 0.25 s margin",
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "max_tilt_deg": 40.0,
+ "z_net_range": [
+  0.7,
+  9.3
+ ],
+ "z_net_step": 0.3,
+ "dz_penalty": 0.0,
+ "moving": {
+  "v_max": 1.0,
+  "brake_factor": 1.0,
+  "t_early_s": 0.25
+ }
+}

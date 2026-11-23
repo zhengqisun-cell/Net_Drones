@@ -1,0 +1,15 @@
+Selection rule (fixed before any final seed was run): seeds 101-130, 4 groups (448 balls, 120 trials);
+for each tier and thrust, the setting with the most balls caught among those with <= 6/120 (5 %) trials breaking that
+tier's lines (motor line exceeded > 0.10 s continuously; disc; guard 10 mm; ball hits drone; ball-to-rotor-disc gap
+< 30 mm in every tier; abort; net low; separation; slack; box). Ties: fewer violation trials. Tier 0 is fixed
+(catch_speed settings).
+Correction (coordinator, after the finals): the ball-to-rotor-disc gap first followed each tier's disc line; it now keeps
+the existing 30 mm rule in every tier (no rotor downwash in the sim). Re-applying the rule on seeds 101-130 with the
+corrected criterion gives the same six settings (counts below are with the correction), so nothing was re-run.
+
+tier 1 x1: x1_lf1_ah3.25 (q3) 318/448 viol 4; runners-up: x1_lf1_j40 316 (2), x1_lf1_brk1.1 314 (3), x1_lf1 313 (0)
+tier 2 x1: x1_lf1_ah3.75 (q3) 322/448 viol 5; runners-up: x1_lf1_ah3.5 320 (3), x1_lf1_ah3.25 318 (2), x1_lf1_ah3.5_dg0.9 318 (3)
+tier 3 x1: x1_lf1_ah4_brk1.2 (q2) 326/448 viol 4; runners-up: x1_lf1_dg0.9_ah4 323 (3), x1_lf1_ah3.75 322 (3), x1_lf1_ah4_dg0.9_brk1.2 322 (4)
+tier 1 x5: x5_ah3.5_j30 (q3) 318/446 viol 3; runners-up: x5_brk1.33 311 (1), x5_brk1.33_j30 309 (3), x5_rec0 299 (2)
+tier 2 x5: x5_ah4_j30_tilt45 (q3) 323/448 viol 0; runners-up: x5_ah4_j30 322 (0), x5_ah4_j40 322 (0), x5_ah4.5_j40 322 (6)
+tier 3 x5: x5_ah5_j40_dg0.8 (q3) 326/448 viol 6; runners-up: x5_ah4_j30_tilt45 323 (0), x5_ah4_j30 322 (0), x5_ah4_j40 322 (0)

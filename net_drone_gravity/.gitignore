@@ -1,0 +1,7 @@
+# Large generated results stay local (logs, videos, animations).
+*.npz
+*.mp4
+*.gif
+# Third-party Crazyflie meshes: not redistributed here, see assets/crazyflow_cf21B/SOURCE.txt for where to get them.
+assets/crazyflow_cf21B/*
+!assets/crazyflow_cf21B/SOURCE.txt

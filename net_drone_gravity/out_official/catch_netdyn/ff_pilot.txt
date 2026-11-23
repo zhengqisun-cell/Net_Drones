@@ -1,0 +1,13 @@
+1 m move along x, thrust x5, x5_T0 settings (S-curve), seed 101: formation tracking error along x (max / rms over the move and the 6 s after it), readiness and net lag
+none                   formation error max   66.8 rms  23.0 mm  ready 5 cm 1.64 s  overshoot 30.6 mm  net lag 112.8 mm  tilt 40.13  disc 33.4
+string_ff0_lead0.04    formation error max   58.2 rms  21.1 mm  ready 5 cm 1.51 s  overshoot 31.5 mm  net lag 96.8 mm  tilt 36.37  disc 33.9
+string_ff0_lead0.07    formation error max   57.2 rms  22.5 mm  ready 5 cm 1.43 s  overshoot 32.9 mm  net lag 93.4 mm  tilt 35.55  disc 34.0
+string_ff0_lead0.1     formation error max   70.2 rms  25.8 mm  ready 5 cm 1.36 s  overshoot 35.0 mm  net lag 91.7 mm  tilt 35.01  disc 34.1
+string_ff0_lead0.14    formation error max   95.2 rms  32.2 mm  ready 5 cm 1.32 s  overshoot 40.2 mm  net lag 91.4 mm  tilt 34.66  disc 34.2
+string_ff1_lead0       formation error max   95.3 rms  28.6 mm  ready 5 cm 2.05 s  overshoot 27.2 mm  net lag 134.7 mm  tilt 43.76  disc 32.6
+string_ff1_lead0.04    formation error max   83.9 rms  24.0 mm  ready 5 cm 1.65 s  overshoot 27.7 mm  net lag 114.6 mm  tilt 40.0  disc 33.5
+string_ff1_lead0.07    formation error max   75.9 rms  22.3 mm  ready 5 cm 1.57 s  overshoot 28.9 mm  net lag 101.4 mm  tilt 37.21  disc 33.9
+string_ff1_lead0.1     formation error max   70.4 rms  22.5 mm  ready 5 cm 1.51 s  overshoot 30.7 mm  net lag 99.2 mm  tilt 36.66  disc 34.0
+string_ff1_lead0.14    formation error max   75.0 rms  25.6 mm  ready 5 cm 1.4 s  overshoot 34.5 mm  net lag 98.5 mm  tilt 36.25  disc 34.1
+drag                   formation error max   84.7 rms  24.4 mm  ready 5 cm 1.69 s  overshoot 37.5 mm  net lag 126.3 mm  tilt 42.35  disc 33.0
+drag_lead0.07          formation error max   30.3 rms  11.0 mm  ready 5 cm 1.28 s  overshoot 21.7 mm  net lag 98.0 mm  tilt 36.89  disc 33.9

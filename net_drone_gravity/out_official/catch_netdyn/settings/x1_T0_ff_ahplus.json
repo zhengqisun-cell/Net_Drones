@@ -1,0 +1,17 @@
+{
+ "note": "catch_netdyn, x1_T0 (tier 0), selected on seeds 101-130 (catch_netdyn/selection_*): feedforward only (netdyn plan off, drag + 70 ms lead) and the horizontal / total acceleration limits +0.5 m/s^2; based on catch_speed/settings/catch_speed_x1.json",
+ "traj": {
+  "jerk": 30.0
+ },
+ "limits": {
+  "a_v": 1.6,
+  "a_h": 3.5,
+  "a_tot": 3.5
+ },
+ "netdyn": {
+  "plan": false,
+  "drag_ff": true,
+  "lead_s": 0.07,
+  "motor_line": 0.9
+ }
+}

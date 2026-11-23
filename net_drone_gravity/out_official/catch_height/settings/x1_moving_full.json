@@ -1,0 +1,10 @@
+{
+ "note": "x1 reference: free heights + all end-velocity options (rest, ball, approach 0.75 / 1.5 m/s)",
+ "z_net_range": [
+  0.7,
+  9.3
+ ],
+ "z_net_step": 0.3,
+ "dz_penalty": 0.0,
+ "moving": {}
+}

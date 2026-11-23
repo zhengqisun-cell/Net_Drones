@@ -1,0 +1,4 @@
+x1_scurve_j30_av1.6    med_seq2   119/129 (92.2%) all 23/30 clean 30 allclean 23 viol {} excl 0 disc 31.5 guard 25.0 tilt 51.71 motor 0.9548 miss {'late': 10}
+x1_scurve_j30_av1.6    med_seq1   89/129 (69.0%) all 3/30 clean 29 allclean 3 viol {'motor90': 1} excl 0 disc 30.0 guard 21.3 tilt 53.58 motor 0.9587 miss {'late': 39, 'crowded_out': 1}
+x1_scurve_j30_av1.6    hard_seq2  73/129 (56.6%) all 3/30 clean 29 allclean 3 viol {'box': 1} excl 0 disc 31.6 guard 25.3 tilt 44.58 motor 0.9429 miss {'late': 55, 'fell_out': 1}
+x1_scurve_j30_av1.6    med_salvo  34/129 (26.4%) all 0/30 clean 26 allclean 0 viol {'motor90': 3, 'net_low': 1} excl 0 disc 30.9 guard 24.1 tilt 53.7 motor 0.9758 miss {'late': 71, 'crowded_out': 24}

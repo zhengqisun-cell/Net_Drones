@@ -1,0 +1,10 @@
+{
+ "note": "x1: free heights + standby net-centre height 3.0 m (horizontal position from the mean crossing at 3.0 m)",
+ "z_net_range": [
+  0.7,
+  9.3
+ ],
+ "z_net_step": 0.3,
+ "dz_penalty": 0.0,
+ "z_net0": 3.0
+}

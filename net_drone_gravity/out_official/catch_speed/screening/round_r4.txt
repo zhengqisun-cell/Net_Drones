@@ -1,0 +1,12 @@
+x5_A_j20_diag0.9             med_seq2   54/54 (100.0%) all 15/15 clean 14 allclean 14 viol {'clearance': 1} excl 0 disc 29.8 guard 24.9 tilt 48.17 motor 0.2025 miss {}
+x5_A_j20_diag0.9             med_seq1   35/54 (64.8%) all 0/15 clean 14 allclean 0 viol {'clearance': 1} excl 0 disc 29.2 guard 23.6 tilt 57.76 motor 0.2015 miss {'late': 18, 'crowded_out': 1}
+x5_A_j20_diag0.9             hard_seq2  38/54 (70.4%) all 5/15 clean 15 allclean 5 viol {} excl 0 disc 30.8 guard 25.4 tilt 50.1 motor 0.2012 miss {'late': 16}
+x5_A_j20_diag0.9             med_salvo  16/54 (29.6%) all 0/15 clean 15 allclean 0 viol {} excl 0 disc 30.9 guard 25.9 tilt 50.17 motor 0.207 miss {'late': 33, 'fell_out': 1, 'crowded_out': 4}
+x5_A_j20_acc0.9              med_seq2   54/54 (100.0%) all 15/15 clean 14 allclean 14 viol {'clearance': 1} excl 0 disc 29.0 guard 25.3 tilt 50.11 motor 0.2045 miss {}
+x5_A_j20_acc0.9              med_seq1   38/54 (70.4%) all 1/15 clean 15 allclean 1 viol {} excl 0 disc 31.0 guard 24.6 tilt 54.13 motor 0.2049 miss {'late': 16}
+x5_A_j20_acc0.9              hard_seq2  40/54 (74.1%) all 6/15 clean 13 allclean 4 viol {'clearance': 2} excl 0 disc 29.5 guard 26.2 tilt 50.46 motor 0.196 miss {'late': 14}
+x5_A_j20_acc0.9              med_salvo  17/54 (31.5%) all 0/15 clean 14 allclean 0 viol {'clearance': 1} excl 0 disc 28.8 guard 23.9 tilt 52.84 motor 0.1995 miss {'late': 31, 'crowded_out': 6}
+x5_A_j15                     med_seq2   54/54 (100.0%) all 15/15 clean 12 allclean 12 viol {'clearance': 3} excl 0 disc 27.2 guard 24.1 tilt 48.81 motor 0.2107 miss {}
+x5_A_j15                     med_seq1   36/54 (66.7%) all 1/15 clean 14 allclean 1 viol {'ball_rotor': 1} excl 0 disc 30.0 guard 23.2 tilt 52.32 motor 0.2005 miss {'late': 16, 'crowded_out': 1, 'hit_drone': 1}
+x5_A_j15                     hard_seq2  38/54 (70.4%) all 5/15 clean 14 allclean 5 viol {'ball_rotor': 1} excl 0 disc 30.8 guard 26.1 tilt 50.25 motor 0.1949 miss {'late': 15, 'hit_drone': 1}
+x5_A_j15                     med_salvo  17/54 (31.5%) all 0/15 clean 13 allclean 0 viol {'clearance': 2} excl 0 disc 27.6 guard 24.4 tilt 48.31 motor 0.2001 miss {'late': 34, 'crowded_out': 3}

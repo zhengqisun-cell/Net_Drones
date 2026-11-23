@@ -1,0 +1,13 @@
+selection on tune10_101-130: among candidates with <= 6 trials breaking the tier lines, most caught
+== x5_T0_10: selected nd
+  ff_ah+        839/1195 all  32 >=8  43 viol  17/120 {'disc': 15, 'control': 1, 'ball_hit': 4, 'ball_disc': 1} abort 1 disc 12.3 guard 8.2 motor 0.2511 tilt 62.66 miss {'late': 337, 'trial_aborted': 2, 'hit_drone': 4, 'crowded_out': 11, 'fell_out': 2}   (over the violation limit)
+  ff            794/1193 all  26 >=8  37 viol  10/120 {'disc': 4, 'ball_hit': 8, 'control': 1} abort 1 disc 24.6 guard 18.0 motor 0.2768 tilt 63.65 miss {'late': 384, 'fell_out': 3, 'hit_drone': 8, 'crowded_out': 4}   (over the violation limit)
+  nd_ah+        776/1200 all  14 >=8  40 viol  16/120 {'disc': 12, 'ball_hit': 5, 'ball_disc': 1} abort 0 disc 15.7 guard 8.3 motor 0.3218 tilt 59.96 miss {'late': 414, 'fell_out': 3, 'hit_drone': 5, 'crowded_out': 2}   (over the violation limit)
+  base          767/1191 all  23 >=8  37 viol  15/120 {'disc': 10, 'ball_hit': 7, 'control': 2, 'ball_disc': 2} abort 2 disc 2.0 guard 0.0 motor 0.3373 tilt 65.92 miss {'late': 409, 'hit_drone': 7, 'trial_aborted': 3, 'crowded_out': 4, 'fell_out': 1}   (over the violation limit)
+  nd            739/1200 all  14 >=8  35 viol   5/120 {'ball_hit': 4, 'disc': 2, 'ball_disc': 1} abort 0 disc 0.0 guard 0.0 motor 0.2822 tilt 57.86 miss {'late': 454, 'hit_drone': 4, 'fell_out': 3}   <- selected
+== x5_T1_10: selected ff_ah+
+  ff_ah+        862/1200 all  33 >=8  48 viol   6/120 {'disc': 3, 'ball_hit': 2, 'ball_disc': 2} abort 0 disc 16.3 guard 10.1 motor 0.3067 tilt 58.45 miss {'late': 315, 'fell_out': 8, 'hit_drone': 1, 'crowded_out': 14}   <- selected
+  ff            858/1200 all  32 >=8  47 viol   5/120 {'ball_disc': 2, 'ball_hit': 3} abort 0 disc 25.9 guard 21.8 motor 0.2567 tilt 53.81 miss {'late': 329, 'fell_out': 3, 'hit_drone': 2, 'crowded_out': 8}
+  base          837/1200 all  31 >=8  42 viol   9/120 {'disc': 2, 'ball_disc': 1, 'ball_hit': 6} abort 0 disc 24.8 guard 15.0 motor 0.2728 tilt 57.7 miss {'late': 346, 'crowded_out': 10, 'hit_drone': 5, 'fell_out': 2}   (over the violation limit)
+  nd_ah+        797/1200 all  14 >=8  42 viol   3/120 {'ball_hit': 3} abort 0 disc 25.5 guard 13.1 motor 0.2631 tilt 59.09 miss {'late': 398, 'hit_drone': 3, 'fell_out': 1, 'crowded_out': 1}
+  nd            776/1200 all  16 >=8  39 viol   7/120 {'ball_hit': 5, 'disc': 2, 'guard': 1, 'ball_disc': 1} abort 0 disc 15.7 guard 8.3 motor 0.3218 tilt 59.96 miss {'late': 415, 'fell_out': 2, 'hit_drone': 5, 'crowded_out': 2}   (over the violation limit)

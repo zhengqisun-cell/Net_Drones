@@ -1,0 +1,15 @@
+{
+ "note": "catch_netdyn, x1_T0 (tier 0), net-dynamics planner, not selected (for comparison): net-dynamics planner (netdyn: net model from catch_netdyn/ident, model state, formation = reference) with the drag and lead feedforward; based on catch_speed/settings/catch_speed_x1.json",
+ "traj": {
+  "jerk": 30.0
+ },
+ "limits": {
+  "a_v": 1.6
+ },
+ "netdyn": {
+  "form": false,
+  "drag_ff": true,
+  "lead_s": 0.07,
+  "motor_line": 0.9
+ }
+}

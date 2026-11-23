@@ -1,0 +1,78 @@
+Screening totals (4 groups). q1: seeds 101-115 (216 balls, 60 trials); q2/q3: seeds 101-130 (448 balls, 120 trials).
+viol Tk = trials breaking tier k's lines (motor line exceeded > 0.10 s continuously, disc, guard 10 mm, ball hit, ball-to-disc gap < 30 mm (all tiers), abort, net low, separation, slack, box).
+Variants are overrides on top of the tier-0 recommended setting of their thrust (catch_speed_x1.json / catch_speed_x5.json); full overrides in round_*.json 'variants'.
+
+q1 x1_rec0                     141/216  viol T0   1 T1   0 T2   0 T3   0  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.0 aborts 0
+q1 x1_lf0.85                   148/216  viol T0   3 T1   1 T2   1 T3   1  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.0 aborts 0
+q1 x1_lf1                      154/216  viol T0   8 T1   0 T2   0 T3   0  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.0 aborts 0
+q1 x1_sf0.7                    139/216  viol T0   1 T1   0 T2   0 T3   0  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.0 aborts 0
+q1 x1_sf1                      136/216  viol T0   4 T1   2 T2   2 T3   2  disc  29.0 guard  10.4 motor 0.980 sat 0.17 s tilt 55.8 aborts 0
+q1 x1_ah3.5                    142/216  viol T0  27 T1   2 T2   1 T3   1  disc  26.3 guard  15.7 motor 0.988 sat 0.12 s tilt 56.4 aborts 0
+q1 x1_ah4                      150/216  viol T0  45 T1   2 T2   2 T3   1  disc  16.8 guard  11.4 motor 0.984 sat 0.29 s tilt 54.4 aborts 0
+q1 x1_brk1.2                   142/216  viol T0   5 T1   2 T2   2 T3   2  disc  29.3 guard  16.1 motor 0.964 sat 0.10 s tilt 57.6 aborts 0
+q1 x1_brk1.33                  138/216  viol T0  16 T1   3 T2   2 T3   2  disc  21.1 guard  17.4 motor 0.983 sat 0.11 s tilt 56.3 aborts 0
+q1 x1_ax1.2                    137/216  viol T0   2 T1   1 T2   1 T3   1  disc  29.1 guard  15.3 motor 0.959 sat 0.10 s tilt 51.9 aborts 0
+q1 x1_dg1.2                    139/216  viol T0  26 T1   1 T2   1 T3   1  disc  25.4 guard  14.7 motor 0.986 sat 0.10 s tilt 56.4 aborts 0
+q1 x1_j20                      135/216  viol T0   3 T1   0 T2   0 T3   0  disc  30.3 guard  20.5 motor 0.970 sat 0.10 s tilt 51.6 aborts 0
+q1 x1_j45                      139/216  viol T0   5 T1   2 T2   2 T3   2  disc  28.2 guard  18.7 motor 0.972 sat 0.20 s tilt 57.2 aborts 0
+q1 x1_av2                      140/216  viol T0   2 T1   0 T2   0 T3   0  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.0 aborts 0
+q1 x1_av2.4                    140/216  viol T0   2 T1   1 T2   0 T3   0  disc  29.1 guard  15.3 motor 0.987 sat 0.13 s tilt 54.0 aborts 0
+q1 x1_tilt40                   140/216  viol T0   1 T1   0 T2   0 T3   0  disc  29.5 guard  17.7 motor 0.982 sat 0.11 s tilt 54.0 aborts 0
+q1 x5_rec0                     143/216  viol T0   2 T1   0 T2   0 T3   0  disc  29.2 guard  23.6 motor 0.207 sat 0.00 s tilt 57.8 aborts 0
+q1 x5_ah3.5                    146/216  viol T0  24 T1   4 T2   4 T3   4  disc  26.8 guard  21.0 motor 0.237 sat 0.00 s tilt 59.5 aborts 0
+q1 x5_ah4                      155/216  viol T0  53 T1   8 T2   3 T3   2  disc  11.9 guard   4.7 motor 0.224 sat 0.00 s tilt 58.9 aborts 0
+q1 x5_ah4.5                    156/216  viol T0  56 T1  20 T2   3 T3   0  disc  16.5 guard  11.7 motor 0.239 sat 0.00 s tilt 55.6 aborts 0
+q1 x5_brk1.2                   149/216  viol T0   5 T1   1 T2   1 T3   1  disc  27.6 guard  22.1 motor 0.212 sat 0.00 s tilt 55.6 aborts 0
+q1 x5_brk1.33                  151/216  viol T0   7 T1   0 T2   0 T3   0  disc  26.9 guard  23.1 motor 0.207 sat 0.00 s tilt 55.8 aborts 0
+q1 x5_ax1.2                    146/216  viol T0   2 T1   0 T2   0 T3   0  disc  29.8 guard  22.9 motor 0.203 sat 0.00 s tilt 58.7 aborts 0
+q1 x5_dg1.0                    149/216  viol T0   3 T1   0 T2   0 T3   0  disc  28.8 guard  22.3 motor 0.206 sat 0.00 s tilt 51.9 aborts 0
+q1 x5_j15                      144/216  viol T0   4 T1   1 T2   1 T3   1  disc  27.0 guard  23.8 motor 0.203 sat 0.00 s tilt 49.8 aborts 0
+q1 x5_j30                      149/216  viol T0   2 T1   1 T2   1 T3   1  disc  29.0 guard  23.5 motor 0.206 sat 0.00 s tilt 54.1 aborts 0
+q1 x5_tilt45                   143/216  viol T0   2 T1   0 T2   0 T3   0  disc  29.2 guard  23.7 motor 0.207 sat 0.00 s tilt 58.7 aborts 0
+q1 x5_ah4_tilt45               153/214  viol T0  51 T1  10 T2   4 T3   3  disc  19.1 guard  15.4 motor 0.218 sat 0.00 s tilt 60.6 aborts 1
+q1 x5_av2.5                    143/216  viol T0   3 T1   0 T2   0 T3   0  disc  28.6 guard  23.6 motor 0.210 sat 0.00 s tilt 57.8 aborts 0
+
+q2 x1_rec0                     287/448  viol T0   4 T1   2 T2   2 T3   2  disc  29.1 guard  15.3 motor 0.980 sat 0.11 s tilt 54.4 aborts 0
+q2 x1_lf1                      313/448  viol T0  24 T1   0 T2   0 T3   0  disc  27.3 guard  15.3 motor 0.982 sat 0.12 s tilt 54.4 aborts 0
+q2 x1_lf1_sf0.7                308/448  viol T0  33 T1   1 T2   1 T3   1  disc  27.3 guard  15.3 motor 0.984 sat 0.13 s tilt 61.5 aborts 1
+q2 x1_lf1_brk1.2               317/448  viol T0  40 T1   9 T2   2 T3   2  disc  26.3 guard  16.1 motor 0.995 sat 0.19 s tilt 57.6 aborts 0
+q2 x1_lf1_ah3.5                320/448  viol T0  79 T1  12 T2   3 T3   3  disc  12.5 guard   5.6 motor 0.991 sat 0.19 s tilt 61.2 aborts 1
+q2 x1_lf1_ah4                  322/448  viol T0 111 T1  42 T2  18 T3   5  disc  16.8 guard   7.9 motor 1.000 sat 0.45 s tilt 54.4 aborts 0
+q2 x1_lf1_ah4_brk1.2           326/448  viol T0 113 T1  48 T2  18 T3   4  disc  12.9 guard   6.5 motor 1.000 sat 0.38 s tilt 58.6 aborts 0
+q2 x1_lf1_ah4.5                316/448  viol T0 118 T1  96 T2  39 T3  10  disc  13.5 guard   7.1 motor 1.000 sat 0.52 s tilt 58.4 aborts 0
+q2 x1_lf1_ah4_av2              320/448  viol T0 110 T1  47 T2  20 T3   7  disc  16.8 guard   4.4 motor 1.000 sat 0.45 s tilt 55.0 aborts 0
+q2 x1_lf1_ah4_oc0.2            320/448  viol T0 110 T1  34 T2  12 T3   4  disc   9.1 guard   1.9 motor 1.000 sat 0.30 s tilt 60.3 aborts 1
+q2 x1_lf1_ah4_j20              316/448  viol T0 110 T1  43 T2   6 T3   2  disc  10.3 guard   2.9 motor 1.000 sat 0.27 s tilt 55.0 aborts 0
+q2 x1_lf1_dg0.9_ah4            323/448  viol T0 107 T1  30 T2  10 T3   3  disc  19.4 guard   8.6 motor 0.998 sat 0.23 s tilt 57.1 aborts 0
+q2 x5_rec0                     299/448  viol T0   7 T1   2 T2   2 T3   2  disc  28.4 guard  22.0 motor 0.278 sat 0.00 s tilt 63.9 aborts 1
+q2 x5_brk1.33                  311/448  viol T0  14 T1   1 T2   1 T3   1  disc  26.8 guard  22.0 motor 0.246 sat 0.00 s tilt 64.0 aborts 1
+q2 x5_brk1.33_dg1_j30          311/448  viol T0  53 T1  10 T2   5 T3   5  disc  20.5 guard  16.7 motor 0.242 sat 0.00 s tilt 59.1 aborts 0
+q2 x5_ah3.5_brk1.33            311/446  viol T0  61 T1   9 T2   4 T3   4  disc  12.3 guard   6.1 motor 0.227 sat 0.00 s tilt 60.1 aborts 1
+q2 x5_ah4                      320/448  viol T0 106 T1  13 T2   5 T3   2  disc  11.9 guard   4.7 motor 0.229 sat 0.00 s tilt 58.9 aborts 0
+q2 x5_ah4_dg1                  319/447  viol T0 110 T1  21 T2   2 T3   1  disc  19.5 guard  15.6 motor 0.226 sat 0.00 s tilt 60.3 aborts 1
+q2 x5_ah4_brk1.2               321/448  viol T0 104 T1  17 T2   4 T3   1  disc  18.4 guard  10.6 motor 0.237 sat 0.00 s tilt 58.6 aborts 0
+q2 x5_ah4_j30                  322/448  viol T0 108 T1   8 T2   0 T3   0  disc  22.5 guard  16.7 motor 0.227 sat 0.00 s tilt 57.8 aborts 0
+q2 x5_ah4.5                    320/448  viol T0 115 T1  48 T2   4 T3   0  disc  16.5 guard  11.7 motor 0.244 sat 0.00 s tilt 56.5 aborts 0
+q2 x5_ah4.5_brk1.2             314/448  viol T0 116 T1  46 T2   8 T3   0  disc  17.3 guard  11.1 motor 0.243 sat 0.00 s tilt 58.2 aborts 0
+q2 x5_ah5                      315/446  viol T0 117 T1  95 T2  44 T3  16  disc   9.5 guard   4.2 motor 0.241 sat 0.00 s tilt 60.9 aborts 1
+q2 x5_ah4.5_oc0.2              313/446  viol T0 113 T1  28 T2   6 T3   3  disc  15.6 guard  13.4 motor 0.236 sat 0.00 s tilt 62.2 aborts 2
+q2 x5_ah4.5_j30                318/446  viol T0 118 T1  50 T2   8 T3   3  disc  16.1 guard   9.7 motor 0.241 sat 0.00 s tilt 60.3 aborts 1
+
+q3 x1_lf1_ah3.25               318/448  viol T0  46 T1   4 T2   2 T3   1  disc  17.9 guard   9.2 motor 0.996 sat 0.43 s tilt 56.0 aborts 0
+q3 x1_lf1_brk1.1               314/448  viol T0  29 T1   3 T2   1 T3   1  disc  28.8 guard  15.1 motor 0.988 sat 0.14 s tilt 56.4 aborts 0
+q3 x1_lf1_j40                  316/448  viol T0  25 T1   2 T2   0 T3   0  disc  27.4 guard  18.5 motor 0.988 sat 0.19 s tilt 56.8 aborts 0
+q3 x1_lf1_ah3.5_brk1.2         320/448  viol T0  89 T1  28 T2   9 T3   2  disc  15.6 guard   8.2 motor 0.999 sat 0.27 s tilt 56.7 aborts 0
+q3 x1_lf1_ah3.5_j20            316/448  viol T0  80 T1   8 T2   3 T3   2  disc  25.0 guard  17.3 motor 0.999 sat 0.25 s tilt 60.7 aborts 1
+q3 x1_lf1_ah3.5_dg0.9          318/448  viol T0  48 T1   8 T2   3 T3   2  disc  25.9 guard  19.1 motor 0.998 sat 0.21 s tilt 65.5 aborts 1
+q3 x1_lf1_ah3.75               322/448  viol T0 106 T1  32 T2   5 T3   3  disc  21.6 guard  12.8 motor 0.999 sat 0.30 s tilt 54.4 aborts 0
+q3 x1_lf1_ah4_brk1.33          318/448  viol T0 120 T1  64 T2  28 T3   9  disc  13.0 guard   3.1 motor 1.000 sat 0.64 s tilt 61.7 aborts 1
+q3 x1_lf1_ah4_dg0.9_brk1.2     322/448  viol T0 110 T1  34 T2  16 T3   4  disc  20.4 guard   6.0 motor 1.000 sat 0.31 s tilt 57.1 aborts 0
+q3 x5_ah3.5_j30                318/446  viol T0  27 T1   3 T2   2 T3   2  disc  23.2 guard  18.7 motor 0.243 sat 0.00 s tilt 60.2 aborts 1
+q3 x5_brk1.33_j30              309/448  viol T0  18 T1   3 T2   3 T3   3  disc  21.9 guard  15.5 motor 0.308 sat 0.00 s tilt 57.6 aborts 0
+q3 x5_ah4_j30_dg0.8            320/448  viol T0  66 T1   7 T2   1 T3   1  disc   1.2 guard   0.3 motor 0.261 sat 0.00 s tilt 54.9 aborts 0
+q3 x5_ah4_j40                  322/448  viol T0 107 T1  17 T2   0 T3   0  disc  21.0 guard  14.6 motor 0.231 sat 0.00 s tilt 56.5 aborts 0
+q3 x5_ah4_j30_brk1.2           318/446  viol T0 114 T1  19 T2   5 T3   3  disc  16.8 guard  13.0 motor 0.238 sat 0.00 s tilt 60.2 aborts 2
+q3 x5_ah4.5_j40                322/448  viol T0 119 T1  44 T2   6 T3   1  disc  15.4 guard   9.3 motor 0.243 sat 0.00 s tilt 59.5 aborts 0
+q3 x5_ah4_j30_tilt45           323/448  viol T0 110 T1   7 T2   0 T3   0  disc  21.9 guard  18.6 motor 0.232 sat 0.00 s tilt 59.6 aborts 0
+q3 x5_ah5_j40_dg0.8            326/448  viol T0 120 T1  73 T2  23 T3   6  disc  13.1 guard   3.6 motor 0.243 sat 0.00 s tilt 59.5 aborts 0
+

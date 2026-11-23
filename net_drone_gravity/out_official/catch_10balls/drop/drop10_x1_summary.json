@@ -1,0 +1,1515 @@
+{
+ "mode": "catch",
+ "n_balls": 10,
+ "n_caught": 9,
+ "all_caught": false,
+ "caught_share": 0.9,
+ "safety_violations": [],
+ "clean": true,
+ "all_caught_clean": false,
+ "aborted": false,
+ "t_end_s": 48.99,
+ "standby_box": [
+  5.0,
+  5.0,
+  1.2
+ ],
+ "h_dn_m": 0.40068383889928094,
+ "h_dn_per_ball_m": 0.0,
+ "t_launch0_s": 16.0,
+ "safety": {
+  "control": {
+   "ok": true,
+   "abort": null,
+   "tilt_max_deg": 37.56,
+   "alt_err_max_mm": 13.9,
+   "floor_contacts_other": 0
+  },
+  "motor90": {
+   "ok": true,
+   "longest_s": 0.06,
+   "motor_max": 0.9141,
+   "lines": {
+    "0.90": {
+     "total_s": 0.06,
+     "longest_s": 0.06
+    },
+    "0.95": {
+     "total_s": 0.0,
+     "longest_s": 0.0
+    },
+    "0.98": {
+     "total_s": 0.0,
+     "longest_s": 0.0
+    }
+   },
+   "saturated_total_s": 0.0,
+   "saturated_longest_s": 0.0,
+   "command_min_N": 0.0875,
+   "at_min_thrust_s": 0.0
+  },
+  "clearance": {
+   "ok": true,
+   "disc_min_mm": 35.1,
+   "guard_min_mm": 37.8
+  },
+  "ball_rotor": {
+   "ok": true,
+   "disc_gap_min_mm": null,
+   "shell_gap_min_mm": null,
+   "shell_hits": 0
+  },
+  "net_low": {
+   "ok": true,
+   "net_lowest_m": 0.6538
+  },
+  "separation": {
+   "ok": true,
+   "min_m": 1.2294
+  },
+  "slack": {
+   "ok": true,
+   "slack_max_s": 0.0
+  },
+  "box": {
+   "ok": true,
+   "min_dist_m": 4.2884
+  }
+ },
+ "balls": [
+  {
+   "ball": 0,
+   "t_launch": 16.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    5.03,
+    5.0,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     5.03,
+     5.0,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 32.11,
+   "t_first_contact": 16.46,
+   "end_rel_speed_m_s": 0.0019,
+   "end_box": [
+    4.989,
+    4.941,
+    0.738
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.8634,
+   "t_cross_rotor": 16.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.0,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 0,
+   "formation_at_cross": {
+    "z_drones_m": 1.2,
+    "net_centre_z_m": 0.799,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.001
+   },
+   "net_at_cross": {
+    "sag_m": 0.3175,
+    "swing_mm": 3.1
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.777,
+    "v_h_at_contact_m_s": 0.0,
+    "v_z_at_contact_m_s": 0.006
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 1,
+   "t_launch": 19.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.978,
+    5.02,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     4.978,
+     5.02,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 29.1,
+   "t_first_contact": 19.47,
+   "end_rel_speed_m_s": 0.0014,
+   "end_box": [
+    5.042,
+    5.042,
+    0.736
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.9771,
+   "t_cross_rotor": 19.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 1,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.756,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.003
+   },
+   "net_at_cross": {
+    "sag_m": 0.3621,
+    "swing_mm": 15.4
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.733,
+    "v_h_at_contact_m_s": 0.0,
+    "v_z_at_contact_m_s": 0.006
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 2,
+   "t_launch": 22.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    5.003,
+    4.97,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     5.003,
+     4.97,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 26.4,
+   "t_first_contact": 22.48,
+   "end_rel_speed_m_s": 0.0026,
+   "end_box": [
+    5.002,
+    5.002,
+    0.708
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.3381,
+   "t_cross_rotor": 22.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 2,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.725,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": 0.001
+   },
+   "net_at_cross": {
+    "sag_m": 0.3964,
+    "swing_mm": 7.3
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.715,
+    "v_h_at_contact_m_s": 0.002,
+    "v_z_at_contact_m_s": -0.001
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 3,
+   "t_launch": 25.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    5.018,
+    5.024,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     5.018,
+     5.024,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 23.35,
+   "t_first_contact": 25.48,
+   "end_rel_speed_m_s": 0.002,
+   "end_box": [
+    5.004,
+    5.037,
+    0.727
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.7838,
+   "t_cross_rotor": 25.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 3,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.717,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.004
+   },
+   "net_at_cross": {
+    "sag_m": 0.4018,
+    "swing_mm": 6.6
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.704,
+    "v_h_at_contact_m_s": 0.001,
+    "v_z_at_contact_m_s": 0.001
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 4,
+   "t_launch": 28.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.97,
+    4.995,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     4.97,
+     4.995,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 20.26,
+   "t_first_contact": 28.48,
+   "end_rel_speed_m_s": 0.002,
+   "end_box": [
+    4.941,
+    4.989,
+    0.738
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.7125,
+   "t_cross_rotor": 28.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.0,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 4,
+   "formation_at_cross": {
+    "z_drones_m": 1.2,
+    "net_centre_z_m": 0.707,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": 0.001
+   },
+   "net_at_cross": {
+    "sag_m": 0.414,
+    "swing_mm": 4.6
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.699,
+    "v_h_at_contact_m_s": 0.001,
+    "v_z_at_contact_m_s": 0.005
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 5,
+   "t_launch": 31.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    5.025,
+    4.984,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     5.025,
+     4.984,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 17.34,
+   "t_first_contact": 31.48,
+   "end_rel_speed_m_s": 0.0016,
+   "end_box": [
+    5.014,
+    4.972,
+    0.731
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.9513,
+   "t_cross_rotor": 31.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 5,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.702,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.003
+   },
+   "net_at_cross": {
+    "sag_m": 0.4189,
+    "swing_mm": 2.7
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.695,
+    "v_h_at_contact_m_s": 0.0,
+    "v_z_at_contact_m_s": 0.002
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 6,
+   "t_launch": 34.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.992,
+    5.029,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     4.992,
+     5.029,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 14.32,
+   "t_first_contact": 34.48,
+   "end_rel_speed_m_s": 0.0016,
+   "end_box": [
+    4.972,
+    5.014,
+    0.731
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.5464,
+   "t_cross_rotor": 34.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 6,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.697,
+    "v_h_m_s": 0.002,
+    "v_z_m_s": -0.002
+   },
+   "net_at_cross": {
+    "sag_m": 0.4251,
+    "swing_mm": 2.3
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.692,
+    "v_h_at_contact_m_s": 0.003,
+    "v_z_at_contact_m_s": 0.006
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 7,
+   "t_launch": 37.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.986,
+    4.973,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     4.986,
+     4.973,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 11.47,
+   "t_first_contact": 37.49,
+   "end_rel_speed_m_s": 0.0024,
+   "end_box": [
+    4.976,
+    4.975,
+    0.723
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.4212,
+   "t_cross_rotor": 37.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 7,
+   "formation_at_cross": {
+    "z_drones_m": 1.2,
+    "net_centre_z_m": 0.692,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.001
+   },
+   "net_at_cross": {
+    "sag_m": 0.4313,
+    "swing_mm": 3.3
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.683,
+    "v_h_at_contact_m_s": 0.002,
+    "v_z_at_contact_m_s": -0.001
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 8,
+   "t_launch": 40.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    5.028,
+    5.01,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     5.028,
+     5.01,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 8.46,
+   "t_first_contact": 40.49,
+   "end_rel_speed_m_s": 0.002,
+   "end_box": [
+    5.037,
+    5.004,
+    0.727
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.3678,
+   "t_cross_rotor": 40.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 8,
+   "formation_at_cross": {
+    "z_drones_m": 1.201,
+    "net_centre_z_m": 0.689,
+    "v_h_m_s": 0.001,
+    "v_z_m_s": -0.003
+   },
+   "net_at_cross": {
+    "sag_m": 0.4336,
+    "swing_mm": 3.4
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null,
+    "net_centre_z_at_contact_m": 0.678,
+    "v_h_at_contact_m_s": 0.001,
+    "v_z_at_contact_m_s": -0.001
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  },
+  {
+   "ball": 9,
+   "t_launch": 43.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.972,
+    5.011,
+    1.799
+   ],
+   "v0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "free_flight": {
+    "apex_m": 1.799,
+    "t_floor_s": 0.626,
+    "floor_box": [
+     4.972,
+     5.011,
+     0.02
+    ]
+   },
+   "standby_offset_m": 0.03,
+   "t_standby_cross_s": 0.378,
+   "prediction": [],
+   "pred_hist": [],
+   "net_contact_s": 0.0,
+   "t_first_contact": null,
+   "end_rel_speed_m_s": null,
+   "end_box": [
+    5.005,
+    5.005,
+    0.75
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 0.0,
+   "t_cross_rotor": 43.36,
+   "cross_offset_m": 0.03,
+   "formation_to_target_m": 0.001,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 9,
+   "formation_at_cross": {
+    "z_drones_m": 1.2,
+    "net_centre_z_m": 0.685,
+    "v_h_m_s": 0.0,
+    "v_z_m_s": -0.001
+   },
+   "net_at_cross": {
+    "sag_m": 0.4379,
+    "swing_mm": 2.7
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "intercept_first_target": null,
+   "intercept_max_feasible": 0,
+   "intercept_max_candidates": 0,
+   "intercept_replans_with_feasible_share": null,
+   "intercept": {
+    "zn_target_m": null,
+    "v_end_target_m_s": null,
+    "n_candidates": null,
+    "n_feasible": null,
+    "zn_feasible_min_m": null,
+    "zn_feasible_max_m": null,
+    "target_is_lowest_feasible": null
+   },
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "elsewhere",
+   "reason": "late"
+  }
+ ],
+ "events": [
+  [
+   16.37,
+   0,
+   "arrived"
+  ],
+  [
+   16.67,
+   0,
+   "in_net"
+  ],
+  [
+   19.37,
+   1,
+   "arrived"
+  ],
+  [
+   19.67,
+   1,
+   "in_net"
+  ],
+  [
+   22.37,
+   2,
+   "arrived"
+  ],
+  [
+   22.67,
+   2,
+   "in_net"
+  ],
+  [
+   25.37,
+   3,
+   "arrived"
+  ],
+  [
+   25.67,
+   3,
+   "in_net"
+  ],
+  [
+   28.36,
+   4,
+   "arrived"
+  ],
+  [
+   28.66,
+   4,
+   "in_net"
+  ],
+  [
+   31.37,
+   5,
+   "arrived"
+  ],
+  [
+   31.67,
+   5,
+   "in_net"
+  ],
+  [
+   34.36,
+   6,
+   "arrived"
+  ],
+  [
+   34.66,
+   6,
+   "in_net"
+  ],
+  [
+   37.36,
+   7,
+   "arrived"
+  ],
+  [
+   37.66,
+   7,
+   "in_net"
+  ],
+  [
+   40.37,
+   8,
+   "arrived"
+  ],
+  [
+   40.67,
+   8,
+   "in_net"
+  ],
+  [
+   43.37,
+   9,
+   "arrived"
+  ],
+  [
+   43.67,
+   9,
+   "in_net"
+  ]
+ ],
+ "clearance_phases": {
+  "phase": "cruise",
+  "t_s": [
+   12.5,
+   48.99
+  ],
+  "min": {
+   "value_mm": 35.14581657361127,
+   "t_s": 38.800000000000004,
+   "drone": 0,
+   "rotor": 2,
+   "element": "own",
+   "what": "own string str0"
+  },
+  "by_element_mm": {
+   "knot": {
+    "value_mm": 175.3000070237343,
+    "t_s": 16.95,
+    "drone": 3,
+    "rotor": 2,
+    "element": "knot",
+    "what": "knot n8_0"
+   },
+   "link": {
+    "value_mm": 182.43064917403134,
+    "t_s": 16.95,
+    "drone": 3,
+    "rotor": 3,
+    "element": "link",
+    "what": "link b8_0"
+   },
+   "own": {
+    "value_mm": 35.14581657361127,
+    "t_s": 38.800000000000004,
+    "drone": 0,
+    "rotor": 2,
+    "element": "own",
+    "what": "own string str0"
+   },
+   "other": {
+    "value_mm": 1036.02782728247,
+    "t_s": 16.6,
+    "drone": 0,
+    "rotor": 2,
+    "element": "other",
+    "what": "other string str1"
+   }
+  },
+  "footprint_knots_max": 0,
+  "footprint_knots_max_at": {
+   "t_s": 12.5,
+   "drone": 0
+  },
+  "footprint_frames_with_knots_s": 0.0,
+  "warning": false,
+  "guard": {
+   "min": {
+    "value_mm": 37.77685980304094,
+    "t_s": 16.95,
+    "drone": 3,
+    "element": "own",
+    "what": "own string str3",
+    "guard_rotor": 2,
+    "guard_part": "foot",
+    "guard_point_body_mm": [
+     -33.6,
+     36.6,
+     -14.1
+    ]
+   },
+   "by_element_mm": {
+    "knot": {
+     "value_mm": 122.2578180170454,
+     "t_s": 16.95,
+     "drone": 3,
+     "element": "knot",
+     "what": "knot n8_0",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    },
+    "link": {
+     "value_mm": 126.55930498774637,
+     "t_s": 16.95,
+     "drone": 3,
+     "element": "link",
+     "what": "link a7_0",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    },
+    "own": {
+     "value_mm": 37.77685980304094,
+     "t_s": 16.95,
+     "drone": 3,
+     "element": "own",
+     "what": "own string str3",
+     "guard_rotor": 2,
+     "guard_part": "foot",
+     "guard_point_body_mm": [
+      -33.6,
+      36.6,
+      -14.1
+     ]
+    },
+    "other": {
+     "value_mm": 1009.0331862627052,
+     "t_s": 16.6,
+     "drone": 0,
+     "element": "other",
+     "what": "other string str1",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    }
+   },
+   "warning": false
+  },
+  "own_string_slack_while_airborne": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "wall_s": 36.2,
+ "replan_wall_s": 0.01,
+ "n_replan": 720,
+ "files": [
+  "drop10_x1_summary.json",
+  "drop10_x1_log.npz",
+  "drop10_x1.png"
+ ],
+ "cfg": {
+  "seed": 1,
+  "tier": null,
+  "el_deg": null,
+  "az_deg": null,
+  "speed_m_s": null,
+  "launch": "sequence",
+  "interval_s": 2.0,
+  "interval_range_s": null,
+  "n_balls": [
+   3,
+   5
+  ],
+  "noise_m": 0.005,
+  "launches": [
+   {
+    "dt": 0.0,
+    "p0": [
+     0.03,
+     0.0,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 3.0,
+    "p0": [
+     -0.022121811466237363,
+     0.02026389541653453,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 6.0,
+    "p0": [
+     0.0026249695031833917,
+     -0.02988493826507522,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 9.0,
+    "p0": [
+     0.018250539435967657,
+     0.02381003591547458,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 12.0,
+    "p0": [
+     -0.02954063567382381,
+     -0.005229803436689389,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 15.0,
+    "p0": [
+     0.025315618761974763,
+     -0.016097187540013047,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 18.0,
+    "p0": [
+     -0.007794520686412624,
+     0.02896973329647834,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 21.0,
+    "p0": [
+     -0.013820357622340875,
+     -0.026627011007445137,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 24.0,
+    "p0": [
+     0.028176610400906122,
+     0.010299447864596861,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "dt": 27.0,
+    "p0": [
+     -0.027734153247423607,
+     0.011437514749648303,
+     1.7993161611007191
+    ],
+    "v0": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "v_prior": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "standby": [
+   0.0,
+   0.0,
+   1.2
+  ],
+  "limits": "relaxed",
+  "loaded_accel_factor": 0.7,
+  "standby_accel_factor": 0.5,
+  "t_early_s": 0.25,
+  "t_hold_s": 0.15,
+  "aim_alpha": 0.3,
+  "r_in_m": null,
+  "clear_up_m": null,
+  "z_net_range": [
+   0.7,
+   2.6
+  ],
+  "z_net_step": 0.2,
+  "z_net0": 0.799316161100719,
+  "replan_hz": 20.0,
+  "n_meas_min": 3,
+  "ff_balls": true,
+  "return_standby": false,
+  "h_dn_per_ball_m": 0.0,
+  "h_dn_table": [
+   0.0
+  ],
+  "hyst": 0.3,
+  "t_after_last_max_s": 6.0,
+  "p_over": null,
+  "spacing": 1.25,
+  "h_dn": 0.40068383889928094,
+  "ff_path": null,
+  "planner_off": true,
+  "label": "drop10_x1",
+  "ekf_q_acc": 0.05,
+  "ekf_sig_v0": 4.0,
+  "net_side": 1.0,
+  "dz_penalty": 0.3,
+  "slack_cap": 0.8,
+  "ref_z_net": 1.0,
+  "standby_xy_z_net": null,
+  "moving": null,
+  "traj": null,
+  "offcentre": null,
+  "move_spacing": null,
+  "p2p": null
+ },
+ "net_contact": {
+  "k_N_m": 100.0,
+  "c_N_s_m": 0.1,
+  "ct_N_s_m": 0.1,
+  "mu": 0.6,
+  "edge_margin_m": 0.02,
+  "depth_max_m": 0.06
+ },
+ "ball": {
+  "d_m": 0.04,
+  "m_kg": 0.0027,
+  "cd": 0.47,
+  "k_1_m": 0.13124875974997358,
+  "v_terminal_m_s": 8.645435988656354
+ },
+ "launcher_box_m": [
+  1.0,
+  5.0,
+  0.3
+ ],
+ "barrel_m": 0.06,
+ "box": {
+  "size_m": 10.0,
+  "offset_m": [
+   5.0,
+   5.0,
+   0.0
+  ]
+ },
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "aero": {
+  "net_drag": true,
+  "rho_air": 1.2,
+  "cd_thread": 1.2,
+  "rho_thread": 1150.0,
+  "thread_d_m": 0.0011091362112066396,
+  "thread_d_derived": true,
+  "thread_length_total_m": 18.0,
+  "drag_area_cd_d_l_m2": 0.023957342162063414,
+  "total_drag_at_1_m_s_N": 0.01437440529723805,
+  "total_drag_at_2_m_s_N": 0.0574976211889522,
+  "linear_stand_in_N_s_m_per_knot": 0.0,
+  "model": "per knot F = -0.5 rho Cd d L_k |v| v, still air, isotropic (thread orientation ignored: overestimates the drag of threads along the flow); corner strings have no drag"
+ },
+ "params": {
+  "m_drone": 0.0393,
+  "f_max": 0.2,
+  "arm": 0.05,
+  "inertia": [
+   2.5e-05,
+   2.8e-05,
+   4.9e-05
+  ],
+  "kappa": 0.00593893393599368,
+  "motor_tau": null,
+  "hook_z": -0.015,
+  "L": 1.0,
+  "n": 9,
+  "m_net": 0.02,
+  "string": 0.2,
+  "node_drag": 0.0002,
+  "z_hover": 1.2,
+  "d_takeoff": 1.2,
+  "d_land": 1.2,
+  "z_touch": 0.015,
+  "yaw_deg": 45.0,
+  "prop_radius": 0.0275,
+  "prop_z": 0.012,
+  "clearance_warn": 0.03,
+  "guard_warn": 0.01,
+  "kp": [
+   12.0,
+   12.0,
+   18.75
+  ],
+  "kd": [
+   6.0,
+   6.0,
+   7.5
+  ],
+  "ki": [
+   8.0,
+   8.0,
+   15.6
+  ],
+  "i_clamp": 10.0,
+  "max_tilt_deg": 35.0,
+  "att_wn": 18.0,
+  "att_zeta": 1.2,
+  "sigma_p": 0.001,
+  "sigma_v": 0.005,
+  "dt": 0.001,
+  "seed": 1,
+  "drone_model": "official",
+  "f_min": 0.02136263065537499,
+  "kappa_firmware": 0.00569278844371417,
+  "rotor_xy": 0.035355,
+  "rpm2thrust": [
+   0.0,
+   -3.133427287299859e-07,
+   4.407354891648379e-10
+  ],
+  "rpm2torque": [
+   0.0,
+   1.65886356219615e-09,
+   2.4693477924534137e-12
+  ],
+  "rotor_dyn_coef": [
+   13.996001897562685,
+   0.00011093207920685363,
+   5.933168530682111,
+   0.00031951312393561264
+  ],
+  "drag": [
+   -0.02149163,
+   -0.02149163,
+   -0.02359736
+  ],
+  "prop_inertia": 3.893e-08,
+  "att_ki_factor": 0.2
+ }
+}

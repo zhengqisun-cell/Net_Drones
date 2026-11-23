@@ -1,0 +1,50 @@
+== 10 balls, thrust x5, seeds 1-30
+setting           group      variant  caught    all  >=8 viol box net_low abort  box_min  net_low_m ref_out ref_below fallbacks(brake/latched/kept/floor-kept, trials)  changed trials
+x5_tier0_10balls  med2       before   295/300   26   30    1   0       0     0    1.047     0.494   0.000    0.0346     0/0/0/0, 0
+x5_tier0_10balls  med2       after    294/300   25   30    1   0       0     0    1.047     0.494   0.000    0.0346     0/0/0/23, 4   4 changed, caught changed in 1: [(20, 10, 9)]; trials without any brake in both runs 26, of them changed 0; rerun vs stored caught differs in []
+x5_tier0_10balls  med1       before   193/300    0    3    2   0       0     0    1.002     0.332   0.000    0.0422     0/0/0/0, 0
+x5_tier0_10balls  med1       after    193/300    0    3    3   0       0     0    0.975     0.491   0.000    0.0209     0/0/0/16, 3   3 changed, caught changed in 0: []; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+x5_tier0_10balls  hard2      before   193/300    0    8    5   1       1     0   -3.351     0.059   3.553    0.1014   104/0/0/0, 4
+x5_tier0_10balls  hard2      after    197/300    0    8    5   0       0     0    0.176     0.522   0.000    0.0817     6/6/2/21, 10   9 changed, caught changed in 4: [(1, 6, 7), (14, 9, 8), (21, 4, 5), (30, 2, 5)]; trials without any brake in both runs 20, of them changed 0; rerun vs stored caught differs in []
+x5_tier0_10balls  hard1      before   131/300    0    0    2   0       0     0    0.249     0.441   0.019    0.0440     7/0/0/0, 2
+x5_tier0_10balls  hard1      after    129/300    0    0    3   0       0     0    0.240     0.524   0.000    0.0242     2/2/1/39, 10   10 changed, caught changed in 2: [(18, 5, 4), (27, 5, 4)]; trials without any brake in both runs 20, of them changed 0; rerun vs stored caught differs in []
+
+x5_tier1_10balls  med2       before   298/300   28   30    0   0       0     0    1.020     0.405   0.000    0.0290     0/0/0/0, 0
+x5_tier1_10balls  med2       after    296/300   26   30    0   0       0     0    1.020     0.529   0.000    0.0163     0/0/0/18, 4   4 changed, caught changed in 2: [(18, 10, 9), (30, 10, 9)]; trials without any brake in both runs 26, of them changed 0; rerun vs stored caught differs in []
+x5_tier1_10balls  med1       before   200/300    0    5    2   0       0     0    0.982     0.360   0.000    0.0381     0/0/0/0, 0
+x5_tier1_10balls  med1       after    199/300    0    5    2   0       0     0    0.967     0.522   0.000    0.0354     0/0/0/9, 3   3 changed, caught changed in 1: [(25, 7, 6)]; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+x5_tier1_10balls  hard2      before   210/293    0   14    3   1       0     1   -3.563     0.502   3.703    0.1103   100/0/0/0, 3
+x5_tier1_10balls  hard2      after    214/293    0   15    2   0       0     1    0.232     0.504   0.000    0.0966     2/2/3/18, 8   7 changed, caught changed in 2: [(22, 3, 8), (29, 5, 4)]; trials without any brake in both runs 22, of them changed 0; rerun vs stored caught differs in []
+x5_tier1_10balls  hard1      before   143/300    0    0    2   0       0     0    0.246     0.491   0.039    0.0455    20/0/0/0, 3
+x5_tier1_10balls  hard1      after    146/300    0    0    1   0       0     0    0.242     0.505   0.000    0.0260     2/2/4/18, 8   8 changed, caught changed in 2: [(12, 2, 3), (29, 3, 5)]; trials without any brake in both runs 22, of them changed 0; rerun vs stored caught differs in []
+
+== 3-5 balls, seeds 1-30 (impact check)
+setting           group      variant  caught    all  >=8 viol box net_low abort  box_min  net_low_m ref_out ref_below fallbacks(brake/latched/kept/floor-kept, trials)  changed trials
+x5_tier0          med_seq2   before   126/129   27    0    0   0       0     0    1.054     0.427   0.000    0.0306     0/0/0/0, 0
+x5_tier0          med_seq2   after    126/129   27    0    0   0       0     0    1.054     0.486   0.000    0.0220     0/0/0/21, 4   4 changed, caught changed in 0: []; trials without any brake in both runs 26, of them changed 0; rerun vs stored caught differs in []
+x5_tier0          med_seq1   before    85/129    2    0    3   0       0     0    0.983     0.495   0.000    0.0375     0/0/0/0, 0
+x5_tier0          med_seq1   after     85/129    2    0    3   0       0     0    0.983     0.495   0.000    0.0209     0/0/0/8, 2   1 changed, caught changed in 0: []; trials without any brake in both runs 28, of them changed 0; rerun vs stored caught differs in []
+x5_tier0          hard_seq2  before    86/129    7    0    4   0       0     0    0.204     0.422   0.044    0.2694     0/0/0/0, 0
+x5_tier0          hard_seq2  after     86/129    7    0    4   0       0     0    0.235     0.526   0.000    0.0878     1/1/0/14, 4   3 changed, caught changed in 0: []; trials without any brake in both runs 26, of them changed 0; rerun vs stored caught differs in []
+x5_tier0          med_salvo  before    34/129    0    0    2   0       0     0    1.617     0.516   0.000    0.0833     0/0/0/0, 0
+x5_tier0          med_salvo  after     34/129    0    0    2   0       0     0    1.617     0.516   0.000    0.0650     0/0/0/7, 2   1 changed, caught changed in 0: []; trials without any brake in both runs 28, of them changed 0; rerun vs stored caught differs in []
+
+x5_tier1          med_seq2   before   129/129   30    0    0   0       0     0    1.019     0.388   0.000    0.0296     0/0/0/0, 0
+x5_tier1          med_seq2   after    129/129   30    0    0   0       0     0    1.019     0.529   0.000    0.0276     0/0/0/10, 3   3 changed, caught changed in 0: []; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+x5_tier1          med_seq1   before    93/129    5    0    2   0       0     0    1.026     0.425   0.000    0.0355     0/0/0/0, 0
+x5_tier1          med_seq1   after     93/129    5    0    2   0       0     0    0.965     0.519   0.000    0.0376     0/0/0/14, 3   2 changed, caught changed in 0: []; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+x5_tier1          hard_seq2  before    98/129   10    0    1   1       0     0   -3.751     0.498   3.881    0.0726    99/0/0/0, 2
+x5_tier1          hard_seq2  after     99/129   10    0    0   0       0     0    0.309     0.521   0.000    0.0726     0/0/3/16, 6   4 changed, caught changed in 2: [(22, 1, 3), (29, 4, 3)]; trials without any brake in both runs 24, of them changed 0; rerun vs stored caught differs in []
+x5_tier1          med_salvo  before    34/129    0    0    0   0       0     0    1.643     0.516   0.000    0.1014     0/0/0/0, 0
+x5_tier1          med_salvo  after     34/129    0    0    0   0       0     0    1.643     0.516   0.000    0.0733     0/0/0/6, 3   2 changed, caught changed in 0: []; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+
+x1_tier0          med_seq2   before   119/129   23    0    0   0       0     0    1.034     0.412   0.000    0.0373     0/0/0/0, 0
+x1_tier0          med_seq2   after    119/129   23    0    0   0       0     0    1.027     0.518   0.000    0.0180     0/0/0/38, 8   7 changed, caught changed in 0: []; trials without any brake in both runs 22, of them changed 0; rerun vs stored caught differs in []
+x1_tier0          med_seq1   before    89/129    3    0    1   0       0     0    1.000     0.448   0.000    0.0924     0/0/0/0, 0
+x1_tier0          med_seq1   after     89/129    3    0    1   0       0     0    0.976     0.499   0.000    0.0924     0/0/0/19, 3   2 changed, caught changed in 0: []; trials without any brake in both runs 27, of them changed 0; rerun vs stored caught differs in []
+x1_tier0          hard_seq2  before    73/129    3    0    1   1       0     0   -3.734     0.516   3.889    0.0572   156/0/0/0, 4
+x1_tier0          hard_seq2  after     74/129    3    0    0   0       0     0    0.206     0.516   0.000    0.0572     2/2/15/8, 5   3 changed, caught changed in 1: [(13, 2, 3)]; trials without any brake in both runs 25, of them changed 0; rerun vs stored caught differs in []
+x1_tier0          med_salvo  before    34/129    0    0    4   0       1     0    1.590     0.278   0.000    0.4159     0/0/0/0, 0
+x1_tier0          med_salvo  after     34/129    0    0    2   0       0     0    1.590     0.521   0.000    0.0933     0/0/0/31, 9   2 changed, caught changed in 0: []; trials without any brake in both runs 21, of them changed 0; rerun vs stored caught differs in []
+
+caught/launched; all = trials with every launched ball caught; >=8 = trials with >= 8 caught (10 balls); viol = trials breaking the setting's own tier lines (tier 0: motor 90 % > 0.10 s, disc 30 mm; tier 1: 95 %, 25 mm; ball-to-disc 30 mm, guard 10 mm, abort, net low 0.30 m, separation, slack, box in both); box / net_low = trials with that safety item; box_min = smallest drone distance to the box wall (negative: outside); ref_out = largest distance of the planner's formation-centre reference outside the formation box; ref_below = largest depth of the reference below the height floor (net centre 0.7 m below the drones with the balls in the net, or the current / last planned height if lower); fallbacks = calls of the braking fallback / of them latched (boxfix) / braking paths that would have left the box, current plan kept instead (boxfix) / new paths that would have dipped more than 0.10 m below the floor, current plan kept until the next replan (boxfix), and trials with any of these. changed = trials whose catches, per-ball outcomes, safety items, clearances, motor or tilt peak differ. 'before' is a rerun with the fix off (identical to the stored earlier results where those exist).

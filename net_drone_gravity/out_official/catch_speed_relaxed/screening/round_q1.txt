@@ -1,0 +1,145 @@
+x1_rec0                    med_seq2   52/54 (96.3%) all 13/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.0 motor 0.9585 sat 0.11 tilt 48.68 miss {'late': 2}
+x1_rec0                    med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_rec0                    hard_seq2  34/54 (63.0%) all 3/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 24.7 motor 0.9367 sat 0.09 tilt 49.24 miss {'late': 20}
+x1_rec0                    med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 23.5 motor 0.9572 sat 0.09 tilt 48.53 miss {'crowded_out': 8, 'late': 29}
+x1_rec0                    TOTAL      141/216 viol T0:1{'motor': 1, 'disc': 1} T1:0{} T2:0{} T3:0{} disc 29.1 motor 0.9801 sat 0.11
+x1_lf0.85                  med_seq2   54/54 (100.0%) all 15/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.3 guard 24.0 motor 0.9585 sat 0.11 tilt 48.68 miss {}
+x1_lf0.85                  med_seq1   38/54 (70.4%) all 0/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_lf0.85                  hard_seq2  39/54 (72.2%) all 4/15 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 31.5 guard 24.7 motor 0.942 sat 0.09 tilt 49.24 miss {'late': 14, 'hit_drone': 1}
+x1_lf0.85                  med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.3 guard 23.5 motor 0.9572 sat 0.09 tilt 48.53 miss {'crowded_out': 8, 'late': 29}
+x1_lf0.85                  TOTAL      148/216 viol T0:3{'motor': 2, 'disc': 1, 'ball_hit': 1, 'ball_disc': 1} T1:1{'ball_hit': 1, 'ball_disc': 1} T2:1{'ball_hit': 1, 'ball_disc': 1} T3:1{'ball_hit': 1, 'ball_disc': 1} disc 29.1 motor 0.9801 sat 0.11
+x1_lf1                     med_seq2   54/54 (100.0%) all 15/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.6 guard 24.0 motor 0.9592 sat 0.11 tilt 48.68 miss {}
+x1_lf1                     med_seq1   38/54 (70.4%) all 1/15 viol[T0:5 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_lf1                     hard_seq2  45/54 (83.3%) all 8/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 23.7 motor 0.9736 sat 0.09 tilt 49.24 miss {'late': 9}
+x1_lf1                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.9 guard 23.5 motor 0.9572 sat 0.09 tilt 48.53 miss {'crowded_out': 8, 'late': 29}
+x1_lf1                     TOTAL      154/216 viol T0:8{'disc': 5, 'motor': 4} T1:0{} T2:0{} T3:0{} disc 29.1 motor 0.9801 sat 0.11
+x1_sf0.7                   med_seq2   53/54 (98.2%) all 14/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.0 motor 0.9585 sat 0.11 tilt 48.68 miss {'late': 1}
+x1_sf0.7                   med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_sf0.7                   hard_seq2  31/54 (57.4%) all 1/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 24.7 motor 0.928 sat 0.09 tilt 49.24 miss {'late': 23}
+x1_sf0.7                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 23.5 motor 0.9572 sat 0.09 tilt 48.53 miss {'crowded_out': 8, 'late': 29}
+x1_sf0.7                   TOTAL      139/216 viol T0:1{'motor': 1, 'disc': 1} T1:0{} T2:0{} T3:0{} disc 29.1 motor 0.9801 sat 0.11
+x1_sf1                     med_seq2   53/54 (98.2%) all 14/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.0 motor 0.9616 sat 0.11 tilt 48.68 miss {'late': 1}
+x1_sf1                     med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_sf1                     hard_seq2  28/54 (51.8%) all 1/15 viol[T0:2 T1:2 T2:2 T3:2] abort 0 excl 0 disc 29.0 guard 10.4 motor 0.9709 sat 0.17 tilt 55.76 miss {'late': 24, 'hit_drone': 2}
+x1_sf1                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.4 guard 23.5 motor 0.9572 sat 0.09 tilt 48.53 miss {'crowded_out': 8, 'late': 29}
+x1_sf1                     TOTAL      136/216 viol T0:4{'motor': 3, 'disc': 2, 'ball_hit': 2, 'ball_disc': 2} T1:2{'ball_hit': 2, 'ball_disc': 2} T2:2{'ball_hit': 2, 'ball_disc': 2} T3:2{'ball_hit': 2, 'ball_disc': 2} disc 29.0 motor 0.9801 sat 0.17
+x1_ah3.5                   med_seq2   53/54 (98.2%) all 14/15 viol[T0:6 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.8 guard 21.5 motor 0.9581 sat 0.12 tilt 52.71 miss {'late': 1}
+x1_ah3.5                   med_seq1   34/54 (63.0%) all 0/15 viol[T0:7 T1:1 T2:0 T3:0] abort 0 excl 0 disc 26.3 guard 15.7 motor 0.9877 sat 0.12 tilt 56.36 miss {'late': 19, 'crowded_out': 1}
+x1_ah3.5                   hard_seq2  38/54 (70.4%) all 4/15 viol[T0:8 T1:1 T2:1 T3:1] abort 0 excl 0 disc 29.4 guard 21.9 motor 0.9483 sat 0.09 tilt 46.01 miss {'late': 16}
+x1_ah3.5                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:5 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.6 guard 20.7 motor 0.9675 sat 0.1 tilt 49.61 miss {'crowded_out': 11, 'late': 26}
+x1_ah3.5                   TOTAL      142/216 viol T0:26{'disc': 23, 'motor': 4, 'box': 1} T1:2{'motor': 1, 'box': 1} T2:1{'box': 1} T3:1{'box': 1} disc 26.3 motor 0.9877 sat 0.12
+x1_ah4                     med_seq2   54/54 (100.0%) all 15/15 viol[T0:10 T1:0 T2:0 T3:0] abort 0 excl 0 disc 25.6 guard 17.4 motor 0.9626 sat 0.1 tilt 50.94 miss {}
+x1_ah4                     med_seq1   35/54 (64.8%) all 0/15 viol[T0:13 T1:2 T2:2 T3:1] abort 0 excl 0 disc 16.8 guard 11.4 motor 0.9843 sat 0.29 tilt 54.44 miss {'hit_drone': 1, 'late': 16, 'crowded_out': 2}
+x1_ah4                     hard_seq2  44/54 (81.5%) all 8/15 viol[T0:12 T1:0 T2:0 T3:0] abort 0 excl 0 disc 26.1 guard 16.8 motor 0.9618 sat 0.1 tilt 49.93 miss {'late': 10}
+x1_ah4                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:10 T1:0 T2:0 T3:0] abort 0 excl 0 disc 25.3 guard 19.0 motor 0.9638 sat 0.12 tilt 52.45 miss {'crowded_out': 11, 'late': 26}
+x1_ah4                     TOTAL      150/216 viol T0:45{'disc': 44, 'motor': 6, 'ball_hit': 1, 'ball_disc': 1} T1:2{'disc': 2, 'ball_hit': 1} T2:2{'ball_hit': 1, 'disc': 1} T3:1{'ball_hit': 1} disc 16.8 motor 0.9843 sat 0.29
+x1_brk1.2                  med_seq2   53/54 (98.2%) all 14/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.8 guard 24.6 motor 0.9621 sat 0.1 tilt 54.99 miss {'late': 1}
+x1_brk1.2                  med_seq1   37/54 (68.5%) all 0/15 viol[T0:3 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.3 guard 16.1 motor 0.9642 sat 0.09 tilt 57.65 miss {'late': 16, 'crowded_out': 1}
+x1_brk1.2                  hard_seq2  35/54 (64.8%) all 4/15 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 30.9 guard 23.9 motor 0.9357 sat 0.1 tilt 48.28 miss {'late': 19}
+x1_brk1.2                  med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 30.5 guard 23.0 motor 0.9617 sat 0.09 tilt 49.7 miss {'crowded_out': 10, 'late': 27}
+x1_brk1.2                  TOTAL      142/216 viol T0:5{'disc': 3, 'box': 1, 'net_low': 1} T1:2{'box': 1, 'net_low': 1} T2:2{'box': 1, 'net_low': 1} T3:2{'box': 1, 'net_low': 1} disc 29.3 motor 0.9642 sat 0.1
+x1_brk1.33                 med_seq2   53/54 (98.2%) all 14/15 viol[T0:4 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.9 guard 23.6 motor 0.9608 sat 0.1 tilt 56.34 miss {'late': 1}
+x1_brk1.33                 med_seq1   35/54 (64.8%) all 0/15 viol[T0:6 T1:1 T2:0 T3:0] abort 0 excl 0 disc 21.1 guard 17.4 motor 0.9825 sat 0.11 tilt 54.83 miss {'late': 18, 'crowded_out': 1}
+x1_brk1.33                 hard_seq2  33/54 (61.1%) all 3/15 viol[T0:4 T1:1 T2:1 T3:1] abort 0 excl 0 disc 29.3 guard 23.3 motor 0.9491 sat 0.07 tilt 48.71 miss {'late': 21}
+x1_brk1.33                 med_salvo  17/54 (31.5%) all 0/15 viol[T0:2 T1:1 T2:1 T3:1] abort 0 excl 0 disc 28.9 guard 23.1 motor 0.9682 sat 0.1 tilt 54.08 miss {'crowded_out': 10, 'late': 27}
+x1_brk1.33                 TOTAL      138/216 viol T0:16{'disc': 14, 'motor': 3, 'box': 1, 'net_low': 1} T1:3{'disc': 1, 'box': 1, 'net_low': 1} T2:2{'box': 1, 'net_low': 1} T3:2{'box': 1, 'net_low': 1} disc 21.1 motor 0.9825 sat 0.11
+x1_ax1.2                   med_seq2   52/54 (96.3%) all 14/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.1 guard 23.5 motor 0.9566 sat 0.1 tilt 49.51 miss {'late': 2}
+x1_ax1.2                   med_seq1   36/54 (66.7%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9585 sat 0.08 tilt 51.86 miss {'late': 17, 'crowded_out': 1}
+x1_ax1.2                   hard_seq2  32/54 (59.3%) all 2/15 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 31.4 guard 23.1 motor 0.9181 sat 0.08 tilt 48.32 miss {'late': 20, 'fell_out': 1, 'hit_drone': 1}
+x1_ax1.2                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.9 guard 21.6 motor 0.9506 sat 0.09 tilt 47.24 miss {'crowded_out': 9, 'late': 28}
+x1_ax1.2                   TOTAL      137/216 viol T0:2{'motor': 1, 'disc': 1, 'ball_hit': 1, 'ball_disc': 1} T1:1{'ball_hit': 1, 'ball_disc': 1} T2:1{'ball_hit': 1, 'ball_disc': 1} T3:1{'ball_hit': 1, 'ball_disc': 1} disc 29.1 motor 0.9585 sat 0.1
+x1_dg1.2                   med_seq2   51/54 (94.4%) all 13/15 viol[T0:7 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.8 guard 21.4 motor 0.9597 sat 0.1 tilt 55.83 miss {'late': 3}
+x1_dg1.2                   med_seq1   34/54 (63.0%) all 0/15 viol[T0:8 T1:0 T2:0 T3:0] abort 0 excl 0 disc 25.4 guard 14.7 motor 0.9859 sat 0.1 tilt 56.35 miss {'late': 19, 'crowded_out': 1}
+x1_dg1.2                   hard_seq2  37/54 (68.5%) all 4/15 viol[T0:6 T1:1 T2:1 T3:1] abort 0 excl 0 disc 28.7 guard 21.9 motor 0.9687 sat 0.09 tilt 48.41 miss {'late': 17}
+x1_dg1.2                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:5 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.7 guard 20.9 motor 0.9492 sat 0.07 tilt 48.7 miss {'crowded_out': 11, 'late': 26}
+x1_dg1.2                   TOTAL      139/216 viol T0:26{'disc': 24, 'motor': 4, 'box': 1} T1:1{'box': 1} T2:1{'box': 1} T3:1{'box': 1} disc 25.4 motor 0.9859 sat 0.1
+x1_j20                     med_seq2   52/54 (96.3%) all 13/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.2 motor 0.9361 sat 0.09 tilt 47.57 miss {'late': 2}
+x1_j20                     med_seq1   37/54 (68.5%) all 0/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.3 guard 20.5 motor 0.958 sat 0.1 tilt 51.61 miss {'late': 16, 'crowded_out': 1}
+x1_j20                     hard_seq2  30/54 (55.6%) all 3/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 26.1 motor 0.9177 sat 0.07 tilt 46.88 miss {'late': 24}
+x1_j20                     med_salvo  16/54 (29.6%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 25.6 motor 0.9699 sat 0.09 tilt 49.32 miss {'late': 31, 'crowded_out': 6, 'fell_out': 1}
+x1_j20                     TOTAL      135/216 viol T0:3{'motor': 3} T1:0{} T2:0{} T3:0{} disc 30.3 motor 0.9699 sat 0.1
+x1_j45                     med_seq2   53/54 (98.2%) all 14/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 22.8 motor 0.9561 sat 0.14 tilt 52.58 miss {'late': 1}
+x1_j45                     med_seq1   35/54 (64.8%) all 0/15 viol[T0:3 T1:2 T2:2 T3:2] abort 0 excl 0 disc 28.2 guard 18.7 motor 0.9722 sat 0.2 tilt 57.17 miss {'hit_drone': 2, 'late': 16, 'crowded_out': 1}
+x1_j45                     hard_seq2  34/54 (63.0%) all 4/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.3 guard 23.9 motor 0.9197 sat 0.09 tilt 48.15 miss {'late': 20}
+x1_j45                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 22.3 motor 0.9633 sat 0.09 tilt 51.51 miss {'crowded_out': 9, 'late': 28}
+x1_j45                     TOTAL      139/216 viol T0:5{'motor': 2, 'disc': 2, 'ball_hit': 2, 'ball_disc': 1} T1:2{'ball_hit': 2, 'ball_disc': 1} T2:2{'ball_hit': 2, 'ball_disc': 1} T3:2{'ball_hit': 2} disc 28.2 motor 0.9722 sat 0.2
+x1_av2                     med_seq2   52/54 (96.3%) all 13/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.0 motor 0.9585 sat 0.11 tilt 49.27 miss {'late': 2}
+x1_av2                     med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_av2                     hard_seq2  33/54 (61.1%) all 3/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 24.7 motor 0.9367 sat 0.09 tilt 49.24 miss {'late': 21}
+x1_av2                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 23.5 motor 0.9746 sat 0.1 tilt 50.56 miss {'crowded_out': 9, 'late': 28}
+x1_av2                     TOTAL      140/216 viol T0:2{'motor': 2, 'disc': 1} T1:0{} T2:0{} T3:0{} disc 29.1 motor 0.9801 sat 0.11
+x1_av2.4                   med_seq2   52/54 (96.3%) all 13/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.0 motor 0.9585 sat 0.11 tilt 49.96 miss {'late': 2}
+x1_av2.4                   med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.1 guard 15.3 motor 0.9801 sat 0.1 tilt 53.99 miss {'late': 15, 'crowded_out': 1}
+x1_av2.4                   hard_seq2  33/54 (61.1%) all 3/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.5 guard 24.7 motor 0.9367 sat 0.09 tilt 49.24 miss {'late': 21}
+x1_av2.4                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:1 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 23.5 motor 0.9872 sat 0.13 tilt 51.74 miss {'crowded_out': 8, 'late': 29}
+x1_av2.4                   TOTAL      140/216 viol T0:2{'motor': 2, 'disc': 1} T1:1{'motor': 1} T2:0{} T3:0{} disc 29.1 motor 0.9872 sat 0.13
+x1_tilt40                  med_seq2   52/54 (96.3%) all 13/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.6 motor 0.9644 sat 0.11 tilt 51.08 miss {'late': 2}
+x1_tilt40                  med_seq1   38/54 (70.4%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.5 guard 17.7 motor 0.9818 sat 0.09 tilt 53.96 miss {'late': 15, 'crowded_out': 1}
+x1_tilt40                  hard_seq2  33/54 (61.1%) all 3/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.6 guard 24.7 motor 0.9376 sat 0.09 tilt 49.02 miss {'late': 21}
+x1_tilt40                  med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.7 guard 24.3 motor 0.9579 sat 0.09 tilt 48.77 miss {'crowded_out': 8, 'late': 29}
+x1_tilt40                  TOTAL      140/216 viol T0:1{'motor': 1, 'disc': 1} T1:0{} T2:0{} T3:0{} disc 29.5 motor 0.9818 sat 0.11
+x5_rec0                    med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 24.9 motor 0.2025 sat 0.0 tilt 48.17 miss {}
+x5_rec0                    med_seq1   35/54 (64.8%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.2 guard 23.6 motor 0.2015 sat 0.0 tilt 57.76 miss {'late': 18, 'crowded_out': 1}
+x5_rec0                    hard_seq2  38/54 (70.4%) all 5/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.8 guard 25.4 motor 0.2012 sat 0.0 tilt 50.1 miss {'late': 16}
+x5_rec0                    med_salvo  16/54 (29.6%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.9 guard 25.9 motor 0.207 sat 0.0 tilt 50.17 miss {'late': 33, 'fell_out': 1, 'crowded_out': 4}
+x5_rec0                    TOTAL      143/216 viol T0:2{'disc': 2} T1:0{} T2:0{} T3:0{} disc 29.2 motor 0.207 sat 0.0
+x5_ah3.5                   med_seq2   54/54 (100.0%) all 15/15 viol[T0:8 T1:0 T2:0 T3:0] abort 0 excl 0 disc 27.5 guard 24.1 motor 0.207 sat 0.0 tilt 50.42 miss {}
+x5_ah3.5                   med_seq1   34/54 (63.0%) all 0/15 viol[T0:9 T1:0 T2:0 T3:0] abort 0 excl 0 disc 26.8 guard 21.0 motor 0.2089 sat 0.0 tilt 59.46 miss {'late': 18, 'crowded_out': 2}
+x5_ah3.5                   hard_seq2  42/54 (77.8%) all 7/15 viol[T0:6 T1:3 T2:3 T3:3] abort 0 excl 0 disc 27.5 guard 22.2 motor 0.2372 sat 0.0 tilt 48.21 miss {'hit_drone': 2, 'late': 10}
+x5_ah3.5                   med_salvo  16/54 (29.6%) all 0/15 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 30.4 guard 23.4 motor 0.2031 sat 0.0 tilt 50.74 miss {'hit_drone': 1, 'late': 28, 'crowded_out': 8, 'fell_out': 1}
+x5_ah3.5                   TOTAL      146/216 viol T0:24{'disc': 21, 'ball_hit': 3, 'ball_disc': 3, 'box': 1} T1:4{'ball_hit': 3, 'ball_disc': 2, 'box': 1} T2:4{'ball_hit': 3, 'ball_disc': 1, 'box': 1} T3:4{'ball_hit': 3, 'ball_disc': 1, 'box': 1} disc 26.8 motor 0.2372 sat 0.0
+x5_ah4                     med_seq2   54/54 (100.0%) all 15/15 viol[T0:14 T1:3 T2:0 T3:0] abort 0 excl 0 disc 22.6 guard 19.3 motor 0.2152 sat 0.0 tilt 54.73 miss {}
+x5_ah4                     med_seq1   38/54 (70.4%) all 2/15 viol[T0:15 T1:2 T2:1 T3:0] abort 0 excl 0 disc 19.3 guard 15.7 motor 0.2193 sat 0.0 tilt 58.91 miss {'late': 14, 'crowded_out': 2}
+x5_ah4                     hard_seq2  46/54 (85.2%) all 9/15 viol[T0:13 T1:1 T2:1 T3:1] abort 0 excl 0 disc 11.9 guard 4.7 motor 0.2243 sat 0.0 tilt 52.31 miss {'hit_drone': 1, 'late': 7}
+x5_ah4                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:9 T1:1 T2:0 T3:0] abort 0 excl 0 disc 24.8 guard 20.8 motor 0.2032 sat 0.0 tilt 51.13 miss {'crowded_out': 10, 'late': 27}
+x5_ah4                     TOTAL      155/216 viol T0:51{'disc': 51, 'ball_disc': 2, 'guard': 1, 'ball_hit': 1} T1:7{'disc': 7, 'guard': 1, 'ball_hit': 1, 'ball_disc': 1} T2:2{'disc': 2, 'guard': 1, 'ball_hit': 1, 'ball_disc': 1} T3:1{'disc': 1, 'guard': 1, 'ball_hit': 1, 'ball_disc': 1} disc 11.9 motor 0.2243 sat 0.0
+x5_ah4.5                   med_seq2   54/54 (100.0%) all 15/15 viol[T0:15 T1:8 T2:1 T3:0] abort 0 excl 0 disc 18.8 guard 14.4 motor 0.2392 sat 0.0 tilt 52.11 miss {}
+x5_ah4.5                   med_seq1   37/54 (68.5%) all 2/15 viol[T0:15 T1:8 T2:2 T3:0] abort 0 excl 0 disc 16.5 guard 11.7 motor 0.2339 sat 0.0 tilt 55.65 miss {'late': 12, 'crowded_out': 5}
+x5_ah4.5                   hard_seq2  49/54 (90.7%) all 11/15 viol[T0:15 T1:3 T2:0 T3:0] abort 0 excl 0 disc 21.9 guard 12.7 motor 0.2238 sat 0.0 tilt 53.48 miss {'late': 5}
+x5_ah4.5                   med_salvo  16/54 (29.6%) all 0/15 viol[T0:11 T1:1 T2:0 T3:0] abort 0 excl 0 disc 24.7 guard 20.3 motor 0.2056 sat 0.0 tilt 54.51 miss {'crowded_out': 10, 'late': 27, 'fell_out': 1}
+x5_ah4.5                   TOTAL      156/216 viol T0:56{'disc': 56} T1:20{'disc': 20} T2:3{'disc': 3} T3:0{} disc 16.5 motor 0.2392 sat 0.0
+x5_brk1.2                  med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 23.7 motor 0.21 sat 0.0 tilt 50.31 miss {}
+x5_brk1.2                  med_seq1   38/54 (70.4%) all 0/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.6 guard 22.1 motor 0.2117 sat 0.0 tilt 55.62 miss {'late': 15, 'crowded_out': 1}
+x5_brk1.2                  hard_seq2  41/54 (75.9%) all 6/15 viol[T0:2 T1:1 T2:1 T3:1] abort 0 excl 0 disc 27.6 guard 25.1 motor 0.2114 sat 0.0 tilt 48.69 miss {'late': 13}
+x5_brk1.2                  med_salvo  16/54 (29.6%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.9 guard 24.7 motor 0.2054 sat 0.0 tilt 51.15 miss {'late': 31, 'crowded_out': 6, 'fell_out': 1}
+x5_brk1.2                  TOTAL      149/216 viol T0:5{'disc': 4, 'box': 1} T1:1{'box': 1} T2:1{'box': 1} T3:1{'box': 1} disc 27.6 motor 0.2117 sat 0.0
+x5_brk1.33                 med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 24.7 motor 0.2067 sat 0.0 tilt 51.21 miss {}
+x5_brk1.33                 med_seq1   38/54 (70.4%) all 1/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 23.1 motor 0.2034 sat 0.0 tilt 55.75 miss {'late': 15, 'crowded_out': 1}
+x5_brk1.33                 hard_seq2  43/54 (79.6%) all 8/15 viol[T0:3 T1:0 T2:0 T3:0] abort 0 excl 0 disc 26.9 guard 23.5 motor 0.2029 sat 0.0 tilt 51.75 miss {'late': 11}
+x5_brk1.33                 med_salvo  16/54 (29.6%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 23.1 motor 0.1955 sat 0.0 tilt 50.88 miss {'late': 30, 'crowded_out': 7, 'fell_out': 1}
+x5_brk1.33                 TOTAL      151/216 viol T0:7{'disc': 7} T1:0{} T2:0{} T3:0{} disc 26.9 motor 0.2067 sat 0.0
+x5_ax1.2                   med_seq2   54/54 (100.0%) all 15/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.7 guard 23.5 motor 0.2029 sat 0.0 tilt 49.4 miss {}
+x5_ax1.2                   med_seq1   36/54 (66.7%) all 1/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 22.9 motor 0.2029 sat 0.0 tilt 58.73 miss {'late': 18}
+x5_ax1.2                   hard_seq2  39/54 (72.2%) all 4/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 25.3 motor 0.1962 sat 0.0 tilt 48.74 miss {'late': 15}
+x5_ax1.2                   med_salvo  17/54 (31.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.7 guard 24.2 motor 0.1959 sat 0.0 tilt 52.03 miss {'late': 32, 'crowded_out': 5}
+x5_ax1.2                   TOTAL      146/216 viol T0:2{'disc': 2} T1:0{} T2:0{} T3:0{} disc 29.8 motor 0.2029 sat 0.0
+x5_dg1.0                   med_seq2   54/54 (100.0%) all 15/15 viol[T0:3 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.8 guard 24.4 motor 0.2061 sat 0.0 tilt 49.44 miss {}
+x5_dg1.0                   med_seq1   37/54 (68.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.7 guard 22.3 motor 0.2008 sat 0.0 tilt 51.68 miss {'late': 16, 'crowded_out': 1}
+x5_dg1.0                   hard_seq2  42/54 (77.8%) all 6/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.1 guard 25.6 motor 0.1962 sat 0.0 tilt 49.59 miss {'late': 12}
+x5_dg1.0                   med_salvo  16/54 (29.6%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.2 guard 25.3 motor 0.2009 sat 0.0 tilt 51.85 miss {'late': 31, 'crowded_out': 6, 'fell_out': 1}
+x5_dg1.0                   TOTAL      149/216 viol T0:3{'disc': 3} T1:0{} T2:0{} T3:0{} disc 28.8 motor 0.2061 sat 0.0
+x5_j15                     med_seq2   54/54 (100.0%) all 15/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 27.0 guard 23.8 motor 0.1995 sat 0.0 tilt 46.68 miss {}
+x5_j15                     med_seq1   35/54 (64.8%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.5 guard 23.8 motor 0.2032 sat 0.0 tilt 49.82 miss {'late': 19}
+x5_j15                     hard_seq2  38/54 (70.4%) all 5/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.3 guard 26.1 motor 0.1928 sat 0.0 tilt 47.51 miss {'late': 16}
+x5_j15                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.1 guard 24.5 motor 0.2033 sat 0.0 tilt 48.78 miss {'late': 35, 'crowded_out': 2}
+x5_j15                     TOTAL      144/216 viol T0:4{'disc': 3, 'ball_disc': 1} T1:0{} T2:0{} T3:0{} disc 27.0 motor 0.2033 sat 0.0
+x5_j30                     med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.0 guard 24.4 motor 0.2054 sat 0.0 tilt 48.69 miss {}
+x5_j30                     med_seq1   37/54 (68.5%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 31.0 guard 23.5 motor 0.2056 sat 0.0 tilt 54.15 miss {'late': 16, 'crowded_out': 1}
+x5_j30                     hard_seq2  41/54 (75.9%) all 6/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.8 guard 25.0 motor 0.1957 sat 0.0 tilt 48.8 miss {'late': 13}
+x5_j30                     med_salvo  17/54 (31.5%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.3 guard 24.3 motor 0.1961 sat 0.0 tilt 51.66 miss {'late': 32, 'crowded_out': 5}
+x5_j30                     TOTAL      149/216 viol T0:2{'disc': 1, 'ball_disc': 1} T1:0{} T2:0{} T3:0{} disc 29.0 motor 0.2056 sat 0.0
+x5_tilt45                  med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 24.9 motor 0.2032 sat 0.0 tilt 49.8 miss {}
+x5_tilt45                  med_seq1   35/54 (64.8%) all 0/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.2 guard 23.7 motor 0.2016 sat 0.0 tilt 58.69 miss {'late': 18, 'crowded_out': 1}
+x5_tilt45                  hard_seq2  38/54 (70.4%) all 5/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.8 guard 25.5 motor 0.2012 sat 0.0 tilt 51.37 miss {'late': 16}
+x5_tilt45                  med_salvo  16/54 (29.6%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.9 guard 25.9 motor 0.207 sat 0.0 tilt 50.17 miss {'late': 33, 'fell_out': 1, 'crowded_out': 4}
+x5_tilt45                  TOTAL      143/216 viol T0:2{'disc': 2} T1:0{} T2:0{} T3:0{} disc 29.2 motor 0.207 sat 0.0
+x5_ah4_tilt45              med_seq2   54/54 (100.0%) all 15/15 viol[T0:14 T1:3 T2:0 T3:0] abort 0 excl 0 disc 22.9 guard 19.9 motor 0.2145 sat 0.0 tilt 55.1 miss {}
+x5_ah4_tilt45              med_seq1   35/52 (67.3%) all 2/15 viol[T0:15 T1:4 T2:2 T3:1] abort 1 excl 2 disc 19.1 guard 15.4 motor 0.2185 sat 0.0 tilt 60.6 miss {'late': 13, 'trial_aborted': 1, 'crowded_out': 3}
+x5_ah4_tilt45              hard_seq2  47/54 (87.0%) all 9/15 viol[T0:13 T1:1 T2:1 T3:1] abort 0 excl 0 disc 26.0 guard 19.7 motor 0.2113 sat 0.0 tilt 54.2 miss {'late': 7}
+x5_ah4_tilt45              med_salvo  17/54 (31.5%) all 0/15 viol[T0:9 T1:1 T2:0 T3:0] abort 0 excl 0 disc 24.7 guard 20.8 motor 0.2033 sat 0.0 tilt 52.94 miss {'crowded_out': 10, 'late': 27}
+x5_ah4_tilt45              TOTAL      153/214 viol T0:51{'disc': 51, 'control': 1, 'ball_disc': 2, 'ball_hit': 1} T1:9{'disc': 7, 'control': 1, 'ball_hit': 1, 'ball_disc': 1} T2:3{'control': 1, 'disc': 1, 'ball_hit': 1, 'ball_disc': 1} T3:2{'control': 1, 'ball_hit': 1, 'ball_disc': 1} disc 19.1 motor 0.2185 sat 0.0
+x5_av2.5                   med_seq2   54/54 (100.0%) all 15/15 viol[T0:1 T1:0 T2:0 T3:0] abort 0 excl 0 disc 29.8 guard 24.9 motor 0.2025 sat 0.0 tilt 48.39 miss {}
+x5_av2.5                   med_seq1   35/54 (64.8%) all 0/15 viol[T0:2 T1:0 T2:0 T3:0] abort 0 excl 0 disc 28.6 guard 23.6 motor 0.2015 sat 0.0 tilt 57.76 miss {'late': 18, 'crowded_out': 1}
+x5_av2.5                   hard_seq2  38/54 (70.4%) all 5/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.7 guard 25.4 motor 0.2012 sat 0.0 tilt 50.1 miss {'late': 16}
+x5_av2.5                   med_salvo  16/54 (29.6%) all 0/15 viol[T0:0 T1:0 T2:0 T3:0] abort 0 excl 0 disc 30.4 guard 25.9 motor 0.21 sat 0.0 tilt 51.67 miss {'late': 33, 'fell_out': 1, 'crowded_out': 4}
+x5_av2.5                   TOTAL      143/216 viol T0:3{'disc': 3} T1:0{} T2:0{} T3:0{} disc 28.6 motor 0.21 sat 0.0

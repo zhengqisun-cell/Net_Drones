@@ -1,0 +1,2 @@
+{"note": "thrust x1 AGGRESSIVE (not recommended: the 90 % motor rule broken in 29 of 120 trials): S-curve jerk 20, no derating with balls in the net (loaded_accel_factor 1.0)",
+ "traj": {"jerk": 20.0}, "loaded_accel_factor": 1.0}

@@ -1,0 +1,61 @@
+30 seeds (1-30) per group. caught/balls (%), all caught / trials, trials with any safety item exceeded [items]
+
+x1 baseline  (total 295/516 = 57.2 %, violation trials 5/120)
+  medium 2 s    113/129 (87.6 %)  all 19/30  viol 1 {'ball_rotor': 1}  excluded 0  disc 32.1 guard 25.5 motor 0.9323 tilt 48.68  fell out 0 hit drone 1 aborted 0
+  medium 1 s    81/129 (62.8 %)  all 1/30  viol 0 {}  excluded 0  disc 32.1 guard 25.1 motor 0.9544 tilt 51.64  fell out 1 hit drone 0 aborted 0
+  hard 2 s      67/129 (51.9 %)  all 2/30  viol 1 {'ball_rotor': 1}  excluded 0  disc 32.2 guard 26.0 motor 0.9248 tilt 44.75  fell out 0 hit drone 1 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 3 {'motor90': 2, 'net_low': 1}  excluded 0  disc 32.2 guard 25.2 motor 0.9867 tilt 53.74  fell out 0 hit drone 0 aborted 0
+
+x1 RECOMMENDED: S-curve j30, a_v 1.6  (total 315/516 = 61.0 %, violation trials 6/120)
+  medium 2 s    119/129 (92.2 %)  all 23/30  viol 0 {}  excluded 0  disc 31.5 guard 25.0 motor 0.9548 tilt 51.71  fell out 0 hit drone 0 aborted 0
+  medium 1 s    89/129 (69.0 %)  all 3/30  viol 1 {'motor90': 1}  excluded 0  disc 30.0 guard 21.3 motor 0.9587 tilt 53.58  fell out 0 hit drone 0 aborted 0
+  hard 2 s      73/129 (56.6 %)  all 3/30  viol 1 {'box': 1}  excluded 0  disc 31.6 guard 25.3 motor 0.9429 tilt 44.58  fell out 1 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 4 {'motor90': 3, 'net_low': 1}  excluded 0  disc 30.9 guard 24.1 motor 0.9758 tilt 53.7  fell out 0 hit drone 0 aborted 0
+
+x1 S-curve j30 (a_v 2.0)  (total 311/516 = 60.3 %, violation trials 8/120)
+  medium 2 s    118/129 (91.5 %)  all 22/30  viol 1 {'motor90': 1}  excluded 0  disc 31.5 guard 25.0 motor 0.9594 tilt 51.93  fell out 0 hit drone 0 aborted 0
+  medium 1 s    88/129 (68.2 %)  all 3/30  viol 2 {'motor90': 2}  excluded 0  disc 30.0 guard 21.3 motor 0.9643 tilt 53.58  fell out 0 hit drone 0 aborted 0
+  hard 2 s      71/129 (55.0 %)  all 3/30  viol 1 {'box': 1}  excluded 0  disc 31.6 guard 25.3 motor 0.9429 tilt 45.14  fell out 2 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 4 {'net_low': 1, 'motor90': 3}  excluded 0  disc 30.9 guard 24.1 motor 0.991 tilt 56.13  fell out 0 hit drone 0 aborted 0
+
+x1 S-curve j20 + loaded 0.85  (total 323/516 = 62.6 %, violation trials 12/120)
+  medium 2 s    124/129 (96.1 %)  all 26/30  viol 4 {'motor90': 4}  excluded 0  disc 31.3 guard 25.7 motor 0.9738 tilt 47.53  fell out 0 hit drone 0 aborted 0
+  medium 1 s    84/129 (65.1 %)  all 2/30  viol 3 {'motor90': 3}  excluded 0  disc 31.0 guard 22.6 motor 0.9829 tilt 53.11  fell out 0 hit drone 0 aborted 0
+  hard 2 s      81/129 (62.8 %)  all 4/30  viol 3 {'motor90': 2, 'net_low': 1, 'box': 1}  excluded 0  disc 31.7 guard 25.4 motor 0.9641 tilt 47.64  fell out 0 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 2 {'motor90': 2}  excluded 0  disc 30.1 guard 26.4 motor 0.986 tilt 54.54  fell out 0 hit drone 0 aborted 0
+
+x1 S-curve j30 + loaded 0.85 (first pick, demoted)  (total 329/516 = 63.8 %, violation trials 11/120)
+  medium 2 s    126/129 (97.7 %)  all 27/30  viol 4 {'motor90': 4}  excluded 0  disc 30.6 guard 23.8 motor 0.9794 tilt 51.93  fell out 0 hit drone 0 aborted 0
+  medium 1 s    87/129 (67.4 %)  all 2/30  viol 4 {'motor90': 3, 'ball_rotor': 1}  excluded 0  disc 30.0 guard 21.3 motor 0.972 tilt 53.58  fell out 0 hit drone 1 aborted 0
+  hard 2 s      82/129 (63.6 %)  all 5/30  viol 0 {}  excluded 0  disc 31.6 guard 25.3 motor 0.9672 tilt 47.03  fell out 1 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 3 {'motor90': 3}  excluded 0  disc 30.9 guard 24.1 motor 0.9894 tilt 56.13  fell out 0 hit drone 0 aborted 0
+
+x1 AGGRESSIVE: S-curve j20 + loaded 1.0  (total 335/516 = 64.9 %, violation trials 31/120)
+  medium 2 s    127/129 (98.5 %)  all 28/30  viol 15 {'motor90': 15, 'clearance': 1}  excluded 0  disc 29.8 guard 24.4 motor 0.983 tilt 48.91  fell out 0 hit drone 0 aborted 0
+  medium 1 s    85/129 (65.9 %)  all 2/30  viol 8 {'motor90': 6, 'clearance': 2, 'ball_rotor': 2}  excluded 0  disc 7.5 guard 0.0 motor 0.9829 tilt 57.36  fell out 0 hit drone 1 aborted 0
+  hard 2 s      89/129 (69.0 %)  all 6/30  viol 5 {'motor90': 5, 'ball_rotor': 1}  excluded 0  disc 30.3 guard 23.1 motor 0.9888 tilt 48.33  fell out 0 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 3 {'motor90': 3}  excluded 0  disc 30.1 guard 25.4 motor 0.9829 tilt 54.54  fell out 0 hit drone 0 aborted 0
+
+x5 baseline  (total 329/516 = 63.8 %, violation trials 8/120)
+  medium 2 s    126/129 (97.7 %)  all 27/30  viol 2 {'clearance': 2}  excluded 0  disc 29.8 guard 24.7 motor 0.2141 tilt 49.99  fell out 0 hit drone 0 aborted 0
+  medium 1 s    88/129 (68.2 %)  all 2/30  viol 1 {'ball_rotor': 1}  excluded 0  disc 30.0 guard 24.7 motor 0.2181 tilt 54.41  fell out 0 hit drone 0 aborted 0
+  hard 2 s      81/129 (62.8 %)  all 6/30  viol 3 {'clearance': 3, 'ball_rotor': 2}  excluded 0  disc 20.8 guard 13.2 motor 0.2341 tilt 54.08  fell out 0 hit drone 2 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 2 {'clearance': 2}  excluded 0  disc 28.5 guard 25.7 motor 0.2119 tilt 50.99  fell out 0 hit drone 0 aborted 0
+
+x5 RECOMMENDED: S-curve j20, diagonal x0.9  (total 331/516 = 64.1 %, violation trials 9/120)
+  medium 2 s    126/129 (97.7 %)  all 27/30  viol 0 {}  excluded 0  disc 30.0 guard 23.7 motor 0.207 tilt 50.69  fell out 0 hit drone 0 aborted 0
+  medium 1 s    85/129 (65.9 %)  all 2/30  viol 3 {'clearance': 1, 'ball_rotor': 3}  excluded 0  disc 15.5 guard 12.5 motor 0.232 tilt 55.02  fell out 0 hit drone 1 aborted 0
+  hard 2 s      86/129 (66.7 %)  all 7/30  viol 4 {'ball_rotor': 2, 'clearance': 2}  excluded 0  disc 25.8 guard 21.6 motor 0.2047 tilt 49.24  fell out 0 hit drone 1 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 2 {'clearance': 2}  excluded 0  disc 29.9 guard 25.1 motor 0.2128 tilt 48.9  fell out 0 hit drone 0 aborted 0
+
+x5 S-curve j20 (first pick, demoted)  (total 336/516 = 65.1 %, violation trials 13/120)
+  medium 2 s    126/129 (97.7 %)  all 27/30  viol 4 {'clearance': 4}  excluded 0  disc 29.5 guard 24.2 motor 0.218 tilt 50.51  fell out 0 hit drone 0 aborted 0
+  medium 1 s    87/129 (67.4 %)  all 2/30  viol 3 {'clearance': 2, 'ball_rotor': 2}  excluded 0  disc 18.5 guard 11.6 motor 0.2144 tilt 55.22  fell out 0 hit drone 1 aborted 0
+  hard 2 s      89/129 (69.0 %)  all 7/30  viol 4 {'clearance': 4}  excluded 0  disc 26.6 guard 23.1 motor 0.2017 tilt 49.92  fell out 0 hit drone 0 aborted 0
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 2 {'clearance': 2}  excluded 0  disc 29.2 guard 25.0 motor 0.2161 tilt 50.67  fell out 0 hit drone 0 aborted 0
+
+x5 AGGRESSIVE: S-curve j20 + braking 4 m/s^2  (total 351/516 = 68.0 %, violation trials 32/120)
+  medium 2 s    127/129 (98.5 %)  all 28/30  viol 9 {'clearance': 9}  excluded 0  disc 26.3 guard 21.6 motor 0.2272 tilt 51.44  fell out 0 hit drone 0 aborted 0
+  medium 1 s    94/129 (72.9 %)  all 6/30  viol 6 {'clearance': 5, 'ball_rotor': 2}  excluded 0  disc 20.8 guard 16.0 motor 0.207 tilt 55.86  fell out 0 hit drone 1 aborted 0
+  hard 2 s      96/129 (74.4 %)  all 10/30  viol 12 {'clearance': 11, 'control': 1, 'net_low': 1, 'slack': 1, 'box': 2}  excluded 0  disc 7.2 guard 0.2 motor 0.3929 tilt 60.37  fell out 0 hit drone 0 aborted 1
+  medium salvo  34/129 (26.4 %)  all 0/30  viol 5 {'clearance': 5}  excluded 0  disc 25.9 guard 22.7 motor 0.2149 tilt 53.92  fell out 0 hit drone 0 aborted 0

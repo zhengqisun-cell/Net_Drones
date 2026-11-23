@@ -1,0 +1,9 @@
+{
+ "note": "x1: candidate net-centre heights 0.7-9.3 m every 0.3 m, no height-change penalty",
+ "z_net_range": [
+  0.7,
+  9.3
+ ],
+ "z_net_step": 0.3,
+ "dz_penalty": 0.0
+}

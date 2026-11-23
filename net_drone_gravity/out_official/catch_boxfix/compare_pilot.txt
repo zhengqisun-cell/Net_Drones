@@ -1,0 +1,11 @@
+Pilot (seeds 101-115, 10 balls, x5): fix off = catch_10balls/runs/pilot_101-115.json, fix on = runs/pilot_101-115.json
+setting           group  caught off -> on   viol off/on  box on  ref_out on  ref_below on  fallbacks on (brake/kept/floor-kept)  caught changed (seed, off, on)  aborts on
+x5_tier0_10balls  med2   147 -> 147/150     1/1         0      0.000        0.0294  0/0/4  []  []
+x5_tier0_10balls  med1    90 ->  90/150     1/1         0      0.000        0.0041  1/0/0  []  []
+x5_tier0_10balls  hard2   86 ->  84/145     3/2         0      0.000        0.0893  1/3/17  [(108, 4, 6), (111, 8, 7), (114, 5, 2)]  [(114, {'t_s': 26.96, 'tilt_deg': 60.0, 'alt_err_m': 0.042})]
+x5_tier0_10balls  hard1   53 ->  56/150     3/1         0      0.000        0.0417  4/11/18  [(107, 3, 4), (112, 1, 2), (114, 1, 2)]  []
+x5_tier1_10balls  med2   150 -> 149/150     0/0         0      0.000        0.0320  0/0/4  [(101, 10, 9)]  []
+x5_tier1_10balls  med1    98 ->  98/150     0/0         0      0.000        0.0067  0/0/0  []  []
+x5_tier1_10balls  hard2  102 -> 102/150     3/3         0      0.000        0.0276  0/3/17  [(113, 4, 5), (114, 6, 5)]  []
+x5_tier1_10balls  hard1   65 ->  65/150     2/2         0      0.000        0.0271  2/1/16  []  []
+Seed 114 (tier 0, hard 2 s): one floor-keep shifted the path; the trial later aborted at a 60.0 deg tilt (t = 26.96 s): 5 -> 2 caught.

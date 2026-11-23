@@ -1,0 +1,18 @@
+{
+ "note": "tier 3 (motor line none (saturation reported), rotor-disc line 15 mm), thrust x5: screening variant x5_ah5_j40_dg0.8 (round q3, seeds 101-130) -- use with --thrust-scale 5",
+ "max_tilt_deg": 40.0,
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 5.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 5.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "traj": {
+  "jerk": 40.0,
+  "diag_factor": 0.8
+ }
+}

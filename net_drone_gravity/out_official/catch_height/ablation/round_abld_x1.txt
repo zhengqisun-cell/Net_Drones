@@ -1,0 +1,13 @@
+abl: 180 trials in 275 s, 0 errors
+F_mvL        med_seq2  balls 0.716 all 0.267 allclean 0.267 clean 1.000 miss {'late': 19} viol {} zc50 0.704 zc90 0.97 vh50 0.786 disc 32.1 motor 0.96 hits 0 ab 0 netlow 0.5339
+F_mvL        med_seq1  balls 0.582 all 0.067 allclean 0.067 clean 1.000 miss {'late': 26, 'crowded_out': 2} viol {} zc50 0.721 zc90 0.955 vh50 0.774 disc 32.1 motor 0.93 hits 0 ab 0 netlow 0.499
+F_mvL        hard_seq2 balls 0.418 all 0.000 allclean 0.000 clean 0.800 miss {'late': 37, 'fell_out': 1, 'hit_drone': 1} viol {'clearance': 1, 'ball_rotor': 1, 'box': 2} zc50 0.706 zc90 0.965 vh50 1.39 disc 18.1 motor 0.94 hits 1 ab 0 netlow 0.4352
+F_mvL        med_salvo balls 0.298 all 0.000 allclean 0.000 clean 1.000 miss {'late': 23, 'crowded_out': 24} viol {} zc50 0.716 zc90 2.075 vh50 0.508 disc 31.7 motor 0.94 hits 0 ab 0 netlow 0.5172
+F_mvL_v1bf1  med_seq2  balls 0.791 all 0.333 allclean 0.333 clean 1.000 miss {'late': 14} viol {} zc50 0.704 zc90 0.945 vh50 1.013 disc 32.1 motor 0.91 hits 0 ab 0 netlow 0.5386
+F_mvL_v1bf1  med_seq1  balls 0.582 all 0.067 allclean 0.067 clean 1.000 miss {'late': 26, 'crowded_out': 2} viol {} zc50 0.702 zc90 0.926 vh50 0.93 disc 32.1 motor 0.93 hits 0 ab 0 netlow 0.5371
+F_mvL_v1bf1  hard_seq2 balls 0.522 all 0.067 allclean 0.067 clean 0.933 miss {'late': 31, 'hit_drone': 1} viol {'ball_rotor': 1} zc50 0.705 zc90 0.956 vh50 1.001 disc 32.1 motor 0.90 hits 1 ab 0 netlow 0.5201
+F_mvL_v1bf1  med_salvo balls 0.269 all 0.000 allclean 0.000 clean 1.000 miss {'late': 27, 'crowded_out': 21, 'fell_out': 1} viol {} zc50 0.815 zc90 1.633 vh50 0.396 disc 31.7 motor 0.95 hits 0 ab 0 netlow 0.5184
+F_mvL_bf1    med_seq2  balls 0.672 all 0.267 allclean 0.267 clean 0.867 miss {'late': 20, 'hit_drone': 2} viol {'ball_rotor': 2, 'control': 1} zc50 0.698 zc90 0.947 vh50 1.012 disc 32.1 motor 0.94 hits 2 ab 1 netlow 0.5197
+F_mvL_bf1    med_seq1  balls 0.537 all 0.067 allclean 0.067 clean 1.000 miss {'late': 26, 'crowded_out': 5} viol {} zc50 0.725 zc90 0.988 vh50 0.861 disc 32.1 motor 0.93 hits 0 ab 0 netlow 0.5303
+F_mvL_bf1    hard_seq2 balls 0.388 all 0.000 allclean 0.000 clean 0.800 miss {'late': 41} viol {'box': 2, 'net_low': 1} zc50 0.695 zc90 1.01 vh50 1.5 disc 32.0 motor 0.90 hits 0 ab 0 netlow 0.2219
+F_mvL_bf1    med_salvo balls 0.269 all 0.000 allclean 0.000 clean 1.000 miss {'late': 27, 'crowded_out': 22} viol {} zc50 0.956 zc90 1.675 vh50 0.392 disc 31.7 motor 0.94 hits 0 ab 0 netlow 0.5188

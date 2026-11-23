@@ -1,0 +1,393 @@
+{
+  "mode": "sweep",
+  "wall_time_s": 51.2,
+  "visit_order_m": [
+    1.16,
+    1.1,
+    1.0,
+    0.9,
+    1.2,
+    1.23,
+    1.25,
+    1.27,
+    1.29,
+    1.31,
+    1.33
+  ],
+  "rows": [
+    {
+      "window_s": [
+        32.5,
+        34.5
+      ],
+      "spacing_ref_m": 0.9000000000000002,
+      "spacing_m": 0.9019865181968372,
+      "pos_rms_mm": [
+        1.073,
+        1.073,
+        0.009
+      ],
+      "pos_err_max_mm": 1.8849646613525173,
+      "pos_err_mean_mm": 1.4127064443504413,
+      "sag_below_drones_m": 0.8396207509255618,
+      "sag_of_net_m": 0.6561055109002347,
+      "sag_std_mm": 0.5501601358062821,
+      "net_corner_span_m": 0.7463365356026821,
+      "string_angle_deg": 57.11745646966112,
+      "tilt_deg": 4.174307267547847,
+      "tilt_pred_deg": 4.17336493453225,
+      "tension_N": 0.05840769743354581,
+      "tension_pred_N": 0.058407784776277276,
+      "pull_horizontal_gf": 3.2324845704753296,
+      "motor_frac_mean": 0.5446737115425747,
+      "motor_frac_max": 0.5596310140191045
+    },
+    {
+      "window_s": [
+        25.5,
+        27.5
+      ],
+      "spacing_ref_m": 1.0,
+      "spacing_m": 1.0037698167179157,
+      "pos_rms_mm": [
+        1.992,
+        1.992,
+        0.02
+      ],
+      "pos_err_max_mm": 3.2401361408310736,
+      "pos_err_mean_mm": 2.6790894552002444,
+      "sag_below_drones_m": 0.7526352030476895,
+      "sag_of_net_m": 0.5848525335819224,
+      "sag_std_mm": 0.9681646094534079,
+      "net_corner_span_m": 0.8177268837873903,
+      "string_angle_deg": 49.59296419109347,
+      "tilt_deg": 5.488461308304814,
+      "tilt_pred_deg": 5.488194198768669,
+      "tension_N": 0.06441454626574221,
+      "tension_pred_N": 0.06441583647486031,
+      "pull_horizontal_gf": 4.256392367095777,
+      "motor_frac_mean": 0.5457291214383821,
+      "motor_frac_max": 0.5654745464034221
+    },
+    {
+      "window_s": [
+        18.5,
+        20.5
+      ],
+      "spacing_ref_m": 1.0999999999999996,
+      "spacing_m": 1.1048199591865941,
+      "pos_rms_mm": [
+        2.49,
+        2.49,
+        0.025
+      ],
+      "pos_err_max_mm": 3.6537109496288522,
+      "pos_err_mean_mm": 3.420984656992801,
+      "sag_below_drones_m": 0.6447089403880178,
+      "sag_of_net_m": 0.4999553672312345,
+      "sag_std_mm": 1.183572288393927,
+      "net_corner_span_m": 0.8855040759539946,
+      "string_angle_deg": 40.309446190729666,
+      "tilt_deg": 7.576928818823539,
+      "tilt_pred_deg": 7.578327167144773,
+      "tension_N": 0.0758171908671938,
+      "tension_pred_N": 0.07582133874933397,
+      "pull_horizontal_gf": 5.893827505845257,
+      "motor_frac_mean": 0.5480094799649817,
+      "motor_frac_max": 0.575300131045123
+    },
+    {
+      "window_s": [
+        11.5,
+        13.5
+      ],
+      "spacing_ref_m": 1.16,
+      "spacing_m": 1.1609531900159857,
+      "pos_rms_mm": [
+        0.486,
+        0.486,
+        0.004
+      ],
+      "pos_err_max_mm": 0.6637974905993049,
+      "pos_err_mean_mm": 0.6750053549435903,
+      "sag_below_drones_m": 0.5691992405156627,
+      "sag_of_net_m": 0.44241883357286527,
+      "sag_std_mm": 0.2840533729900356,
+      "net_corner_span_m": 0.9217045642789989,
+      "string_angle_deg": 33.894538822724606,
+      "tilt_deg": 9.535929716130825,
+      "tilt_pred_deg": 9.536531610151345,
+      "tension_N": 0.08795422362194909,
+      "tension_pred_N": 0.08795587427132479,
+      "pull_horizontal_gf": 7.442317201795932,
+      "motor_frac_mean": 0.5508391559100687,
+      "motor_frac_max": 0.58481855522589
+    },
+    {
+      "window_s": [
+        44.5,
+        46.5
+      ],
+      "spacing_ref_m": 1.1999999999999997,
+      "spacing_m": 1.188398163544354,
+      "pos_rms_mm": [
+        5.88,
+        5.88,
+        0.044
+      ],
+      "pos_err_max_mm": 7.654142423816235,
+      "pos_err_mean_mm": 8.225603644877458,
+      "sag_below_drones_m": 0.5256883516723326,
+      "sag_of_net_m": 0.40980261050988204,
+      "sag_std_mm": 2.4176738352522436,
+      "net_corner_span_m": 0.9389865835446696,
+      "string_angle_deg": 30.243532921323858,
+      "tilt_deg": 10.961765864344892,
+      "tilt_pred_deg": 10.956147315740607,
+      "tension_N": 0.09741009731702192,
+      "tension_pred_N": 0.0973839414963381,
+      "pull_horizontal_gf": 8.57586576959706,
+      "motor_frac_mean": 0.5533385614136663,
+      "motor_frac_max": 0.5931816248677737
+    },
+    {
+      "window_s": [
+        51.5,
+        53.5
+      ],
+      "spacing_ref_m": 1.2300000000000002,
+      "spacing_m": 1.220714424877221,
+      "pos_rms_mm": [
+        4.675,
+        4.675,
+        0.03
+      ],
+      "pos_err_max_mm": 5.664114298884471,
+      "pos_err_mean_mm": 6.576481688400276,
+      "sag_below_drones_m": 0.4659831304178643,
+      "sag_of_net_m": 0.36550915523044986,
+      "sag_std_mm": 1.6307545431944157,
+      "net_corner_span_m": 0.9589439271320765,
+      "string_angle_deg": 25.309050496414134,
+      "tilt_deg": 13.42845884110392,
+      "tilt_pred_deg": 13.423875903611044,
+      "tension_N": 0.11475963120718745,
+      "tension_pred_N": 0.11473666287353793,
+      "pull_horizontal_gf": 10.57325871755287,
+      "motor_frac_mean": 0.558508624340876,
+      "motor_frac_max": 0.6069697623160366
+    },
+    {
+      "window_s": [
+        58.5,
+        60.5
+      ],
+      "spacing_ref_m": 1.25,
+      "spacing_m": 1.2403143354563406,
+      "pos_rms_mm": [
+        4.861,
+        4.861,
+        0.026
+      ],
+      "pos_err_max_mm": 5.611193281606641,
+      "pos_err_mean_mm": 6.856366247939195,
+      "sag_below_drones_m": 0.4233832230629942,
+      "sag_of_net_m": 0.3341260318343835,
+      "sag_std_mm": 1.4381247394612569,
+      "net_corner_span_m": 0.970791936201745,
+      "string_angle_deg": 21.85746883585809,
+      "tilt_deg": 15.719707498648736,
+      "tilt_pred_deg": 15.714922597482193,
+      "tension_N": 0.1317752957278687,
+      "tension_pred_N": 0.13174896537742736,
+      "pull_horizontal_gf": 12.464618799743471,
+      "motor_frac_mean": 0.5643470476169709,
+      "motor_frac_max": 0.6209393983281482
+    },
+    {
+      "window_s": [
+        65.5,
+        67.5
+      ],
+      "spacing_ref_m": 1.2699999999999998,
+      "spacing_m": 1.2568638958291816,
+      "pos_rms_mm": [
+        6.581,
+        6.581,
+        0.027
+      ],
+      "pos_err_max_mm": 7.314238829150832,
+      "pos_err_mean_mm": 9.295461703116924,
+      "sag_below_drones_m": 0.3825552587694609,
+      "sag_of_net_m": 0.30411113124447015,
+      "sag_std_mm": 1.5865796775581464,
+      "net_corner_span_m": 0.9806015397927423,
+      "string_angle_deg": 18.622652353520852,
+      "tilt_deg": 18.523974502939947,
+      "tilt_pred_deg": 18.517699701053175,
+      "tension_N": 0.15364047087909202,
+      "tension_pred_N": 0.15360093563000254,
+      "pull_horizontal_gf": 14.837791396245763,
+      "motor_frac_mean": 0.5729259417474009,
+      "motor_frac_max": 0.6397537281596201
+    },
+    {
+      "window_s": [
+        72.5,
+        74.5
+      ],
+      "spacing_ref_m": 1.2899999999999998,
+      "spacing_m": 1.2715563965409067,
+      "pos_rms_mm": [
+        9.231,
+        9.231,
+        0.028
+      ],
+      "pos_err_max_mm": 9.964851937419583,
+      "pos_err_mean_mm": 13.047959271298534,
+      "sag_below_drones_m": 0.34208359623384665,
+      "sag_of_net_m": 0.2743263479344478,
+      "sag_std_mm": 1.7179496668729974,
+      "net_corner_span_m": 0.9892261176907495,
+      "string_angle_deg": 15.51786511512628,
+      "tilt_deg": 22.129194766002502,
+      "tilt_pred_deg": 22.121366893355678,
+      "tension_N": 0.18339518856514916,
+      "tension_pred_N": 0.1833378742638117,
+      "pull_horizontal_gf": 18.00761196897071,
+      "motor_frac_mean": 0.5864464570442587,
+      "motor_frac_max": 0.6664318829145922
+    },
+    {
+      "window_s": [
+        79.5,
+        81.5
+      ],
+      "spacing_ref_m": 1.3100000000000003,
+      "spacing_m": 1.2846819625478674,
+      "pos_rms_mm": [
+        12.665,
+        12.665,
+        0.028
+      ],
+      "pos_err_max_mm": 13.348304536474176,
+      "pos_err_mean_mm": 17.908218669658382,
+      "sag_below_drones_m": 0.30336082816792,
+      "sag_of_net_m": 0.245682153549955,
+      "sag_std_mm": 1.7515436370302553,
+      "net_corner_span_m": 0.9970012446597649,
+      "string_angle_deg": 12.68459934246777,
+      "tilt_deg": 26.641291236911663,
+      "tilt_pred_deg": 26.63184220712855,
+      "tension_N": 0.2234588298291149,
+      "tension_pred_N": 0.22337695090672255,
+      "pull_horizontal_gf": 22.21458960852011,
+      "motor_frac_mean": 0.6077806175902284,
+      "motor_frac_max": 0.7039938396445389
+    },
+    {
+      "window_s": [
+        86.5,
+        88.5
+      ],
+      "spacing_ref_m": 1.33,
+      "spacing_m": 1.2962352821661993,
+      "pos_rms_mm": [
+        16.886,
+        16.886,
+        0.029
+      ],
+      "pos_err_max_mm": 17.53054959246281,
+      "pos_err_mean_mm": 23.880672221909183,
+      "sag_below_drones_m": 0.267683513929459,
+      "sag_of_net_m": 0.2190908321354402,
+      "sag_std_mm": 1.7015533280350679,
+      "net_corner_span_m": 1.0038583046599256,
+      "string_angle_deg": 10.230564432553372,
+      "tilt_deg": 32.0316083909112,
+      "tilt_pred_deg": 32.02075238040114,
+      "tension_N": 0.2762817572299903,
+      "tension_pred_N": 0.27616729574696736,
+      "pull_horizontal_gf": 27.704027776564462,
+      "motor_frac_mean": 0.6408264077446518,
+      "motor_frac_max": 0.7558681141069298
+    }
+  ],
+  "params": {
+    "m_drone": 0.0393,
+    "f_max": 0.2,
+    "arm": 0.05,
+    "inertia": [
+      2.5e-05,
+      2.8e-05,
+      4.9e-05
+    ],
+    "kappa": 0.00593893393599368,
+    "motor_tau": null,
+    "hook_z": -0.015,
+    "L": 1.0,
+    "n": 9,
+    "m_net": 0.02,
+    "string": 0.2,
+    "node_drag": 0.0002,
+    "z_hover": 1.2,
+    "d_takeoff": 1.2,
+    "d_land": 1.2,
+    "z_touch": 0.015,
+    "yaw_deg": 45.0,
+    "prop_radius": 0.0275,
+    "prop_z": 0.012,
+    "clearance_warn": 0.03,
+    "guard_warn": 0.01,
+    "kp": [
+      12.0,
+      12.0,
+      18.75
+    ],
+    "kd": [
+      6.0,
+      6.0,
+      7.5
+    ],
+    "ki": [
+      8.0,
+      8.0,
+      15.6
+    ],
+    "i_clamp": 10.0,
+    "max_tilt_deg": 35.0,
+    "att_wn": 18.0,
+    "att_zeta": 1.2,
+    "sigma_p": 0.001,
+    "sigma_v": 0.005,
+    "dt": 0.001,
+    "seed": 0,
+    "drone_model": "official",
+    "f_min": 0.02136263065537499,
+    "kappa_firmware": 0.00569278844371417,
+    "rotor_xy": 0.035355,
+    "rpm2thrust": [
+      0.0,
+      -3.133427287299859e-07,
+      4.407354891648379e-10
+    ],
+    "rpm2torque": [
+      0.0,
+      1.65886356219615e-09,
+      2.4693477924534137e-12
+    ],
+    "rotor_dyn_coef": [
+      13.996001897562685,
+      0.00011093207920685363,
+      5.933168530682111,
+      0.00031951312393561264
+    ],
+    "drag": [
+      -0.02149163,
+      -0.02149163,
+      -0.02359736
+    ],
+    "prop_inertia": 3.893e-08,
+    "att_ki_factor": 0.2
+  }
+}

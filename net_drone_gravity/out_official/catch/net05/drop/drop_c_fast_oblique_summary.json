@@ -1,0 +1,473 @@
+{
+ "mode": "catch",
+ "n_balls": 1,
+ "n_caught": 1,
+ "all_caught": true,
+ "caught_share": 1.0,
+ "safety_violations": [],
+ "clean": true,
+ "all_caught_clean": true,
+ "aborted": false,
+ "t_end_s": 18.21,
+ "standby_box": [
+  5.0,
+  5.0,
+  1.2
+ ],
+ "h_dn_m": 0.23601578119420946,
+ "h_dn_per_ball_m": 0.0,
+ "t_launch0_s": 16.0,
+ "safety": {
+  "control": {
+   "ok": true,
+   "abort": null,
+   "tilt_max_deg": 30.64,
+   "alt_err_max_mm": 25.1,
+   "floor_contacts_other": 0
+  },
+  "motor90": {
+   "ok": true,
+   "longest_s": 0.0,
+   "motor_max": 0.7491
+  },
+  "clearance": {
+   "ok": true,
+   "disc_min_mm": 35.1,
+   "guard_min_mm": 35.6
+  },
+  "ball_rotor": {
+   "ok": true,
+   "disc_gap_min_mm": null,
+   "shell_gap_min_mm": null,
+   "shell_hits": 0
+  },
+  "net_low": {
+   "ok": true,
+   "net_lowest_m": 0.8365
+  },
+  "separation": {
+   "ok": true,
+   "min_m": 0.7274
+  },
+  "slack": {
+   "ok": true,
+   "slack_max_s": 0.0
+  },
+  "box": {
+   "ok": true,
+   "min_dist_m": 4.5297
+  }
+ },
+ "balls": [
+  {
+   "ball": 0,
+   "t_launch": 16.0,
+   "el_deg": null,
+   "az_deg": null,
+   "speed_m_s": null,
+   "p0_box": [
+    4.795,
+    5.0,
+    1.578
+   ],
+   "v0": [
+    2.2231,
+    0.0,
+    -6.108
+   ],
+   "free_flight": {
+    "apex_m": 1.578,
+    "t_floor_s": 0.237,
+    "floor_box": [
+     5.27,
+     5.0,
+     0.016
+    ]
+   },
+   "standby_offset_m": 0.021,
+   "t_standby_cross_s": 0.086,
+   "prediction": [],
+   "net_contact_s": 2.12,
+   "t_first_contact": 16.1,
+   "end_rel_speed_m_s": 0.0173,
+   "end_box": [
+    4.997,
+    5.0,
+    0.955
+   ],
+   "shell_hits": 0,
+   "shell_hit_first": null,
+   "gap_disc_mm": null,
+   "gap_shell_mm": null,
+   "gap_string_mm": null,
+   "fn_max_N": 1.1083,
+   "t_cross_rotor": 16.06,
+   "cross_offset_m": 0.073,
+   "formation_to_target_m": 0.0,
+   "ref_arrived": true,
+   "chosen_at_cross": -1,
+   "balls_in_net_at_cross": 0,
+   "net_at_cross": {
+    "sag_m": 0.1542,
+    "swing_mm": 2.0
+   },
+   "plan_status_last": null,
+   "plan_status_counts": {},
+   "ever_dropped_conflict": false,
+   "ever_target": false,
+   "planner_view": "in_net",
+   "outcome": "caught",
+   "reason": null
+  }
+ ],
+ "events": [
+  [
+   16.07,
+   0,
+   "arrived"
+  ],
+  [
+   16.37,
+   0,
+   "in_net"
+  ]
+ ],
+ "clearance_phases": {
+  "phase": "cruise",
+  "t_s": [
+   12.5,
+   18.21
+  ],
+  "min": {
+   "value_mm": 35.14581657361554,
+   "t_s": 13.0,
+   "drone": 2,
+   "rotor": 2,
+   "element": "own",
+   "what": "own string str2"
+  },
+  "by_element_mm": {
+   "knot": {
+    "value_mm": 166.90806501322143,
+    "t_s": 16.7,
+    "drone": 0,
+    "rotor": 1,
+    "element": "knot",
+    "what": "knot n8_8"
+   },
+   "link": {
+    "value_mm": 173.5464149474151,
+    "t_s": 16.7,
+    "drone": 3,
+    "rotor": 2,
+    "element": "link",
+    "what": "link a7_0"
+   },
+   "own": {
+    "value_mm": 35.14581657361554,
+    "t_s": 13.0,
+    "drone": 2,
+    "rotor": 2,
+    "element": "own",
+    "what": "own string str2"
+   },
+   "other": {
+    "value_mm": 555.843047601263,
+    "t_s": 16.25,
+    "drone": 0,
+    "rotor": 2,
+    "element": "other",
+    "what": "other string str1"
+   }
+  },
+  "footprint_knots_max": 0,
+  "footprint_knots_max_at": {
+   "t_s": 12.5,
+   "drone": 0
+  },
+  "footprint_frames_with_knots_s": 0.0,
+  "warning": false,
+  "guard": {
+   "min": {
+    "value_mm": 35.60792072563571,
+    "t_s": 16.7,
+    "drone": 0,
+    "element": "own",
+    "what": "own string str0",
+    "guard_rotor": 1,
+    "guard_part": "foot",
+    "guard_point_body_mm": [
+     -36.6,
+     -33.6,
+     -14.1
+    ]
+   },
+   "by_element_mm": {
+    "knot": {
+     "value_mm": 120.68247011995227,
+     "t_s": 16.7,
+     "drone": 3,
+     "element": "knot",
+     "what": "knot n8_0",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    },
+    "link": {
+     "value_mm": 124.72108291844518,
+     "t_s": 16.7,
+     "drone": 3,
+     "element": "link",
+     "what": "link b8_0",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    },
+    "own": {
+     "value_mm": 35.60792072563571,
+     "t_s": 16.7,
+     "drone": 0,
+     "element": "own",
+     "what": "own string str0",
+     "guard_rotor": 1,
+     "guard_part": "foot",
+     "guard_point_body_mm": [
+      -36.6,
+      -33.6,
+      -14.1
+     ]
+    },
+    "other": {
+     "value_mm": 528.1843473616608,
+     "t_s": 16.25,
+     "drone": 0,
+     "element": "other",
+     "what": "other string str1",
+     "guard_rotor": null,
+     "guard_part": "far (bounding-sphere lower bound)",
+     "guard_point_body_mm": null
+    }
+   },
+   "warning": false
+  },
+  "own_string_slack_while_airborne": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "wall_s": 8.7,
+ "replan_wall_s": 0.0,
+ "n_replan": 105,
+ "files": [
+  "drop_c_fast_oblique_summary.json",
+  "drop_c_fast_oblique_log.npz",
+  "drop_c_fast_oblique.png"
+ ],
+ "cfg": {
+  "seed": 1,
+  "tier": null,
+  "el_deg": null,
+  "az_deg": null,
+  "speed_m_s": null,
+  "launch": "sequence",
+  "interval_s": 2.0,
+  "interval_range_s": null,
+  "n_balls": [
+   3,
+   5
+  ],
+  "noise_m": 0.005,
+  "launches": [
+   {
+    "dt": 0.0,
+    "p0": [
+     -0.20521208599540128,
+     0.0,
+     1.5777997912773356
+    ],
+    "v0": [
+     2.2231309316168475,
+     0.0,
+     -6.108002035108404
+    ],
+    "v_prior": [
+     2.2231309316168475,
+     0.0,
+     -6.108002035108404
+    ]
+   }
+  ],
+  "standby": [
+   0.0,
+   0.0,
+   1.2
+  ],
+  "limits": "relaxed",
+  "loaded_accel_factor": 0.7,
+  "standby_accel_factor": 0.5,
+  "t_early_s": 0.25,
+  "t_hold_s": 0.15,
+  "aim_alpha": 0.3,
+  "r_in_m": null,
+  "clear_up_m": null,
+  "z_net_range": [
+   0.7,
+   2.6
+  ],
+  "z_net_step": 0.2,
+  "z_net0": 0.9639842188057905,
+  "replan_hz": 20.0,
+  "n_meas_min": 3,
+  "ff_balls": true,
+  "return_standby": false,
+  "h_dn_per_ball_m": 0.0,
+  "h_dn_table": [
+   0.0
+  ],
+  "hyst": 0.3,
+  "t_after_last_max_s": 6.0,
+  "p_over": {
+   "L": 0.5,
+   "m_net": 0.01,
+   "d_takeoff": 0.71
+  },
+  "spacing": 0.765,
+  "h_dn": 0.23601578119420946,
+  "ff_path": "out_official/net05/sweep/sweep_summary.json",
+  "planner_off": true,
+  "label": "drop_c_fast_oblique",
+  "ekf_q_acc": 0.5,
+  "ekf_sig_v0": 4.0,
+  "net_side": 0.5
+ },
+ "net_contact": {
+  "k_N_m": 100.0,
+  "c_N_s_m": 0.1,
+  "ct_N_s_m": 0.1,
+  "mu": 0.6,
+  "edge_margin_m": 0.02,
+  "depth_max_m": 0.06
+ },
+ "ball": {
+  "d_m": 0.04,
+  "m_kg": 0.0027,
+  "cd": 0.47,
+  "k_1_m": 0.13124875974997358,
+  "v_terminal_m_s": 8.645435988656354
+ },
+ "launcher_box_m": [
+  1.0,
+  5.0,
+  0.3
+ ],
+ "barrel_m": 0.06,
+ "box": {
+  "size_m": 10.0,
+  "offset_m": [
+   5.0,
+   5.0,
+   0.0
+  ]
+ },
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "aero": {
+  "net_drag": true,
+  "rho_air": 1.2,
+  "cd_thread": 1.2,
+  "rho_thread": 1150.0,
+  "thread_d_m": 0.0011091362112066396,
+  "thread_d_derived": true,
+  "thread_length_total_m": 9.0,
+  "drag_area_cd_d_l_m2": 0.011978671081031707,
+  "total_drag_at_1_m_s_N": 0.007187202648619025,
+  "total_drag_at_2_m_s_N": 0.0287488105944761,
+  "linear_stand_in_N_s_m_per_knot": 0.0,
+  "model": "per knot F = -0.5 rho Cd d L_k |v| v, still air, isotropic (thread orientation ignored: overestimates the drag of threads along the flow); corner strings have no drag"
+ },
+ "params": {
+  "m_drone": 0.0393,
+  "f_max": 0.2,
+  "arm": 0.05,
+  "inertia": [
+   2.5e-05,
+   2.8e-05,
+   4.9e-05
+  ],
+  "kappa": 0.00593893393599368,
+  "motor_tau": null,
+  "hook_z": -0.015,
+  "L": 0.5,
+  "n": 9,
+  "m_net": 0.01,
+  "string": 0.2,
+  "node_drag": 0.0002,
+  "z_hover": 1.2,
+  "d_takeoff": 0.71,
+  "d_land": 1.2,
+  "z_touch": 0.015,
+  "yaw_deg": 45.0,
+  "prop_radius": 0.0275,
+  "prop_z": 0.012,
+  "clearance_warn": 0.03,
+  "guard_warn": 0.01,
+  "kp": [
+   12.0,
+   12.0,
+   18.75
+  ],
+  "kd": [
+   6.0,
+   6.0,
+   7.5
+  ],
+  "ki": [
+   8.0,
+   8.0,
+   15.6
+  ],
+  "i_clamp": 10.0,
+  "max_tilt_deg": 35.0,
+  "att_wn": 18.0,
+  "att_zeta": 1.2,
+  "sigma_p": 0.001,
+  "sigma_v": 0.005,
+  "dt": 0.001,
+  "seed": 1,
+  "drone_model": "official",
+  "f_min": 0.02136263065537499,
+  "kappa_firmware": 0.00569278844371417,
+  "rotor_xy": 0.035355,
+  "rpm2thrust": [
+   0.0,
+   -3.133427287299859e-07,
+   4.407354891648379e-10
+  ],
+  "rpm2torque": [
+   0.0,
+   1.65886356219615e-09,
+   2.4693477924534137e-12
+  ],
+  "rotor_dyn_coef": [
+   13.996001897562685,
+   0.00011093207920685363,
+   5.933168530682111,
+   0.00031951312393561264
+  ],
+  "drag": [
+   -0.02149163,
+   -0.02149163,
+   -0.02359736
+  ],
+  "prop_inertia": 3.893e-08,
+  "att_ki_factor": 0.2
+ }
+}

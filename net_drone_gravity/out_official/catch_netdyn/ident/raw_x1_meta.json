@@ -1,0 +1,3764 @@
+[
+ {
+  "label": "x1_n0_h0.5_0",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 0.923,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.83,
+   "t_ready_100mm_s": 1.43,
+   "net_lag_max_mm": 163.0,
+   "net_to_target_end_mm": 6.3,
+   "overshoot_mm": 66.7,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 1.084,
+   "disc_min": {
+    "mm": 33.3,
+    "drone": 3,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "guard_min": {
+    "mm": 27.5,
+    "drone": 3,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    33.3,
+    33.4,
+    33.5,
+    33.3
+   ],
+   "motor_max": 0.8499,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 44.66,
+   "alt_err_max_mm": 73.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h1_0",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.259,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.63,
+   "t_ready_100mm_s": 1.23,
+   "net_lag_max_mm": 123.4,
+   "net_to_target_end_mm": 1.2,
+   "overshoot_mm": 31.8,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 1.589,
+   "disc_min": {
+    "mm": 33.0,
+    "drone": 3,
+    "t_after_start_s": 0.9,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "guard_min": {
+    "mm": 25.7,
+    "drone": 3,
+    "t_after_start_s": 0.9,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    33.3,
+    33.4,
+    33.5,
+    33.0
+   ],
+   "motor_max": 0.8095,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 41.87,
+   "alt_err_max_mm": 56.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h2_0",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.736,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.58,
+   "t_ready_100mm_s": 1.54,
+   "net_lag_max_mm": 105.2,
+   "net_to_target_end_mm": 4.0,
+   "overshoot_mm": 49.5,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 2.304,
+   "disc_min": {
+    "mm": 33.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 27.0,
+    "drone": 3,
+    "t_after_start_s": 1.15,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    33.7,
+    33.4,
+    33.5,
+    33.4
+   ],
+   "motor_max": 0.7705,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.96,
+   "alt_err_max_mm": 35.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h3_0",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 2.076,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.78,
+   "t_ready_100mm_s": 1.88,
+   "net_lag_max_mm": 135.2,
+   "net_to_target_end_mm": 7.7,
+   "overshoot_mm": 75.9,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 2.813,
+   "disc_min": {
+    "mm": 33.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 28.1,
+    "drone": 3,
+    "t_after_start_s": 1.3,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    34.3,
+    33.4,
+    33.5,
+    34.0
+   ],
+   "motor_max": 0.8052,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.96,
+   "alt_err_max_mm": 39.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h0.5_45",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 0.923,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.83,
+   "t_ready_100mm_s": 1.48,
+   "net_lag_max_mm": 187.3,
+   "net_to_target_end_mm": 7.1,
+   "overshoot_mm": 61.1,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 1.084,
+   "disc_min": {
+    "mm": 31.9,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 25.7,
+    "drone": 1,
+    "t_after_start_s": 0.7,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    33.0,
+    34.9,
+    31.9,
+    35.0
+   ],
+   "motor_max": 0.8108,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 46.86,
+   "alt_err_max_mm": 81.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h1_45",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.259,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.0,
+   "t_ready_100mm_s": 1.25,
+   "net_lag_max_mm": 135.0,
+   "net_to_target_end_mm": 2.1,
+   "overshoot_mm": 33.4,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 1.589,
+   "disc_min": {
+    "mm": 31.9,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 26.8,
+    "drone": 1,
+    "t_after_start_s": 0.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    32.8,
+    35.1,
+    31.9,
+    35.1
+   ],
+   "motor_max": 0.7783,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 43.67,
+   "alt_err_max_mm": 67.4,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h2_45",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.736,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.64,
+   "t_ready_100mm_s": 1.53,
+   "net_lag_max_mm": 117.3,
+   "net_to_target_end_mm": 2.7,
+   "overshoot_mm": 50.5,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 2.304,
+   "disc_min": {
+    "mm": 31.9,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 28.3,
+    "drone": 1,
+    "t_after_start_s": 1.15,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    33.0,
+    35.1,
+    31.9,
+    35.1
+   ],
+   "motor_max": 0.7688,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.66,
+   "alt_err_max_mm": 45.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_h3_45",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 2.102,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.84,
+   "t_ready_100mm_s": 1.9,
+   "net_lag_max_mm": 134.3,
+   "net_to_target_end_mm": 1.6,
+   "overshoot_mm": 79.0,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 2.854,
+   "disc_min": {
+    "mm": 31.9,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 3.0
+   },
+   "guard_min": {
+    "mm": 27.2,
+    "drone": 1,
+    "t_after_start_s": 1.3,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    34.3,
+    35.1,
+    31.9,
+    35.1
+   ],
+   "motor_max": 0.7688,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.66,
+   "alt_err_max_mm": 52.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_v0.4",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.055,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.77,
+   "t_ready_100mm_s": 0.69,
+   "net_lag_max_mm": 11.9,
+   "net_to_target_end_mm": 1.4,
+   "overshoot_mm": 7.0,
+   "ref_acc_max_m_s2": 1.6,
+   "ref_speed_max_m_s": 0.758,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.5,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 36.7,
+    "drone": 1,
+    "t_after_start_s": 1.2,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7559,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 21.92,
+   "alt_err_max_mm": 20.6,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_v-0.4",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.055,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.78,
+   "t_ready_100mm_s": 0.69,
+   "net_lag_max_mm": 11.1,
+   "net_to_target_end_mm": 1.2,
+   "overshoot_mm": 8.2,
+   "ref_acc_max_m_s2": 1.6,
+   "ref_speed_max_m_s": 0.758,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 3.6,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 37.4,
+    "drone": 0,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -1.6
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7507,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 21.68,
+   "alt_err_max_mm": 24.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n0_o1_0.4",
+  "t_move": 16.95,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 16.95,
+   "T_plan_s": 1.303,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.57,
+   "t_ready_100mm_s": 1.23,
+   "net_lag_max_mm": 110.4,
+   "net_to_target_end_mm": 1.6,
+   "overshoot_mm": 32.4,
+   "ref_acc_max_m_s2": 3.0,
+   "ref_speed_max_m_s": 1.654,
+   "disc_min": {
+    "mm": 33.7,
+    "drone": 3,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "guard_min": {
+    "mm": 26.9,
+    "drone": 3,
+    "t_after_start_s": 0.9,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -3.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 36.5,
+   "disc_min_per_drone_mm": [
+    34.0,
+    34.0,
+    34.1,
+    33.7
+   ],
+   "motor_max": 0.825,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 40.3,
+   "alt_err_max_mm": 40.4,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h0.5_0",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.37,
+   "t_ready_100mm_s": 0.7,
+   "net_lag_max_mm": 96.8,
+   "net_to_target_end_mm": 2.0,
+   "overshoot_mm": 24.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 34.4,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 29.4,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    34.6,
+    35.0,
+    35.1,
+    34.4
+   ],
+   "motor_max": 0.8052,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.85,
+   "alt_err_max_mm": 44.7,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h1_0",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.41,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 79.8,
+   "net_to_target_end_mm": 1.7,
+   "overshoot_mm": 24.4,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 34.7,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 30.4,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.0,
+    35.0,
+    35.1,
+    34.7
+   ],
+   "motor_max": 0.7652,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 34.01,
+   "alt_err_max_mm": 30.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h2_0",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.16,
+   "t_ready_100mm_s": 1.77,
+   "net_lag_max_mm": 72.4,
+   "net_to_target_end_mm": 2.0,
+   "overshoot_mm": 49.7,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.0,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 32.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.0,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7977,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 33.77,
+   "alt_err_max_mm": 28.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h3_0",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 2.429,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.68,
+   "t_ready_100mm_s": 2.15,
+   "net_lag_max_mm": 84.7,
+   "net_to_target_end_mm": 4.0,
+   "overshoot_mm": 71.5,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.403,
+   "disc_min": {
+    "mm": 35.0,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 32.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.0,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8093,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 35.37,
+   "alt_err_max_mm": 31.7,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h0.5_45",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.35,
+   "t_ready_100mm_s": 0.7,
+   "net_lag_max_mm": 95.9,
+   "net_to_target_end_mm": 1.1,
+   "overshoot_mm": 26.6,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 34.3,
+    "drone": 0,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 30.3,
+    "drone": 1,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    34.3,
+    35.1,
+    34.6,
+    35.1
+   ],
+   "motor_max": 0.7833,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 41.19,
+   "alt_err_max_mm": 56.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h1_45",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.4,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 77.2,
+   "net_to_target_end_mm": 1.1,
+   "overshoot_mm": 24.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 34.6,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 32.2,
+    "drone": 1,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    34.6,
+    35.1,
+    34.6,
+    35.1
+   ],
+   "motor_max": 0.7549,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.7,
+   "alt_err_max_mm": 38.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h2_45",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.16,
+   "t_ready_100mm_s": 1.77,
+   "net_lag_max_mm": 71.9,
+   "net_to_target_end_mm": 1.1,
+   "overshoot_mm": 48.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 34.6,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 32.4,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    34.6,
+    35.1
+   ],
+   "motor_max": 0.7519,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.12,
+   "alt_err_max_mm": 37.6,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_h3_45",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 2.461,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.79,
+   "t_ready_100mm_s": 2.18,
+   "net_lag_max_mm": 88.7,
+   "net_to_target_end_mm": 4.2,
+   "overshoot_mm": 73.0,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.438,
+   "disc_min": {
+    "mm": 34.2,
+    "drone": 2,
+    "t_after_start_s": 1.2,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 0.92
+   },
+   "guard_min": {
+    "mm": 31.9,
+    "drone": 1,
+    "t_after_start_s": 1.45,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    34.2,
+    35.1
+   ],
+   "motor_max": 0.7629,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.59,
+   "alt_err_max_mm": 41.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_v0.4",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.3,
+   "net_to_target_end_mm": 0.9,
+   "overshoot_mm": 5.5,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 1.05,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -1.12
+   },
+   "guard_min": {
+    "mm": 38.1,
+    "drone": 1,
+    "t_after_start_s": 1.35,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7435,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 21.92,
+   "alt_err_max_mm": 18.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_v-0.4",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.3,
+   "net_to_target_end_mm": 0.8,
+   "overshoot_mm": 5.8,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 4.6,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 38.4,
+    "drone": 1,
+    "t_after_start_s": 1.85,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7347,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 22.87,
+   "alt_err_max_mm": 17.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n1_o1_0.4",
+  "t_move": 22.35,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 22.35,
+   "T_plan_s": 1.504,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.44,
+   "t_ready_100mm_s": 1.17,
+   "net_lag_max_mm": 73.9,
+   "net_to_target_end_mm": 2.3,
+   "overshoot_mm": 26.3,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.432,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.15,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 31.5,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.5,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7915,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 33.87,
+   "alt_err_max_mm": 28.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h0.5_0",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.25,
+   "t_ready_100mm_s": 1.14,
+   "net_lag_max_mm": 104.5,
+   "net_to_target_end_mm": 2.5,
+   "overshoot_mm": 26.2,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 34.7,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 29.6,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    34.8,
+    35.1,
+    35.1,
+    34.7
+   ],
+   "motor_max": 0.8251,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.22,
+   "alt_err_max_mm": 45.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h1_0",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.47,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 90.5,
+   "net_to_target_end_mm": 1.7,
+   "overshoot_mm": 24.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 31.3,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7867,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 35.23,
+   "alt_err_max_mm": 32.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h2_0",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.88,
+   "t_ready_100mm_s": 1.76,
+   "net_lag_max_mm": 74.6,
+   "net_to_target_end_mm": 3.1,
+   "overshoot_mm": 49.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 5.0,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.1,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8212,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 35.23,
+   "alt_err_max_mm": 30.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h3_0",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 2.429,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.69,
+   "t_ready_100mm_s": 2.15,
+   "net_lag_max_mm": 79.8,
+   "net_to_target_end_mm": 4.7,
+   "overshoot_mm": 71.0,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.403,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 2.65,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.1,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8355,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.23,
+   "alt_err_max_mm": 33.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h0.5_45",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.24,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 101.1,
+   "net_to_target_end_mm": 2.0,
+   "overshoot_mm": 29.7,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 34.7,
+    "drone": 0,
+    "t_after_start_s": 0.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 31.1,
+    "drone": 1,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    34.7,
+    35.1,
+    35.0,
+    35.1
+   ],
+   "motor_max": 0.8163,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 41.5,
+   "alt_err_max_mm": 56.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h1_45",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.45,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 82.3,
+   "net_to_target_end_mm": 1.2,
+   "overshoot_mm": 25.2,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.0,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 33.1,
+    "drone": 1,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.0,
+    35.1,
+    35.0,
+    35.1
+   ],
+   "motor_max": 0.7859,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.2,
+   "alt_err_max_mm": 41.3,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h2_45",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.87,
+   "t_ready_100mm_s": 1.76,
+   "net_lag_max_mm": 71.0,
+   "net_to_target_end_mm": 2.9,
+   "overshoot_mm": 49.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.0,
+    "drone": 2,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "guard_min": {
+    "mm": 33.6,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.0,
+    35.1
+   ],
+   "motor_max": 0.7855,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.2,
+   "alt_err_max_mm": 40.7,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_h3_45",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 2.461,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.8,
+   "t_ready_100mm_s": 2.17,
+   "net_lag_max_mm": 88.2,
+   "net_to_target_end_mm": 3.9,
+   "overshoot_mm": 73.5,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.438,
+   "disc_min": {
+    "mm": 34.5,
+    "drone": 2,
+    "t_after_start_s": 1.2,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 0.92
+   },
+   "guard_min": {
+    "mm": 32.7,
+    "drone": 1,
+    "t_after_start_s": 1.5,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    34.5,
+    35.1
+   ],
+   "motor_max": 0.7855,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.2,
+   "alt_err_max_mm": 44.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_v0.4",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 2.2,
+   "net_to_target_end_mm": 2.0,
+   "overshoot_mm": 5.4,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 0.15,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 1.12
+   },
+   "guard_min": {
+    "mm": 38.6,
+    "drone": 3,
+    "t_after_start_s": 1.3,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7678,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 24.09,
+   "alt_err_max_mm": 18.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_v-0.4",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 2.8,
+   "net_to_target_end_mm": 1.9,
+   "overshoot_mm": 6.2,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 0.35,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 1.12
+   },
+   "guard_min": {
+    "mm": 38.7,
+    "drone": 1,
+    "t_after_start_s": 1.85,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7617,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 24.78,
+   "alt_err_max_mm": 18.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n2_o1_0.4",
+  "t_move": 22.75,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 22.75,
+   "T_plan_s": 1.504,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.49,
+   "t_ready_100mm_s": 1.17,
+   "net_lag_max_mm": 80.8,
+   "net_to_target_end_mm": 2.0,
+   "overshoot_mm": 26.7,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.432,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 32.4,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 38.8,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8245,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 34.79,
+   "alt_err_max_mm": 29.3,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h0.5_0",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.59,
+   "t_ready_100mm_s": 1.18,
+   "net_lag_max_mm": 112.3,
+   "net_to_target_end_mm": 0.8,
+   "overshoot_mm": 28.4,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.0,
+    "drone": 3,
+    "t_after_start_s": 0.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 30.5,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.0
+   ],
+   "motor_max": 0.844,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.04,
+   "alt_err_max_mm": 45.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h1_0",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.52,
+   "t_ready_100mm_s": 1.1,
+   "net_lag_max_mm": 98.9,
+   "net_to_target_end_mm": 1.6,
+   "overshoot_mm": 25.2,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 4.5,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 32.1,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.816,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.5,
+   "alt_err_max_mm": 33.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h2_0",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.87,
+   "t_ready_100mm_s": 1.76,
+   "net_lag_max_mm": 79.4,
+   "net_to_target_end_mm": 1.7,
+   "overshoot_mm": 49.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.25,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.9,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8408,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.5,
+   "alt_err_max_mm": 30.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h3_0",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 2.429,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.74,
+   "t_ready_100mm_s": 2.14,
+   "net_lag_max_mm": 84.3,
+   "net_to_target_end_mm": 3.6,
+   "overshoot_mm": 72.1,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.403,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 3.5,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.9,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8512,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.5,
+   "alt_err_max_mm": 33.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h0.5_45",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.29,
+   "t_ready_100mm_s": 1.18,
+   "net_lag_max_mm": 112.6,
+   "net_to_target_end_mm": 1.5,
+   "overshoot_mm": 29.4,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 4.2,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 31.8,
+    "drone": 1,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8451,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 42.03,
+   "alt_err_max_mm": 56.4,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h1_45",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.53,
+   "t_ready_100mm_s": 1.11,
+   "net_lag_max_mm": 96.0,
+   "net_to_target_end_mm": 0.6,
+   "overshoot_mm": 28.5,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.4,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -1.56
+   },
+   "guard_min": {
+    "mm": 33.7,
+    "drone": 1,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8163,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.12,
+   "alt_err_max_mm": 43.7,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h2_45",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.98,
+   "t_ready_100mm_s": 1.75,
+   "net_lag_max_mm": 79.4,
+   "net_to_target_end_mm": 1.5,
+   "overshoot_mm": 52.3,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 4.15,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.8,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8042,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.32,
+   "alt_err_max_mm": 42.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_h3_45",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 2.461,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.87,
+   "t_ready_100mm_s": 2.16,
+   "net_lag_max_mm": 90.1,
+   "net_to_target_end_mm": 3.7,
+   "overshoot_mm": 76.5,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.438,
+   "disc_min": {
+    "mm": 34.9,
+    "drone": 2,
+    "t_after_start_s": 1.2,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 0.92
+   },
+   "guard_min": {
+    "mm": 33.9,
+    "drone": 1,
+    "t_after_start_s": 1.45,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    34.9,
+    35.1
+   ],
+   "motor_max": 0.8042,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.89,
+   "alt_err_max_mm": 45.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_v0.4",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.1,
+   "net_to_target_end_mm": 0.5,
+   "overshoot_mm": 5.7,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.65,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 39.1,
+    "drone": 3,
+    "t_after_start_s": 1.3,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7926,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 26.09,
+   "alt_err_max_mm": 18.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_v-0.4",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.0,
+   "net_to_target_end_mm": 0.5,
+   "overshoot_mm": 6.8,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 0.25,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 1.12
+   },
+   "guard_min": {
+    "mm": 39.1,
+    "drone": 3,
+    "t_after_start_s": 1.9,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.7854,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 27.08,
+   "alt_err_max_mm": 19.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n3_o1_0.4",
+  "t_move": 23.150000000000002,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 23.150000000000002,
+   "T_plan_s": 1.504,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.53,
+   "t_ready_100mm_s": 1.17,
+   "net_lag_max_mm": 89.7,
+   "net_to_target_end_mm": 1.1,
+   "overshoot_mm": 26.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.432,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 0.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 33.3,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.1,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8507,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.21,
+   "alt_err_max_mm": 30.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h0.5_0",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.7,
+   "t_ready_100mm_s": 1.22,
+   "net_lag_max_mm": 120.0,
+   "net_to_target_end_mm": 0.2,
+   "overshoot_mm": 29.4,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.65,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 31.7,
+    "drone": 3,
+    "t_after_start_s": 0.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8708,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 39.89,
+   "alt_err_max_mm": 45.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h1_0",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.57,
+   "t_ready_100mm_s": 1.37,
+   "net_lag_max_mm": 106.5,
+   "net_to_target_end_mm": 1.4,
+   "overshoot_mm": 27.0,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 2.15,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 32.7,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8425,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.69,
+   "alt_err_max_mm": 34.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h2_0",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.93,
+   "t_ready_100mm_s": 1.75,
+   "net_lag_max_mm": 83.7,
+   "net_to_target_end_mm": 0.7,
+   "overshoot_mm": 50.9,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.75,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8628,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.52,
+   "alt_err_max_mm": 31.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h3_0",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 2.429,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.79,
+   "t_ready_100mm_s": 2.13,
+   "net_lag_max_mm": 83.2,
+   "net_to_target_end_mm": 2.7,
+   "overshoot_mm": 73.4,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.403,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 1.7,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 34.4,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8658,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.52,
+   "alt_err_max_mm": 34.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h0.5_45",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.73,
+   "t_ready_100mm_s": 1.25,
+   "net_lag_max_mm": 128.6,
+   "net_to_target_end_mm": 0.5,
+   "overshoot_mm": 27.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.2,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 32.6,
+    "drone": 1,
+    "t_after_start_s": 0.75,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8645,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 41.61,
+   "alt_err_max_mm": 53.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h1_45",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.61,
+   "t_ready_100mm_s": 1.44,
+   "net_lag_max_mm": 115.1,
+   "net_to_target_end_mm": 1.7,
+   "overshoot_mm": 34.2,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.9,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.8,
+    "drone": 1,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8467,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 40.06,
+   "alt_err_max_mm": 46.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h2_45",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.21,
+   "t_ready_100mm_s": 1.74,
+   "net_lag_max_mm": 100.6,
+   "net_to_target_end_mm": 2.3,
+   "overshoot_mm": 61.6,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 35.2,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8272,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.89,
+   "alt_err_max_mm": 44.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_h3_45",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 2.461,
+   "shape": "scurve",
+   "t_ready_50mm_s": 4.02,
+   "t_ready_100mm_s": 2.15,
+   "net_lag_max_mm": 118.3,
+   "net_to_target_end_mm": 5.1,
+   "overshoot_mm": 87.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.438,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 5.2,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.5,
+    "drone": 3,
+    "t_after_start_s": 1.45,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8234,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.17,
+   "alt_err_max_mm": 48.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_v0.4",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.2,
+   "net_to_target_end_mm": 0.3,
+   "overshoot_mm": 6.5,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 1.85,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 39.3,
+    "drone": 3,
+    "t_after_start_s": 1.3,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8182,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 27.81,
+   "alt_err_max_mm": 19.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_v-0.4",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.4,
+   "net_to_target_end_mm": 0.3,
+   "overshoot_mm": 7.8,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 2.15,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 39.4,
+    "drone": 3,
+    "t_after_start_s": 1.85,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8112,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 28.98,
+   "alt_err_max_mm": 20.3,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n4_o1_0.4",
+  "t_move": 23.55,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 23.55,
+   "T_plan_s": 1.504,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.59,
+   "t_ready_100mm_s": 1.16,
+   "net_lag_max_mm": 95.0,
+   "net_to_target_end_mm": 1.4,
+   "overshoot_mm": 27.3,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.432,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 3.05,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.0,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.4,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8816,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.74,
+   "alt_err_max_mm": 30.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h0.5_0",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.77,
+   "t_ready_100mm_s": 1.27,
+   "net_lag_max_mm": 131.8,
+   "net_to_target_end_mm": 1.0,
+   "overshoot_mm": 25.1,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 1.8,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.6,
+    "drone": 3,
+    "t_after_start_s": 0.9,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8936,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 40.41,
+   "alt_err_max_mm": 47.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h1_0",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.01,
+   "t_ready_100mm_s": 1.47,
+   "net_lag_max_mm": 120.7,
+   "net_to_target_end_mm": 1.3,
+   "overshoot_mm": 33.6,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 2.1,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.5,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8678,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.55,
+   "alt_err_max_mm": 39.3,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h2_0",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.16,
+   "t_ready_100mm_s": 1.74,
+   "net_lag_max_mm": 100.4,
+   "net_to_target_end_mm": 2.5,
+   "overshoot_mm": 59.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 5.15,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 35.1,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8818,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.66,
+   "alt_err_max_mm": 34.8,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h3_0",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    3.0,
+    0.0,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 2.429,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.93,
+   "t_ready_100mm_s": 2.12,
+   "net_lag_max_mm": 92.8,
+   "net_to_target_end_mm": 4.0,
+   "overshoot_mm": 84.3,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.403,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.85,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 35.1,
+    "drone": 1,
+    "t_after_start_s": 0.3,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8862,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 36.91,
+   "alt_err_max_mm": 38.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h0.5_45",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    0.3536,
+    0.3536,
+    0.0
+   ],
+   "distance_m": 0.5,
+   "heading_deg": 45.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.048,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.83,
+   "t_ready_100mm_s": 1.31,
+   "net_lag_max_mm": 144.9,
+   "net_to_target_end_mm": 1.1,
+   "overshoot_mm": 24.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 0.954,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 4.65,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 33.0,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8799,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 40.73,
+   "alt_err_max_mm": 49.2,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h1_45",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    0.7071,
+    0.7071,
+    0.0
+   ],
+   "distance_m": 1.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.452,
+   "shape": "scurve",
+   "t_ready_50mm_s": 2.06,
+   "t_ready_100mm_s": 1.53,
+   "net_lag_max_mm": 131.0,
+   "net_to_target_end_mm": 2.4,
+   "overshoot_mm": 40.2,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.377,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.1,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.2,
+    "drone": 1,
+    "t_after_start_s": 0.95,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8812,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 40.66,
+   "alt_err_max_mm": 48.1,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h2_45",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    1.4142,
+    1.4142,
+    0.0
+   ],
+   "distance_m": 2.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 2.023,
+   "shape": "scurve",
+   "t_ready_50mm_s": 3.46,
+   "t_ready_100mm_s": 1.82,
+   "net_lag_max_mm": 125.1,
+   "net_to_target_end_mm": 4.3,
+   "overshoot_mm": 72.5,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.977,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 1.8,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "guard_min": {
+    "mm": 35.5,
+    "drone": 1,
+    "t_after_start_s": 1.25,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.867,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 38.73,
+   "alt_err_max_mm": 46.5,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_h3_45",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    2.1213,
+    2.1213,
+    0.0
+   ],
+   "distance_m": 3.0,
+   "heading_deg": 45.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 2.461,
+   "shape": "scurve",
+   "t_ready_50mm_s": 4.1,
+   "t_ready_100mm_s": 3.29,
+   "net_lag_max_mm": 148.9,
+   "net_to_target_end_mm": 7.4,
+   "overshoot_mm": 101.8,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 2.438,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 3,
+    "t_after_start_s": 3.65,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 35.1,
+    "drone": 1,
+    "t_after_start_s": 1.45,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8619,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 37.45,
+   "alt_err_max_mm": 51.0,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_v0.4",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.2,
+   "net_to_target_end_mm": 0.6,
+   "overshoot_mm": 7.4,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 0.7,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -1.12
+   },
+   "guard_min": {
+    "mm": 39.6,
+    "drone": 3,
+    "t_after_start_s": 1.35,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8419,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 29.32,
+   "alt_err_max_mm": 20.4,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_v-0.4",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    0.0,
+    0.0,
+    -0.4
+   ],
+   "distance_m": 0.4,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.233,
+   "shape": "scurve",
+   "t_ready_50mm_s": 0.91,
+   "t_ready_100mm_s": 0.81,
+   "net_lag_max_mm": 1.2,
+   "net_to_target_end_mm": 0.6,
+   "overshoot_mm": 9.1,
+   "ref_acc_max_m_s2": 1.12,
+   "ref_speed_max_m_s": 0.649,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 0.15,
+    "phase": "accelerating",
+    "ref_acc_along_m_s2": 1.12
+   },
+   "guard_min": {
+    "mm": 39.7,
+    "drone": 3,
+    "t_after_start_s": 1.85,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.8357,
+   "motor90_longest_s": 0.0,
+   "tilt_max_deg": 30.81,
+   "alt_err_max_mm": 21.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ },
+ {
+  "label": "x1_n5_o1_0.4",
+  "t_move": 23.95,
+  "p2p": {
+   "d_m": [
+    1.0,
+    0.0,
+    0.4
+   ],
+   "distance_m": 1.077,
+   "heading_deg": 0.0,
+   "t_move_s": 23.95,
+   "T_plan_s": 1.504,
+   "shape": "scurve",
+   "t_ready_50mm_s": 1.62,
+   "t_ready_100mm_s": 1.41,
+   "net_lag_max_mm": 103.6,
+   "net_to_target_end_mm": 0.8,
+   "overshoot_mm": 27.0,
+   "ref_acc_max_m_s2": 2.1,
+   "ref_speed_max_m_s": 1.432,
+   "disc_min": {
+    "mm": 35.1,
+    "drone": 0,
+    "t_after_start_s": 2.35,
+    "phase": "after_stop",
+    "ref_acc_along_m_s2": 0.0
+   },
+   "guard_min": {
+    "mm": 34.9,
+    "drone": 3,
+    "t_after_start_s": 1.0,
+    "phase": "braking",
+    "ref_acc_along_m_s2": -2.1
+   },
+   "disc_min_hover_before_mm": 35.1,
+   "guard_min_hover_before_mm": 39.6,
+   "disc_min_per_drone_mm": [
+    35.1,
+    35.1,
+    35.1,
+    35.1
+   ],
+   "motor_max": 0.9079,
+   "motor90_longest_s": 0.1,
+   "tilt_max_deg": 39.45,
+   "alt_err_max_mm": 31.9,
+   "at_min_thrust_s": 0.0,
+   "ok": {
+    "disc30": true,
+    "guard": true,
+    "motor90": true,
+    "control": true
+   },
+   "clean": true
+  }
+ }
+]

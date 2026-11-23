@@ -1,0 +1,36 @@
+hard tier, 2 s interval, seeds 1-30; caught/launched, tier-violation trials (items), aborts, smallest disc / guard clearance (mm), largest tilt (deg); the net model in the planner is not changed
+== x1_T0 (hard_seq2)
+  base    nominal            74/129  viol  0/30 {} abort 0 disc 31.6 guard 25.3 tilt 44.58
+  base    net mass +20 %     75/129  viol  1/30 {'motor': 1} abort 0 disc 32.9 guard 26.5 tilt 45.6
+  base    strings +-10 mm    73/129  viol  0/30 {} abort 0 disc 31.4 guard 24.4 tilt 44.42
+  ff_ah+  nominal            86/129  viol  1/30 {'motor': 1} abort 0 disc 31.2 guard 25.0 tilt 46.74
+  ff_ah+  net mass +20 %     86/129  viol  5/30 {'motor': 5} abort 0 disc 30.6 guard 24.8 tilt 45.3
+  ff_ah+  strings +-10 mm    86/129  viol  1/30 {'motor': 1} abort 0 disc 31.3 guard 25.0 tilt 46.67
+== x5_T0 (hard_seq2)
+  base    nominal            86/129  viol  4/30 {'ball_disc': 1, 'disc': 2, 'ball_hit': 1} abort 0 disc 25.8 guard 21.6 tilt 49.24
+  base    net mass +20 %     86/129  viol  3/30 {'ball_disc': 1, 'ball_hit': 1, 'disc': 1} abort 0 disc 28.6 guard 25.9 tilt 50.09
+  base    strings +-10 mm    86/129  viol  4/30 {'ball_disc': 1, 'disc': 2, 'ball_hit': 1} abort 0 disc 24.9 guard 20.0 tilt 49.17
+  ff      nominal            92/129  viol  2/30 {'disc': 2, 'ball_hit': 1} abort 0 disc 25.0 guard 21.9 tilt 45.81
+  ff      net mass +20 %     92/129  viol  3/30 {'ball_hit': 2, 'disc': 2} abort 0 disc 13.8 guard 5.0 tilt 54.39
+  ff      strings +-10 mm    92/129  viol  2/30 {'disc': 2, 'ball_hit': 1} abort 0 disc 25.2 guard 21.8 tilt 46.02
+== x5_T1 (hard_seq2)
+  base    nominal            99/129  viol  0/30 {} abort 0 disc 25.9 guard 21.6 tilt 50.18
+  base    net mass +20 %     99/129  viol  0/30 {} abort 0 disc 28.9 guard 22.8 tilt 50.36
+  base    strings +-10 mm    99/129  viol  0/30 {} abort 0 disc 27.0 guard 21.1 tilt 50.66
+  ff_ah+  nominal           100/129  viol  1/30 {'disc': 1} abort 0 disc 23.5 guard 18.9 tilt 50.6
+  ff_ah+  net mass +20 %    100/129  viol  0/30 {} abort 0 disc 27.4 guard 20.1 tilt 51.13
+  ff_ah+  strings +-10 mm   100/129  viol  1/30 {'disc': 1} abort 0 disc 24.8 guard 19.7 tilt 50.92
+== x5_T0_10 (hard2)
+  base    nominal           197/300  viol  5/30 {'ball_hit': 4, 'disc': 1} abort 0 disc 27.8 guard 20.1 tilt 48.84
+  base    net mass +20 %    195/300  viol  5/30 {'guard': 1, 'ball_hit': 4, 'ball_disc': 1, 'disc': 1} abort 0 disc 28.8 guard 9.5 tilt 53.8
+  base    strings +-10 mm   196/300  viol  5/30 {'ball_hit': 4, 'disc': 1} abort 0 disc 27.6 guard 18.6 tilt 49.14
+  nd      nominal           177/293  viol  2/30 {'control': 1, 'ball_hit': 2} abort 1 disc 32.1 guard 25.8 tilt 66.58
+  nd      net mass +20 %    176/293  viol  2/30 {'control': 1, 'ball_hit': 2} abort 1 disc 33.1 guard 26.7 tilt 60.27
+  nd      strings +-10 mm   175/293  viol  2/30 {'control': 1, 'ball_hit': 2} abort 1 disc 32.0 guard 24.0 tilt 60.53
+== x5_T1_10 (hard2)
+  base    nominal           214/293  viol  2/30 {'control': 1, 'ball_hit': 1, 'disc': 1} abort 1 disc 24.1 guard 19.2 tilt 65.16
+  base    net mass +20 %    216/300  viol  0/30 {} abort 0 disc 27.4 guard 20.2 tilt 53.9
+  base    strings +-10 mm   214/293  viol  2/30 {'control': 1, 'ball_hit': 1, 'disc': 1} abort 1 disc 23.9 guard 18.4 tilt 65.06
+  ff_ah+  nominal           241/300  viol  0/30 {} abort 0 disc 25.2 guard 18.1 tilt 59.17
+  ff_ah+  net mass +20 %    198/300  viol  3/30 {'control': 2, 'disc': 1, 'ball_hit': 1} abort 2 disc 17.7 guard 12.7 tilt 60.21
+  ff_ah+  strings +-10 mm   234/300  viol  1/30 {'control': 1} abort 1 disc 26.0 guard 18.0 tilt 60.11

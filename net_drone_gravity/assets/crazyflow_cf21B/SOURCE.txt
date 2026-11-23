@@ -1,0 +1,36 @@
+Crazyflie 2.1 Brushless MuJoCo model (visual meshes) from Crazyflow's drone-models
+
+Repository : https://github.com/learnsyslab/drone-models
+Commit     : 6c72a9549bce9288203fa7cb54ef6670377ef3ef (2026-10-14)
+Path       : drone_models/data/
+Downloaded : 2026-11-21, from raw.githubusercontent.com at the commit above
+
+Files (bytes), layout kept as upstream:
+  cf21B_500.xml                              4283
+  assets/cf21B/cf21B_pcb.stl               598684
+  assets/cf21B/cf21B_motors.stl            605284
+  assets/cf21B/cf21B_PropL.stl             261384
+  assets/cf21B/cf21B_PropR.stl             274684
+  assets/cf21B/cf21B_prop-guards.stl      1208884
+  assets/cf21B/cf21B_connectors.stl        219684
+  assets/cf21B/cf21B_connector-pins.stl    476084
+  assets/cf21B/cf21B_battery.stl             1084
+  assets/cf21B/cf21B_battery-holder.stl    102684
+  assets/cf21B/cf_led-diffuser.stl          80284
+  total                                   3833023
+
+Licence: the repository's pyproject.toml at this commit declares
+    license = { file = "LICENSE" }
+    "License :: OSI Approved :: MIT License"
+but no LICENSE file exists at this commit (HTTP 404), so no licence text could be
+copied here. Fine for local rendering; ask the upstream authors before redistributing
+these meshes.
+
+Use in this project: appearance only (render_scene.py). The simulation in net_sim.py does
+not read these files. Do not take physics from cf21B_500.xml: its mass (0.04338 kg) is
+Crazyflow's own configuration and its diaginertia (2.3951e-5, 2.3951e-5, 3.2347e-5) is
+the brushed Crazyflie 2 value, not the identified Brushless inertia.
+
+Geometry stated in the XML: motor sites at (+-35.36 mm, +-35.36 mm, 0) in the order
+motor0 (+x,-y), motor1 (-x,-y), motor2 (-x,+y), motor3 (+x,+y); propeller bodies 12 mm
+above the body origin; inertial (centre of mass) at the body origin.

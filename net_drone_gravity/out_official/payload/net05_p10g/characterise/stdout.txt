@@ -1,0 +1,8 @@
+configuration: {"p_over": {"L": 0.5, "m_net": 0.01, "d_takeoff": 0.71, "payload_mass": 0.01}, "spacing": 0.765, "h_dn": 0.3056232270891762, "ff_path": "out_official/payload/net05_p10g/sweep/sweep_summary.json", "targets_from": null}
+mission mode, output: out_official/payload/net05_p10g/characterise, settle tolerances {'pos_m': 0.05, 'net_off_m': 0.05, 'sag_m': 0.02}, net_below_rotors recorded only
+  25/150 (39 s)
+  50/150 (66 s)
+  75/150 (93 s)
+  100/150 (120 s)
+  125/150 (150 s)
+  150/150 (174 s)

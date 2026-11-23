@@ -1,0 +1,169 @@
+{
+ "a_drop_1m": {
+  "net_centre_before_m": 0.9638,
+  "sag_before_m": 0.1552,
+  "drone_alt_err_before_max_mm": 0.6,
+  "tension_before_gf": 7.57,
+  "balls": [
+   {
+    "outcome": "caught",
+    "t_first_contact": 16.46,
+    "time_out_of_contact_after_first_s": 0.0,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 4.076,
+    "net_centre_sink_peak_mm": 106.0,
+    "drone_alt_dev_peak_mm": 13.8,
+    "tilt_peak_deg": 24.11,
+    "tension_peak_gf": 27.0,
+    "motor_peak": 0.6823,
+    "net_bounce_mm_first_2s": 87.6
+   }
+  ],
+  "net_centre_end_m": 0.9299,
+  "net_centre_sink_end_mm": 33.9,
+  "net_bounce_last_1s_mm": 17.4,
+  "sag_end_m": 0.1926,
+  "tension_end_gf": 9.8,
+  "all_in_net": true,
+  "safety_violations": []
+ },
+ "b_five_drops": {
+  "net_centre_before_m": 0.9638,
+  "sag_before_m": 0.1552,
+  "drone_alt_err_before_max_mm": 0.6,
+  "tension_before_gf": 7.57,
+  "balls": [
+   {
+    "outcome": "caught",
+    "t_first_contact": 16.46,
+    "time_out_of_contact_after_first_s": 0.09,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 4.076,
+    "net_centre_sink_peak_mm": 98.8,
+    "drone_alt_dev_peak_mm": 14.6,
+    "tilt_peak_deg": 23.94,
+    "tension_peak_gf": 27.99,
+    "motor_peak": 0.6806,
+    "net_bounce_mm_first_2s": 79.1
+   },
+   {
+    "outcome": "caught",
+    "t_first_contact": 19.46,
+    "time_out_of_contact_after_first_s": 0.11,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 4.076,
+    "net_centre_sink_peak_mm": 89.9,
+    "drone_alt_dev_peak_mm": 13.2,
+    "tilt_peak_deg": 23.97,
+    "tension_peak_gf": 27.08,
+    "motor_peak": 0.6835,
+    "net_bounce_mm_first_2s": 56.0
+   },
+   {
+    "outcome": "caught",
+    "t_first_contact": 22.47,
+    "time_out_of_contact_after_first_s": 0.18,
+    "rebound_mm": 9.3,
+    "impact_speed_m_s": 4.152,
+    "net_centre_sink_peak_mm": 94.6,
+    "drone_alt_dev_peak_mm": 12.9,
+    "tilt_peak_deg": 25.63,
+    "tension_peak_gf": 30.22,
+    "motor_peak": 0.706,
+    "net_bounce_mm_first_2s": 56.8
+   },
+   {
+    "outcome": "caught",
+    "t_first_contact": 25.47,
+    "time_out_of_contact_after_first_s": 0.02,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 3.677,
+    "net_centre_sink_peak_mm": 94.6,
+    "drone_alt_dev_peak_mm": 12.6,
+    "tilt_peak_deg": 25.97,
+    "tension_peak_gf": 28.15,
+    "motor_peak": 0.7075,
+    "net_bounce_mm_first_2s": 53.6
+   },
+   {
+    "outcome": "caught",
+    "t_first_contact": 28.48,
+    "time_out_of_contact_after_first_s": 0.02,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 2.469,
+    "net_centre_sink_peak_mm": 97.4,
+    "drone_alt_dev_peak_mm": 11.7,
+    "tilt_peak_deg": 27.01,
+    "tension_peak_gf": 30.17,
+    "motor_peak": 0.7292,
+    "net_bounce_mm_first_2s": 49.2
+   }
+  ],
+  "net_centre_end_m": 0.9043,
+  "net_centre_sink_end_mm": 59.5,
+  "net_bounce_last_1s_mm": 10.4,
+  "sag_end_m": 0.2178,
+  "tension_end_gf": 17.91,
+  "all_in_net": true,
+  "sag_after_each_m": [
+   0.1552,
+   0.1938,
+   0.2021,
+   0.2083,
+   0.2126,
+   0.2178
+  ],
+  "drone_z_after_each_m": [
+   1.2022,
+   1.2021,
+   1.2022,
+   1.2023,
+   1.2028
+  ],
+  "h_dn_after_each_m": [
+   0.2363,
+   0.2741,
+   0.2819,
+   0.2882,
+   0.2929,
+   0.2986
+  ],
+  "safety_violations": []
+ },
+ "c_fast_oblique": {
+  "net_centre_before_m": 0.9638,
+  "sag_before_m": 0.1552,
+  "drone_alt_err_before_max_mm": 0.6,
+  "tension_before_gf": 7.57,
+  "balls": [
+   {
+    "outcome": "caught",
+    "t_first_contact": 16.1,
+    "time_out_of_contact_after_first_s": 0.0,
+    "rebound_mm": 0.0,
+    "impact_speed_m_s": 6.816,
+    "net_centre_sink_peak_mm": 127.3,
+    "drone_alt_dev_peak_mm": 25.1,
+    "tilt_peak_deg": 30.64,
+    "tension_peak_gf": 45.48,
+    "motor_peak": 0.7491,
+    "net_bounce_mm_first_2s": 106.7
+   }
+  ],
+  "net_centre_end_m": 0.9317,
+  "net_centre_sink_end_mm": 32.1,
+  "net_bounce_last_1s_mm": 16.4,
+  "sag_end_m": 0.1932,
+  "tension_end_gf": 9.81,
+  "all_in_net": true,
+  "safety_violations": []
+ },
+ "h_dn_table_m": [
+  0.0,
+  0.0378,
+  0.0456,
+  0.0519,
+  0.0566,
+  0.0623
+ ]
+}

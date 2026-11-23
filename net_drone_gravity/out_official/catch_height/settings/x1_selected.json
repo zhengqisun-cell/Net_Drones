@@ -1,0 +1,15 @@
+{
+ "note": "x1 selected: free heights + interception with an end velocity (options rest / ball direction: 0.5 x the ball's horizontal velocity, cap 1.5 m/s, coast 0.15 s, brake at 0.5 x limits, brake cost 0.3)",
+ "z_net_range": [
+  0.7,
+  9.3
+ ],
+ "z_net_step": 0.3,
+ "dz_penalty": 0.0,
+ "moving": {
+  "options": [
+   "rest",
+   "ball"
+  ]
+ }
+}

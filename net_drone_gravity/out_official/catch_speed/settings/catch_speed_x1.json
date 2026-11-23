@@ -1,0 +1,2 @@
+{"note": "thrust x1 recommended transfer-speed setting (out_official/catch_speed): jerk-limited (S-curve) moves, jerk 30 m/s^3; vertical acceleration limit 1.6 m/s^2 instead of 2.0 (keeps the 90 % motor rule about where it was); everything else as the default (horizontal 3 m/s^2, loaded-net factor 0.7)",
+ "traj": {"jerk": 30.0}, "limits": {"a_v": 1.6}}

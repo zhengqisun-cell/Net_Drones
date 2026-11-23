@@ -1,0 +1,4 @@
+{"note": "thrust x5 AGGRESSIVE (not recommended: rotor-disc clearance below 30 mm in 30 of 120 trials, 4 aborts): x5 setting with S-curve jerk 20 and braking at 4 m/s^2 (brake_factor 4/3)",
+ "limits": {"v_h": 3.0, "a_h": 3.0, "v_up": 3.0, "v_down": 2.0, "a_v": 2.0, "a_tot": 3.0},
+ "loaded_accel_factor": 1.0, "standby_accel_factor": 1.0, "max_tilt_deg": 40.0,
+ "traj": {"jerk": 20.0, "brake_factor": 1.3333333333333333}}

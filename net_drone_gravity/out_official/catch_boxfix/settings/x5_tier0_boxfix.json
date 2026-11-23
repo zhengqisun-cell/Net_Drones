@@ -1,0 +1,19 @@
+{
+ "note": "thrust x5 recommended transfer-speed setting (use with --thrust-scale 5): catch_limits_thrust5.json (relaxed limits, tilt limit 40 deg, no derating) plus jerk-limited (S-curve) moves, jerk 20 m/s^3, horizontal acceleration along the formation diagonals x0.9 (2.7 m/s^2; 3.0 along the axes); boxfix on (copy of catch_speed/settings/catch_speed_x5.json); since 2026-11-23 boxfix is on by default, so this file is equivalent to the original file it was copied from",
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "max_tilt_deg": 40.0,
+ "traj": {
+  "jerk": 20.0,
+  "diag_factor": 0.9
+ },
+ "boxfix": true
+}

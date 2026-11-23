@@ -1,0 +1,49 @@
+boxfix 设为默认时的核对（2026-11-23）
+
+改动：net_sim.py 中 CATCH_DEFAULT["boxfix"] 改为 True；只有 "boxfix" 为 false / null / 0 时关闭；字典（包括空字典）表示开启并覆盖
+其中各项；boxfix 已加入起飞后快照的键；注释和 --catch-limits 的帮助文字已更新。参数（CATCH_BOXFIX）没有改。
+"修复前的代码" = 当前 net_sim.py 去掉全部 boxfix 改动后的副本（临时文件，核对后已删除）。
+比对方法：npz 全部数组逐位比对；摘要比对时不计墙钟时间、cfg 里的 boxfix 键和新增的 "reference" 键。
+
+1. 回归基准
+   基准                                新默认 vs 修复前代码     "boxfix": false vs 修复前代码    数值
+   1 m hold --ff                       20 个数组全同，摘要同     不适用（不经过 CatchPlan）       -
+   mission seed 1                      38 个数组全同，摘要同     不适用                           45.81 s
+   5x mission seed 1（tilt 45，1.3）   38 个数组全同，摘要同     不适用                           46.12 s
+   catch 中档 seed 5（一倍）           46 个数组全同，摘要同     46 个数组全同，摘要同            4/5
+   5x catch seed 5                     46 个数组全同，摘要同     46 个数组全同，摘要同            5/5
+   另外：新默认下的 hold、mission seed 1、两个 catch seed 5 日志，与 out_official 里存的原始日志
+   （hold_ff_log.npz、missions_tol50/、catch/trials/、thrust5/catch/trials/）逐个数组相同。
+
+2. 档 0 难档 2 s 种子 30（五倍、10 个球）
+   设置                                                     接住    破线               离墙最近       参考出界    与存档比较
+   catch_10balls/settings/x5_tier0_10balls.json（新默认）   5/10    无                 0.262 m        0           与 catch_boxfix after 日志逐位相同
+   同一设置加 "boxfix": false                               2/10    net_low, box       -3.351 m       3.553 m     与 catch_10balls investigate 日志逐位相同
+
+3. 用原设置文件 catch_10balls/settings/x5_tier0_10balls.json 重跑难档 2 s 种子 1-30（新默认）
+   接住 197/300，与 runs/main10_1-30.json 的 after 一致：30 次试验的接住数、逐球结果、破线、间隙、电机、倾角、中止和 reference
+   全部相同；出界 0，参考出界 0。
+
+4. 其他经过 _go 的模式（新默认 vs 存档；有差异时又用 "boxfix": false 重跑，均与存档完全一致，所以差异来自新默认）
+   模式 / 算例                                                       试验数   结果
+   p2p 基准（catch_speed_relaxed/p2p/p2p_tiers.json：T0_x1、T3_x5，    20 行    无变化（T_plan、就绪时间、超调、桨盘间隙、电机、倾角全同）
+     0.5-3 m，0/45 度）
+   落球试验，规划器关闭（catch_10balls/drop/drop10.json，五倍）       1        无变化（各状态行和全程统计全同）
+   移动接球（catch_height/settings/x5_moving_full.json，五倍，         30       总接住 89 -> 89；7 次试验的间隙或倾角有小变化（种子 5、9、
+     难档 2 s，种子 1-30）                                                      13、22、26、29、30），接住数都没变；种子 26 由破桨盘线
+                                                                                （29.8 mm，倾角 52.1 度）变为 31.4 mm、42.8 度；30 次里触发兜底
+                                                                                共 30 次
+   偏心接球 offcentre r=0.2（catch_speed screening round_r1 的         15       总接住 23 -> 24；4 次试验有变化：
+     x1_B_r0.2，一倍，难档 2 s，种子 101-115）                                    106：1 -> 2；107：间隙 33.6 -> 33.8 mm；115：倾角和电机小变化；
+                                                                                111：新破线 clearance + ball_rotor（桨盘 34.0 -> 26.6 mm，
+                                                                                护圈 29.9 -> 14.4 mm，倾角 39.9 -> 56.9 度，球 2 由甩出变为撞机，
+                                                                                接住都是 1/4；"低于下限、保留计划"触发 7 次）
+   单球可达图（catch_speed_relaxed/reach/reach_tiers.json 的 T0_x5，    30       29 格全同；第 48 格接住不变，桨盘间隙 33.4 -> 33.6 mm、
+     每 6 格取 1 格）                                                            电机 0.1686 -> 0.1635
+
+5. 结论（事实）
+   - 新默认下五个回归基准的数值和日志都不变；"boxfix": false 与修复前的代码逐位一致。
+   - 原 10 个球的设置文件现在得修复后的结果；加 "boxfix": false 得修复前的存档结果。
+   - 新增中止：先导种子 114（见 README "已知个例"）。
+   - 新增破线：偏心接球种子 111。offcentre 默认不开，也不在任何推荐设置里。
+   - 消失的破线：移动接球种子 26。

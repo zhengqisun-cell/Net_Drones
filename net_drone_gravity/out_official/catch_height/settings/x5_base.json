@@ -1,0 +1,14 @@
+{
+ "note": "x5 baseline: thrust5 catch setting",
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 3.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 3.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "max_tilt_deg": 40.0
+}

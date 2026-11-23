@@ -1,0 +1,16 @@
+T0_x1|net_mass_+20%            hard_seq2  74/129 (57.4%) all 3/30 viol[T0:2 T1:1 T2:1 T3:1] abort 0 excl 0 disc 32.9 guard 26.5 motor 0.9638 sat 0.09 tilt 45.6 miss {'late': 55}
+T0_x5|net_mass_+20%            hard_seq2  86/129 (66.7%) all 7/30 viol[T0:3 T1:2 T2:2 T3:1] abort 0 excl 0 disc 28.6 guard 25.9 motor 0.2126 sat 0.0 tilt 50.09 miss {'late': 42, 'hit_drone': 1}
+T1_x1|net_mass_+20%            hard_seq2  91/129 (70.5%) all 9/30 viol[T0:23 T1:15 T2:9 T3:3] abort 2 excl 0 disc 6.5 guard 12.0 motor 0.9999 sat 0.55 tilt 63.03 miss {'late': 30, 'trial_aborted': 4, 'fell_out': 3, 'hit_drone': 1}
+T1_x5|net_mass_+20%            hard_seq2  98/129 (76.0%) all 10/30 viol[T0:2 T1:1 T2:1 T3:1] abort 0 excl 0 disc 28.9 guard 22.8 motor 0.2264 sat 0.0 tilt 50.36 miss {'late': 31}
+T2_x1|net_mass_+20%            hard_seq2  80/126 (63.5%) all 8/30 viol[T0:27 T1:24 T2:16 T3:5] abort 5 excl 3 disc 28.2 guard 10.6 motor 1.0 sat 0.99 tilt 62.72 miss {'late': 29, 'trial_aborted': 12, 'fell_out': 4, 'hit_drone': 1}
+T2_x5|net_mass_+20%            hard_seq2  98/129 (76.0%) all 10/30 viol[T0:9 T1:2 T2:1 T3:1] abort 0 excl 0 disc 23.3 guard 17.9 motor 0.2429 sat 0.0 tilt 55.11 miss {'late': 30, 'hit_drone': 1}
+T3_x1|net_mass_+20%            hard_seq2  58/127 (45.7%) all 6/30 viol[T0:29 T1:28 T2:26 T3:15] abort 12 excl 2 disc 20.0 guard 5.4 motor 1.0 sat 0.84 tilt 61.42 miss {'late': 32, 'fell_out': 15, 'trial_aborted': 21, 'hit_drone': 1}
+T3_x5|net_mass_+20%            hard_seq2  107/129 (83.0%) all 12/30 viol[T0:30 T1:12 T2:3 T3:2] abort 0 excl 0 disc 19.7 guard 3.1 motor 0.2541 sat 0.0 tilt 55.45 miss {'late': 21, 'fell_out': 1}
+T0_x1|strings_+-10mm           hard_seq2  72/129 (55.8%) all 3/30 viol[T0:1 T1:1 T2:1 T3:1] abort 0 excl 0 disc 31.4 guard 24.4 motor 0.9453 sat 0.08 tilt 44.76 miss {'late': 56, 'fell_out': 1}
+T0_x5|strings_+-10mm           hard_seq2  86/129 (66.7%) all 7/30 viol[T0:4 T1:3 T2:2 T3:1] abort 0 excl 0 disc 24.9 guard 20.0 motor 0.2052 sat 0.0 tilt 49.17 miss {'late': 42, 'hit_drone': 1}
+T1_x1|strings_+-10mm           hard_seq2  95/129 (73.6%) all 9/30 viol[T0:11 T1:4 T2:3 T3:1] abort 1 excl 0 disc 18.7 guard 11.6 motor 1.0 sat 0.4 tilt 63.78 miss {'late': 32, 'trial_aborted': 2}
+T1_x5|strings_+-10mm           hard_seq2  98/129 (76.0%) all 10/30 viol[T0:6 T1:1 T2:1 T3:1] abort 0 excl 0 disc 27.0 guard 21.1 motor 0.2186 sat 0.0 tilt 50.66 miss {'late': 31}
+T2_x1|strings_+-10mm           hard_seq2  100/129 (77.5%) all 11/30 viol[T0:29 T1:13 T2:5 T3:1] abort 0 excl 0 disc 26.2 guard 13.0 motor 0.9976 sat 0.31 tilt 50.14 miss {'late': 28, 'hit_drone': 1}
+T2_x5|strings_+-10mm           hard_seq2  98/129 (76.0%) all 10/30 viol[T0:27 T1:3 T2:2 T3:1] abort 0 excl 0 disc 19.1 guard 12.6 motor 0.2351 sat 0.0 tilt 54.61 miss {'late': 30, 'hit_drone': 1}
+T3_x1|strings_+-10mm           hard_seq2  97/129 (75.2%) all 12/30 viol[T0:30 T1:24 T2:20 T3:5] abort 0 excl 0 disc 15.2 guard 4.5 motor 1.0 sat 0.56 tilt 58.98 miss {'late': 26, 'fell_out': 6}
+T3_x5|strings_+-10mm           hard_seq2  108/129 (83.7%) all 13/30 viol[T0:30 T1:21 T2:8 T3:4] abort 0 excl 0 disc 13.0 guard 3.5 motor 0.2488 sat 0.0 tilt 56.93 miss {'late': 21}

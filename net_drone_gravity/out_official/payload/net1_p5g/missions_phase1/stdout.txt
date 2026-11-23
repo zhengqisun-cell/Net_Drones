@@ -1,0 +1,327 @@
+configuration: {"p_over": {"payload_mass": 0.005}, "spacing": null, "h_dn": 0.47009023681908196, "ff_path": "out_official/payload/net1_p5g/sweep/sweep_summary.json", "targets_from": "out_official/missions_tol50/missions_study.json"}
+mission mode, output: out_official/payload/net1_p5g/missions_phase1, settle tolerances {'pos_m': 0.05, 'net_off_m': 0.05, 'sag_m': 0.02}, net_below_rotors recorded only
+  relaxed at every factor: 60 missions ...
+    done (242 s)
+  tolerance sweep / variants at factor 0.9: 0 missions ...
+    done (242 s)
+{
+ "by_factor": [
+  {
+   "factor": 0.8,
+   "legs": 100,
+   "legs_flown": 100,
+   "legs_pass": 100,
+   "missions_pass": 10,
+   "fail_causes": {},
+   "errors": [],
+   "avg_speed_m_s": 0.996,
+   "mean_leg_time_s": 5.356,
+   "mean_move_s": 4.721,
+   "mean_settle_s": 0.635,
+   "settle_share": 0.1186,
+   "total_leg_time_s": 535.62,
+   "total_distance_m": 533.6,
+   "mission_time_s": [
+    66.67,
+    71.05,
+    67.07,
+    73.7,
+    71.13,
+    74.77,
+    71.04,
+    63.79,
+    78.22,
+    77.28
+   ],
+   "strict_tracking_ok_legs": 47,
+   "rotor_margin_negative_legs": 0,
+   "rotor_margin_min_m": 0.0148,
+   "shape": {
+    "rms_move_peak_mm": {
+     "mean": 40.86,
+     "max": 57.3
+    },
+    "max_move_peak_mm": {
+     "mean": 59.23,
+     "max": 81.5
+    },
+    "rms_at_settled_mm": {
+     "mean": 4.47,
+     "max": 10.53
+    },
+    "max_at_settled_mm": {
+     "mean": 6.88,
+     "max": 16.61
+    },
+    "rms_at_next_dep_mm": {
+     "mean": 3.24,
+     "max": 7.73
+    },
+    "centre_dev_at_stop_mm": {
+     "mean": 5.89,
+     "max": 19.9
+    },
+    "drone_err_move_max_mm": {
+     "mean": 72.67,
+     "max": 128.6
+    },
+    "tilt_move_max_deg": {
+     "mean": 31.41,
+     "max": 36.57
+    },
+    "drone_err_after_stop_max_mm": {
+     "mean": 61.15,
+     "max": 104.5
+    },
+    "tilt_after_stop_max_deg": {
+     "mean": 22.94,
+     "max": 25.17
+    },
+    "centre_swing_within_50mm_s": {
+     "mean": 0.0,
+     "max": 0.0,
+     "not_reached": 0
+    },
+    "centre_swing_within_25mm_s": {
+     "mean": 0.0,
+     "max": 0.0,
+     "not_reached": 0
+    },
+    "centre_swing_within_10mm_s": {
+     "mean": 0.705,
+     "max": 2.554,
+     "not_reached": 6
+    },
+    "sag_change_in_leg_mm": {
+     "mean": 55.3,
+     "max": 90.1
+    },
+    "net_offset_h_max_mm": {
+     "mean": 38.92,
+     "max": 78.7
+    },
+    "tension_gf_min": 15.25,
+    "slack_max_s": 0.0,
+    "rotor_margin_min_mm": 14.8
+   },
+   "final_strict_extra_s": {
+    "n": 10,
+    "not_reached": 0,
+    "mean": 1.634,
+    "max": 2.72
+   }
+  },
+  {
+   "factor": 0.9,
+   "legs": 100,
+   "legs_flown": 100,
+   "legs_pass": 100,
+   "missions_pass": 10,
+   "fail_causes": {},
+   "errors": [],
+   "avg_speed_m_s": 1.032,
+   "mean_leg_time_s": 5.17,
+   "mean_move_s": 4.413,
+   "mean_settle_s": 0.757,
+   "settle_share": 0.1464,
+   "total_leg_time_s": 517.02,
+   "total_distance_m": 533.6,
+   "mission_time_s": [
+    65.46,
+    69.08,
+    65.56,
+    71.5,
+    69.67,
+    72.97,
+    69.15,
+    62.07,
+    75.7,
+    74.96
+   ],
+   "strict_tracking_ok_legs": 44,
+   "rotor_margin_negative_legs": 0,
+   "rotor_margin_min_m": 0.0085,
+   "shape": {
+    "rms_move_peak_mm": {
+     "mean": 48.45,
+     "max": 92.0
+    },
+    "max_move_peak_mm": {
+     "mean": 70.06,
+     "max": 132.6
+    },
+    "rms_at_settled_mm": {
+     "mean": 4.95,
+     "max": 13.76
+    },
+    "max_at_settled_mm": {
+     "mean": 7.58,
+     "max": 22.65
+    },
+    "rms_at_next_dep_mm": {
+     "mean": 3.63,
+     "max": 8.29
+    },
+    "centre_dev_at_stop_mm": {
+     "mean": 7.32,
+     "max": 26.0
+    },
+    "drone_err_move_max_mm": {
+     "mean": 87.78,
+     "max": 228.3
+    },
+    "tilt_move_max_deg": {
+     "mean": 32.4,
+     "max": 36.85
+    },
+    "drone_err_after_stop_max_mm": {
+     "mean": 69.05,
+     "max": 128.4
+    },
+    "tilt_after_stop_max_deg": {
+     "mean": 23.19,
+     "max": 26.41
+    },
+    "centre_swing_within_50mm_s": {
+     "mean": 0.0,
+     "max": 0.0,
+     "not_reached": 0
+    },
+    "centre_swing_within_25mm_s": {
+     "mean": 0.012,
+     "max": 0.48,
+     "not_reached": 0
+    },
+    "centre_swing_within_10mm_s": {
+     "mean": 0.89,
+     "max": 2.384,
+     "not_reached": 6
+    },
+    "sag_change_in_leg_mm": {
+     "mean": 64.36,
+     "max": 101.0
+    },
+    "net_offset_h_max_mm": {
+     "mean": 47.8,
+     "max": 124.4
+    },
+    "tension_gf_min": 14.07,
+    "slack_max_s": 0.0,
+    "rotor_margin_min_mm": 8.5
+   },
+   "final_strict_extra_s": {
+    "n": 10,
+    "not_reached": 0,
+    "mean": 1.936,
+    "max": 4.0
+   }
+  },
+  {
+   "factor": 1.0,
+   "legs": 100,
+   "legs_flown": 100,
+   "legs_pass": 99,
+   "missions_pass": 9,
+   "fail_causes": {
+    "motor90": 1
+   },
+   "errors": [],
+   "avg_speed_m_s": 1.057,
+   "mean_leg_time_s": 5.048,
+   "mean_move_s": 4.162,
+   "mean_settle_s": 0.886,
+   "settle_share": 0.1755,
+   "total_leg_time_s": 504.79,
+   "total_distance_m": 533.6,
+   "mission_time_s": [
+    64.35,
+    67.64,
+    64.86,
+    70.25,
+    68.7,
+    71.75,
+    67.9,
+    61.32,
+    73.86,
+    73.26
+   ],
+   "strict_tracking_ok_legs": 44,
+   "rotor_margin_negative_legs": 2,
+   "rotor_margin_min_m": -0.0076,
+   "shape": {
+    "rms_move_peak_mm": {
+     "mean": 59.2,
+     "max": 135.4
+    },
+    "max_move_peak_mm": {
+     "mean": 85.78,
+     "max": 197.7
+    },
+    "rms_at_settled_mm": {
+     "mean": 6.28,
+     "max": 17.16
+    },
+    "max_at_settled_mm": {
+     "mean": 9.63,
+     "max": 29.33
+    },
+    "rms_at_next_dep_mm": {
+     "mean": 4.27,
+     "max": 8.95
+    },
+    "centre_dev_at_stop_mm": {
+     "mean": 9.14,
+     "max": 28.6
+    },
+    "drone_err_move_max_mm": {
+     "mean": 112.89,
+     "max": 346.8
+    },
+    "tilt_move_max_deg": {
+     "mean": 33.24,
+     "max": 37.82
+    },
+    "drone_err_after_stop_max_mm": {
+     "mean": 77.82,
+     "max": 159.7
+    },
+    "tilt_after_stop_max_deg": {
+     "mean": 23.51,
+     "max": 27.84
+    },
+    "centre_swing_within_50mm_s": {
+     "mean": 0.0,
+     "max": 0.0,
+     "not_reached": 0
+    },
+    "centre_swing_within_25mm_s": {
+     "mean": 0.062,
+     "max": 1.05,
+     "not_reached": 0
+    },
+    "centre_swing_within_10mm_s": {
+     "mean": 1.295,
+     "max": 3.44,
+     "not_reached": 12
+    },
+    "sag_change_in_leg_mm": {
+     "mean": 76.72,
+     "max": 113.4
+    },
+    "net_offset_h_max_mm": {
+     "mean": 60.9,
+     "max": 181.1
+    },
+    "tension_gf_min": 12.53,
+    "slack_max_s": 0.0,
+    "rotor_margin_min_mm": -7.6
+   },
+   "final_strict_extra_s": {
+    "n": 10,
+    "not_reached": 0,
+    "mean": 2.561,
+    "max": 6.49
+   }
+  },
+  {
+   "factor": 1.

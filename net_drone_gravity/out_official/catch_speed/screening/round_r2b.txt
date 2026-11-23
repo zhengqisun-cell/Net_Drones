@@ -1,0 +1,16 @@
+x1_A_lf0.85                  med_seq2   53/54 (98.2%) all 14/15 clean 15 allclean 14 viol {} excl 0 disc 30.6 guard 24.2 tilt 47.82 motor 0.9615 miss {'late': 1}
+x1_A_lf0.85                  med_seq1   37/54 (68.5%) all 0/15 clean 14 allclean 0 viol {'motor90': 1} excl 0 disc 30.3 guard 20.5 tilt 51.61 motor 0.968 miss {'late': 16, 'crowded_out': 1}
+x1_A_lf0.85                  hard_seq2  36/54 (66.7%) all 3/15 clean 13 allclean 2 viol {'motor90': 1, 'net_low': 1} excl 0 disc 31.6 guard 26.1 tilt 46.88 motor 0.9496 miss {'late': 18}
+x1_A_lf0.85                  med_salvo  16/54 (29.6%) all 0/15 clean 14 allclean 0 viol {'motor90': 1} excl 0 disc 31.7 guard 25.4 tilt 50.88 motor 0.9834 miss {'late': 31, 'crowded_out': 6, 'fell_out': 1}
+x1_A_lf1                     med_seq2   54/54 (100.0%) all 15/15 clean 12 allclean 12 viol {'clearance': 3} excl 0 disc 29.0 guard 24.2 tilt 47.82 motor 0.9555 miss {}
+x1_A_lf1                     med_seq1   37/54 (68.5%) all 0/15 clean 12 allclean 0 viol {'motor90': 3} excl 0 disc 30.3 guard 20.5 tilt 51.61 motor 0.9716 miss {'late': 16, 'crowded_out': 1}
+x1_A_lf1                     hard_seq2  44/54 (81.5%) all 8/15 clean 13 allclean 7 viol {'motor90': 2} excl 0 disc 31.2 guard 26.1 tilt 47.68 motor 0.9598 miss {'late': 10}
+x1_A_lf1                     med_salvo  16/54 (29.6%) all 0/15 clean 14 allclean 0 viol {'motor90': 1} excl 0 disc 31.4 guard 25.4 tilt 50.88 motor 0.9834 miss {'late': 31, 'crowded_out': 6, 'fell_out': 1}
+x1_D_lf0.85                  med_seq2   51/54 (94.4%) all 12/15 clean 15 allclean 12 viol {} excl 0 disc 31.5 guard 25.1 tilt 47.55 motor 0.931 miss {'late': 3}
+x1_D_lf0.85                  med_seq1   33/52 (63.5%) all 1/15 clean 13 allclean 0 viol {'control': 1, 'ball_rotor': 1, 'motor90': 1} excl 2 disc 31.1 guard 23.5 tilt 60.83 motor 0.9444 miss {'late': 17, 'trial_aborted': 1, 'hit_drone': 1}
+x1_D_lf0.85                  hard_seq2  28/54 (51.8%) all 1/15 clean 13 allclean 1 viol {'ball_rotor': 2} excl 0 disc 32.2 guard 20.1 tilt 46.68 motor 0.9325 miss {'late': 24, 'hit_drone': 2}
+x1_D_lf0.85                  med_salvo  16/54 (29.6%) all 0/15 clean 14 allclean 0 viol {'motor90': 1} excl 0 disc 32.0 guard 24.7 tilt 48.18 motor 0.9786 miss {'late': 35, 'fell_out': 1, 'crowded_out': 2}
+x1_ABT_lf0.85                med_seq2   53/54 (98.2%) all 14/15 clean 15 allclean 14 viol {} excl 0 disc 31.3 guard 26.7 tilt 46.28 motor 0.9373 miss {'late': 1}
+x1_ABT_lf0.85                med_seq1   34/54 (63.0%) all 0/15 clean 12 allclean 0 viol {'motor90': 2, 'clearance': 1, 'ball_rotor': 1} excl 0 disc 28.8 guard 20.4 tilt 49.6 motor 0.9877 miss {'late': 17, 'fell_out': 1, 'hit_drone': 1, 'crowded_out': 1}
+x1_ABT_lf0.85                hard_seq2  39/54 (72.2%) all 5/15 clean 15 allclean 5 viol {} excl 0 disc 31.6 guard 26.0 tilt 47.79 motor 0.9322 miss {'late': 15}
+x1_ABT_lf0.85                med_salvo  18/54 (33.3%) all 0/15 clean 14 allclean 0 viol {'ball_rotor': 1} excl 0 disc 31.0 guard 25.7 tilt 51.78 motor 0.9504 miss {'late': 22, 'crowded_out': 14}

@@ -1,0 +1,65 @@
+10-ball test, thrust x5, seeds 101-115 (30 trials x 10 balls per group). Tier lines: each setting its own tier (motor line exceeded > 0.10 s continuously; ball-to-disc gap 30 mm in both; guard 10 mm).
+
+tier 0 (existing lines), medium 2 s: caught 147/150 (98.0 %); all 10 12/30; >= 8 15/30; median per trial 10
+   caught per trial (0..10): 0 0 0 0 0 0 0 0 0 3 12
+   by launch order: 1:15/15  2:15/15  3:15/15  4:15/15  5:15/15  6:15/15  7:13/15  8:15/15  9:15/15  10:14/15
+   by balls in the net at arrival: 0:15/15  1:15/15  2:15/15  3:15/15  4:15/15  5:15/15  6:15/17  7:15/15  8:15/15  9:12/13
+   misses: {'late': 3}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 1/30 {'disc': 1}; disc min 29.7 mm, guard min 25.3 mm, motor peak 0.2457, tilt max 51.13 deg, aborts 0, net lowest 0.5115 m, ball hit drone 0 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 0 (existing lines), medium 1 s: caught 90/150 (60.0 %); all 10 0/30; >= 8 0/30; median per trial 6
+   caught per trial (0..10): 0 0 0 0 1 2 8 4 0 0 0
+   by launch order: 1:15/15  2:4/15  3:10/15  4:9/15  5:7/15  6:8/15  7:9/15  8:11/15  9:6/15  10:11/15
+   by balls in the net at arrival: 0:15/15  1:15/27  2:15/29  3:15/28  4:14/21  5:12/21  6:4/8  7:0/1
+   misses: {'late': 59, 'crowded_out': 1}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 1/30 {'disc': 1}; disc min 28.7 mm, guard min 24.4 mm, motor peak 0.2137, tilt max 54.02 deg, aborts 0, net lowest 0.5134 m, ball hit drone 0 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 0 (existing lines), hard 2 s: caught 86/150 (57.3 %); all 10 1/30; >= 8 4/30; median per trial 5
+   caught per trial (0..10): 0 0 0 2 3 3 3 0 2 1 1
+   by launch order: 1:11/15  2:10/15  3:10/15  4:11/15  5:6/15  6:7/15  7:8/15  8:10/15  9:7/15  10:6/15
+   by balls in the net at arrival: 0:15/23  1:15/23  2:15/32  3:13/16  4:10/27  5:7/11  6:4/8  7:4/4  8:2/4  9:1/2
+   misses: {'late': 63, 'hit_drone': 1}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 3/30 {'disc': 1, 'ball_hit': 1, 'box': 1, 'ball_disc': 1}; disc min 23.4 mm, guard min 17.2 mm, motor peak 0.2289, tilt max 59.29 deg, aborts 0, net lowest 0.4921 m, ball hit drone 1 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 0 (existing lines), hard 1 s: caught 53/150 (35.3 %); all 10 0/30; >= 8 0/30; median per trial 4
+   caught per trial (0..10): 0 3 2 2 3 2 3 0 0 0 0
+   by launch order: 1:11/15  2:1/15  3:6/15  4:8/15  5:5/15  6:6/15  7:2/15  8:7/15  9:2/15  10:5/15
+   by balls in the net at arrival: 0:15/31  1:12/52  2:10/24  3:8/20  4:5/10  5:3/10  6:0/3
+   misses: {'late': 97}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 3/30 {'disc': 1, 'net_low': 1, 'box': 1}; disc min 27.2 mm, guard min 24.0 mm, motor peak 0.216, tilt max 51.04 deg, aborts 0, net lowest 0.291 m, ball hit drone 0 trials
+
+tier 1 (95 % / 25 mm), medium 2 s: caught 150/150 (100.0 %); all 10 15/30; >= 8 15/30; median per trial 10
+   caught per trial (0..10): 0 0 0 0 0 0 0 0 0 0 15
+   by launch order: 1:15/15  2:15/15  3:15/15  4:15/15  5:15/15  6:15/15  7:15/15  8:15/15  9:15/15  10:15/15
+   by balls in the net at arrival: 0:15/15  1:15/15  2:15/15  3:15/15  4:15/15  5:15/15  6:15/15  7:15/15  8:15/15  9:15/15
+   misses: {}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 0/30 {}; disc min 26.7 mm, guard min 22.0 mm, motor peak 0.2582, tilt max 52.57 deg, aborts 0, net lowest 0.3808 m, ball hit drone 0 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 1 (95 % / 25 mm), medium 1 s: caught 98/150 (65.3 %); all 10 0/30; >= 8 1/30; median per trial 7
+   caught per trial (0..10): 0 0 0 0 0 1 6 7 1 0 0
+   by launch order: 1:15/15  2:5/15  3:13/15  4:8/15  5:9/15  6:7/15  7:12/15  8:8/15  9:9/15  10:12/15
+   by balls in the net at arrival: 0:15/15  1:15/25  2:15/24  3:15/25  4:15/25  5:14/20  6:8/13  7:1/2  8:0/1
+   misses: {'late': 48, 'crowded_out': 4}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 0/30 {}; disc min 27.4 mm, guard min 19.0 mm, motor peak 0.2363, tilt max 57.7 deg, aborts 0, net lowest 0.5276 m, ball hit drone 0 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 1 (95 % / 25 mm), hard 2 s: caught 102/150 (68.0 %); all 10 2/30; >= 8 4/30; median per trial 7
+   caught per trial (0..10): 0 0 0 1 1 1 4 4 0 2 2
+   by launch order: 1:14/15  2:11/15  3:11/15  4:9/15  5:10/15  6:8/15  7:10/15  8:10/15  9:10/15  10:9/15
+   by balls in the net at arrival: 0:15/16  1:15/23  2:15/29  3:14/18  4:13/19  5:12/17  6:8/15  7:4/6  8:4/4  9:2/3
+   misses: {'late': 46, 'hit_drone': 2}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 3/30 {'ball_hit': 2, 'box': 1}; disc min 26.3 mm, guard min 21.1 mm, motor peak 0.2728, tilt max 51.43 deg, aborts 0, net lowest 0.4789 m, ball hit drone 2 trials
+   first 3-5 balls of each seed: caught 0/0 here vs 0/0 in the 3-5-ball run (same seeds, same setting)
+
+tier 1 (95 % / 25 mm), hard 1 s: caught 65/150 (43.3 %); all 10 0/30; >= 8 0/30; median per trial 5
+   caught per trial (0..10): 0 0 3 0 3 7 2 0 0 0 0
+   by launch order: 1:14/15  2:2/15  3:7/15  4:10/15  5:5/15  6:5/15  7:5/15  8:8/15  9:4/15  10:5/15
+   by balls in the net at arrival: 0:15/17  1:15/44  2:12/26  3:12/30  4:9/22  5:2/9  6:0/2
+   misses: {'late': 85}; lost after being held: {'knocked_out': 0, 'thrown_out': 0, 'bounced_out': 0}; caught on the pile: 0; not launched: none
+   safety: tier-violation trials 2/30 {'disc': 1, 'ball_disc': 1}; disc min 24.8 mm, guard min 20.4 mm, motor peak 0.2209, tilt max 52.84 deg, aborts 0, net lowest 0.4698 m, ball hit drone 0 trials
+
+Denominator = launched balls (none excluded unless listed under 'not launched'). Miss kinds: late (not there in time), offset (there but off target), crowded_out (dropped for another ball), hit_drone, knocked_out (held in the net, then left it within 0.6 s of another ball's arrival), thrown_out (held, left it with no arrival then: the formation's motion), bounced_out (touched the net but never held), trial_aborted. Arrival = crossing of the standby aim height; 'balls in the net at arrival' counts other balls in the net (caught: from first contact / pile support; lost: until they left).

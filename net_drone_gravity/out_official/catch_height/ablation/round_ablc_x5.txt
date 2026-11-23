@@ -1,0 +1,17 @@
+abl: 240 trials in 346 s, 0 errors
+F_mv_te      med_seq2  balls 0.985 all 0.933 allclean 0.867 clean 0.933 miss {'late': 1} viol {'clearance': 1} zc50 0.71 zc90 0.96 vh50 0.357 disc 29.9 motor 0.21 hits 0 ab 0 netlow 0.4547
+F_mv_te      med_seq1  balls 0.567 all 0.000 allclean 0.000 clean 0.933 miss {'late': 24, 'crowded_out': 3, 'trial_aborted': 1, 'hit_drone': 1} viol {'control': 1, 'ball_rotor': 1} zc50 0.71 zc90 0.94 vh50 0.373 disc 30.6 motor 0.38 hits 1 ab 1 netlow 0.4209
+F_mv_te      hard_seq2 balls 0.612 all 0.133 allclean 0.133 clean 0.800 miss {'late': 23, 'hit_drone': 2, 'fell_out': 1} viol {'ball_rotor': 2, 'clearance': 1} zc50 0.724 zc90 0.975 vh50 0.747 disc 28.5 motor 0.23 hits 2 ab 0 netlow 0.4777
+F_mv_te      med_salvo balls 0.298 all 0.000 allclean 0.000 clean 1.000 miss {'late': 29, 'crowded_out': 18} viol {} zc50 0.83 zc90 2.075 vh50 0.316 disc 30.7 motor 0.22 hits 0 ab 0 netlow 0.4587
+F_mv_te_v1bf1 med_seq2  balls 0.955 all 0.800 allclean 0.800 clean 1.000 miss {'late': 3} viol {} zc50 0.708 zc90 0.94 vh50 0.798 disc 33.3 motor 0.20 hits 0 ab 0 netlow 0.5299
+F_mv_te_v1bf1 med_seq1  balls 0.627 all 0.067 allclean 0.067 clean 1.000 miss {'late': 25} viol {} zc50 0.711 zc90 0.878 vh50 0.742 disc 33.3 motor 0.20 hits 0 ab 0 netlow 0.5202
+F_mv_te_v1bf1 hard_seq2 balls 0.761 all 0.400 allclean 0.400 clean 0.933 miss {'late': 14, 'hit_drone': 2} viol {'ball_rotor': 1} zc50 0.71 zc90 1.015 vh50 0.962 disc 31.6 motor 0.20 hits 1 ab 0 netlow 0.5194
+F_mv_te_v1bf1 med_salvo balls 0.298 all 0.000 allclean 0.000 clean 0.933 miss {'crowded_out': 18, 'late': 29} viol {'clearance': 1} zc50 0.831 zc90 2.075 vh50 0.677 disc 28.7 motor 0.20 hits 0 ab 0 netlow 0.4802
+F_mv_te_v1bf1_c06 med_seq2  balls 0.985 all 0.933 allclean 0.867 clean 0.933 miss {'late': 1} viol {'clearance': 1} zc50 0.714 zc90 0.954 vh50 0.151 disc 29.8 motor 0.21 hits 0 ab 0 netlow 0.4641
+F_mv_te_v1bf1_c06 med_seq1  balls 0.612 all 0.000 allclean 0.000 clean 0.867 miss {'late': 22, 'crowded_out': 3, 'hit_drone': 1} viol {'clearance': 1, 'ball_rotor': 1} zc50 0.712 zc90 0.982 vh50 0.165 disc 29.4 motor 0.21 hits 1 ab 0 netlow 0.458
+F_mv_te_v1bf1_c06 hard_seq2 balls 0.687 all 0.333 allclean 0.267 clean 0.800 miss {'late': 19, 'hit_drone': 2} viol {'ball_rotor': 2, 'clearance': 1} zc50 0.736 zc90 1.022 vh50 0.733 disc 29.3 motor 0.24 hits 2 ab 0 netlow 0.4878
+F_mv_te_v1bf1_c06 med_salvo balls 0.298 all 0.000 allclean 0.000 clean 1.000 miss {'late': 31, 'crowded_out': 16} viol {} zc50 0.835 zc90 2.075 vh50 0.211 disc 30.3 motor 0.22 hits 0 ab 0 netlow 0.4223
+F_mv_rb_te   med_seq2  balls 1.000 all 1.000 allclean 1.000 clean 1.000 miss {} viol {} zc50 0.697 zc90 0.953 vh50 0.182 disc 30.3 motor 0.21 hits 0 ab 0 netlow 0.4999
+F_mv_rb_te   med_seq1  balls 0.716 all 0.133 allclean 0.133 clean 0.933 miss {'late': 19} viol {'clearance': 1} zc50 0.723 zc90 0.953 vh50 0.259 disc 20.6 motor 0.22 hits 0 ab 0 netlow 0.525
+F_mv_rb_te   hard_seq2 balls 0.712 all 0.333 allclean 0.333 clean 0.800 miss {'late': 16, 'hit_drone': 3} viol {'control': 1, 'ball_rotor': 2, 'clearance': 2} zc50 0.736 zc90 1.02 vh50 0.474 disc 26.6 motor 0.23 hits 2 ab 1 netlow 0.4289
+F_mv_rb_te   med_salvo balls 0.298 all 0.000 allclean 0.000 clean 0.933 miss {'late': 38, 'crowded_out': 9} viol {'clearance': 1} zc50 0.661 zc90 2.075 vh50 0.214 disc 28.9 motor 0.20 hits 0 ab 0 netlow 0.466

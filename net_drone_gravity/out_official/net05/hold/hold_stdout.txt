@@ -1,0 +1,60 @@
+yaw 45 deg, hook -15.0 mm from the centre of mass (+0.4 mm relative to the guard feet: hook within 1 mm of the guard-feet plane: it sits practically on the ground at rest)
+drone model: official (mass 39.3 g, 20.4 gf per motor), output: out_official/net05/hold
+  simulating: t =    0 / 40 s
+  simulating: t =    5 / 40 s
+  simulating: t =   10 / 40 s
+  simulating: t =   15 / 40 s
+  simulating: t =   20 / 40 s
+  simulating: t =   25 / 40 s
+  simulating: t =   30 / 40 s
+  simulating: t =   35 / 40 s
+  simulation done in 19.7 s (clearance check 2.21 s), writing figures to out_official/net05/hold
+ first_2s_after_spread: D=0.7646 m  err_mean=0.6 mm  rms=[0.354, 0.417, 0.334]  sag=0.155 m (std 0.4 mm)  tilt=9.7/9.7 deg  T=7.6 gf  motor_max=0.56
+                  hold: D=0.7648 m  err_mean=0.3 mm  rms=[0.356, 0.276, 0.25]  sag=0.155 m (std 0.3 mm)  tilt=9.7/9.7 deg  T=7.6 gf  motor_max=0.56
+            after_gust: D=0.7648 m  err_mean=3.4 mm  rms=[2.386, 1.275, 0.287]  sag=0.155 m (std 0.4 mm)  tilt=9.7/9.7 deg  T=7.6 gf  motor_max=0.56
+gust: {'drone': 0, 'force_N': [0.04, 0.02, 0.0], 'duration_s': 0.5, 'peak_pos_err_mm': 47.87261689760396, 'back_within_10mm_after_s': 1.8200000000000003}
+landing: {
+ "horizontal_err_max_mm": 10.722579592124658,
+ "height_err_max_mm": 11.518918426450142,
+ "tilt_max_deg_during_descent": 5.679834337703364,
+ "tension_max_gf_during_descent": 4.748945858855931,
+ "descent_speed_max_m_s": 0.38214739274427245,
+ "touchdown_speed_m_s": 0.07220285588000569,
+ "final_tilt_max_deg": 1.2074182697257333e-06,
+ "final_height_mm": [
+  9.9,
+  9.9,
+  9.9,
+  9.9
+ ],
+ "final_speed_max_mm_s": 4.9098572429971736e-08,
+ "final_spacing_m": 0.7009415805304083,
+ "final_offset_from_ref_mm": 6.849711854214237,
+ "net_max_height_mm": 3.632818157539834,
+ "net_corner_span_m": 0.4998404676416208,
+ "drone_to_nearest_knot_mm": [
+  141.2,
+  143.2,
+  141.4,
+  142.9
+ ]
+}
+takeoff at 0.71 m (0.5-6.5 s): pos_err_max=29.7 mm  tilt_max=6.9 deg  motor_max=0.58  T_max=6.9 gf  own string slack while airborne [s]=[0.52, 0.51, 0.52, 0.52]
+attitude in hold (18-22 s, worst drone): tilt std 0.084 deg, content above 3 Hz 0.043 deg rms
+rotor-disc clearance to the net (prop_z 12 mm assumed, disc r 27.5 mm, warning below 30 mm):
+  phase                    t [s]  min[mm]   at t  element (drone/rotor)          knot   link    own  other fp_knots   slack_air[s]
+  on ground            0.0-  0.5     99.3   0.05  knot n8_8 (0/1)                99.3  103.7    -      -          0 0.0/0.0/0.0/0.0
+  takeoff              0.5-  6.5     35.1   4.60  own string str2 (2/0)          99.5  103.8   35.1  537.4        0 0.5/0.5/0.5/0.5
+  spread               6.5- 12.5     35.1  10.65  own string str1 (1/1)         170.7  177.2   35.1  546.1        0 0.0/0.0/0.0/0.0
+  hold and gust       12.5- 28.0     34.0  22.40  own string str0 (0/2)         157.7  164.3   34.0  571.5        0 0.0/0.0/0.0/0.0
+  relax and descent   28.0- 37.8     34.8  34.50  own string str0 (0/2)          88.0   92.6   34.8  545.7        0 0.9/0.9/0.9/0.9
+  landed              37.8- 40.0     85.7  37.85  knot n8_8 (0/1)                85.7   90.2    -      -          0 0.0/0.0/0.0/0.0
+propeller-guard clearance to the net (contact, not a blade: Crazyflow guard mesh, 2900 points, lower bound, warning below 10 mm):
+  phase                    t [s]  min[mm]   at t  element (drone)          guard part (rotor)    knot   link    own  other
+  on ground            0.0-  0.5     90.7   0.05  knot n8_8 (0)            ring (2)              90.7   93.4    -      -  
+  takeoff              0.5-  6.5     37.4   1.85  own string str1 (1)      foot (1)              91.0   93.6   37.4  516.4
+  spread               6.5- 12.5     36.6  11.75  own string str1 (1)      foot (1)             121.3  125.5   36.6  525.6
+  hold and gust       12.5- 28.0     32.1  22.45  own string str0 (0)      foot (2)             119.2  123.3   32.1  550.4
+  relax and descent   28.0- 37.8     36.6  28.35  own string str1 (1)      foot (0)              79.6   82.3   36.6  525.2
+  landed              37.8- 40.0     77.0  37.85  knot n8_8 (0)            ring (1)              77.0   79.8    -      -  
+  own string slack while airborne (whole flight, not measured for clearance): drone 0 1.40 s, drone 1 1.40 s, drone 2 1.41 s, drone 3 1.41 s

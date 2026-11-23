@@ -1,0 +1,7 @@
+hovering formation, one ball crossing the aim height at r from the formation centre (8 directions x 2 flight times; x1 and x5 identical)
+r 0.0 m: caught 2/2, misses at [], ball within 0.4 m of a drone in 0 (closest string gap None mm), end offset from the net centre median 0.00 m
+r 0.1 m: caught 16/16, misses at [], ball within 0.4 m of a drone in 0 (closest string gap None mm), end offset from the net centre median 0.12 m
+r 0.2 m: caught 16/16, misses at [], ball within 0.4 m of a drone in 0 (closest string gap None mm), end offset from the net centre median 0.13 m
+r 0.3 m: caught 16/16, misses at [], ball within 0.4 m of a drone in 0 (closest string gap None mm), end offset from the net centre median 0.12 m
+r 0.4 m: caught 16/16, misses at [], ball within 0.4 m of a drone in 0 (closest string gap None mm), end offset from the net centre median 0.14 m
+r 0.5 m: caught 10/16, misses at [(90, 1.6), (180, 1.6), (270, 1.6), (90, 2.0), (180, 2.0), (270, 2.0)], ball within 0.4 m of a drone in 4 (closest string gap 133.9 mm), end offset from the net centre median 0.17 m

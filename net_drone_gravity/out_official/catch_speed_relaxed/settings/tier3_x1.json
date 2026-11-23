@@ -1,0 +1,16 @@
+{
+ "note": "tier 3 (motor line none (saturation reported), rotor-disc line 15 mm), thrust x1: screening variant x1_lf1_ah4_brk1.2 (round q2, seeds 101-130)",
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 4.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 1.6,
+  "a_tot": 4.0
+ },
+ "traj": {
+  "jerk": 30.0,
+  "brake_factor": 1.2
+ },
+ "loaded_accel_factor": 1.0
+}

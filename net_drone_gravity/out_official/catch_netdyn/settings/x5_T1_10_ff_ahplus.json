@@ -1,0 +1,46 @@
+{
+ "note": "catch_netdyn, x5_T1_10 (tier 1), selected on seeds 101-130 (catch_netdyn/selection_*): feedforward only (netdyn plan off, drag + 70 ms lead) and the horizontal / total acceleration limits +0.5 m/s^2; based on catch_10balls/settings/x5_tier1_10balls.json -- use with --thrust-scale 5",
+ "max_tilt_deg": 40.0,
+ "limits": {
+  "v_h": 3.0,
+  "a_h": 4.0,
+  "v_up": 3.0,
+  "v_down": 2.0,
+  "a_v": 2.0,
+  "a_tot": 4.0
+ },
+ "loaded_accel_factor": 1.0,
+ "standby_accel_factor": 1.0,
+ "traj": {
+  "jerk": 30.0,
+  "diag_factor": 0.9
+ },
+ "n_balls": [
+  10,
+  10
+ ],
+ "count_draw": [
+  3,
+  5
+ ],
+ "pile_catch": true,
+ "h_dn_table": [
+  0.0,
+  0.0512,
+  0.0712,
+  0.0836,
+  0.0908,
+  0.0963,
+  0.1022,
+  0.1065,
+  0.1097,
+  0.1134,
+  0.1158
+ ],
+ "netdyn": {
+  "plan": false,
+  "drag_ff": true,
+  "lead_s": 0.07,
+  "motor_line": 0.95
+ }
+}
